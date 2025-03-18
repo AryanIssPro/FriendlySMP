@@ -1,212 +1,25 @@
-[17:08:59] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Microsoft Microsoft-10376803) on Linux 6.8.0-1021-azure (amd64)
-[17:08:59] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) for Minecraft 1.21.4
-[17:09:00] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:09:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
-[17:09:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+[17:28:24] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Microsoft Microsoft-10376803) on Linux 6.8.0-1021-azure (amd64)
+[17:28:24] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) for Minecraft 1.21.4
+[17:28:25] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:28:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[17:28:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
  - AxVaults (2.6.5), DropHeads (3.9.11), Essentials (2.21.0-dev+189-eab2201), Geyser-Spigot (2.6.1-SNAPSHOT), LuckPerms (5.4.156), TAB (5.0.7), ViaBackwards (5.2.1), ViaRewind (4.0.4), ViaVersion (5.2.1), WorldEdit (7.3.10+7004-768a436), dynmap (3.7-SNAPSHOT-968), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[17:09:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:09:12] [ServerMain/INFO]: Loaded 1370 recipes
-[17:09:12] [ServerMain/INFO]: Loaded 1481 advancements
-[17:09:12] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[17:09:12] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 386.1ms
-[17:09:12] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[17:09:12] [Server thread/INFO]: Loading properties
-[17:09:12] [Server thread/INFO]: This server is running Paper version 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[17:09:12] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:09:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:09:13] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:09:14] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[17:09:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[17:09:15] [Server thread/INFO]: Default game type: SURVIVAL
-[17:09:15] [Server thread/INFO]: Generating keypair
-[17:09:15] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:09:15] [Server thread/INFO]: Using epoll channel type
-[17:09:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:09:15] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[17:09:17] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[17:09:17] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[17:09:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[17:09:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[17:09:18] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[17:09:19] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[17:09:19] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[17:09:20] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[17:09:20] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
-[17:09:20] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[17:09:21] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[17:09:21] [Server thread/INFO]: [floodgate] Took 1,253ms to boot Floodgate
-[17:09:21] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
-[17:09:21] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
-[17:09:21] [Server thread/INFO]: [AxVaults] Loading server plugin AxVaults v2.6.5
-[17:09:22] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.1-SNAPSHOT
-[17:09:24] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[17:09:24] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[17:09:24] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[17:09:24] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10+7004-768a436
-[17:09:25] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7eb2676]
-[17:09:25] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
-[17:09:25] [Server thread/INFO]: [dynmap] version=1.21.4-212-bb1beda (MC: 1.21.4)
-[17:09:25] [Server thread/INFO]: [dynmap] Mod Support API available
-[17:09:25] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
-[17:09:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:09:25] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[17:09:26] [Server thread/INFO]:         __    
-[17:09:26] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[17:09:26] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[17:09:26] [Server thread/INFO]: 
-[17:09:26] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[17:09:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[17:09:26] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[17:09:27] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[17:09:27] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1889ms)
-[17:09:27] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
-[17:09:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
-[17:09:27] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:09:27] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[17:09:28] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
-[17:09:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:09:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:09:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:09:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:09:31] [Server thread/INFO]: Preparing level "world"
-[17:09:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:09:33] [Server thread/INFO]: Preparing spawn area: 0%
-[17:09:34] [Server thread/INFO]: Preparing spawn area: 0%
-[17:09:34] [Server thread/INFO]: Preparing spawn area: 0%
-[17:09:34] [Server thread/INFO]: Preparing spawn area: 0%
-[17:09:34] [Server thread/INFO]: Preparing spawn area: 0%
-[17:09:34] [Server thread/INFO]: Time elapsed: 2161 ms
-[17:09:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:09:35] [Server thread/INFO]: Preparing spawn area: 0%
-[17:09:35] [Server thread/INFO]: Preparing spawn area: 30%
-[17:09:35] [Server thread/INFO]: Time elapsed: 644 ms
-[17:09:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:09:35] [Server thread/INFO]: Preparing spawn area: 0%
-[17:09:35] [Server thread/INFO]: Time elapsed: 363 ms
-[17:09:35] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[17:09:36] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
-[17:09:36] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[17:09:36] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[17:09:36] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
-[17:09:37] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[17:09:37] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[17:09:37] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[17:09:37] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[17:09:37] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[17:09:37] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[17:09:37] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[17:09:37] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[17:09:37] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[17:09:37] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[17:09:37] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[17:09:37] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[17:09:37] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[17:09:38] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[17:09:38] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[17:09:38] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[17:09:38] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[17:09:38] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[17:09:38] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[17:09:38] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[17:09:38] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[17:09:38] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[17:09:38] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[17:09:38] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[17:09:38] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[17:09:38] [Server thread/INFO]: [Essentials] Using locale en
-[17:09:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[17:09:39] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[17:09:39] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[17:09:39] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[17:09:39] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[17:09:39] [Server thread/INFO]: [AxVaults] Enabling AxVaults v2.6.5
-[17:09:41] [Server thread/INFO]: [AxVaults] Loaded plugin!
-[17:09:41] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
-[17:09:42] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[17:09:42] [Server thread/INFO]: [TAB] Loaded NMS hook in 112ms
-[17:09:42] [Server thread/INFO]: [TAB] Enabled in 392ms
-[17:09:42] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
-[17:09:43] [Server thread/INFO]: [dynmap] Added 21 custom biome mappings
-[17:09:43] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.156 for access control
-[17:09:43] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[17:09:47] [Thread-0/INFO]: Stopping server
-[17:09:49] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[17:09:49] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[17:09:49] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[17:09:49] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[17:09:49] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[17:09:50] [Server thread/ERROR]: Error occurred while enabling dynmap v3.7-SNAPSHOT-968 (Is it up to date?)
-java.lang.IllegalStateException: Shutdown in progress
-	at java.base/java.lang.ApplicationShutdownHooks.add(ApplicationShutdownHooks.java:67) ~[?:?]
-	at java.base/java.lang.Runtime.addShutdownHook(Runtime.java:250) ~[?:?]
-	at java.desktop/com.sun.imageio.stream.StreamCloser.lambda$addToQueue$0(StreamCloser.java:101) ~[?:?]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]
-	at java.desktop/com.sun.imageio.stream.StreamCloser.addToQueue(StreamCloser.java:89) ~[?:?]
-	at java.desktop/javax.imageio.stream.FileCacheImageOutputStream.<init>(FileCacheImageOutputStream.java:95) ~[?:?]
-	at java.desktop/com.sun.imageio.spi.OutputStreamImageOutputStreamSpi.createOutputStreamInstance(OutputStreamImageOutputStreamSpi.java:68) ~[?:?]
-	at java.desktop/javax.imageio.ImageIO.createImageOutputStream(ImageIO.java:419) ~[?:?]
-	at java.desktop/javax.imageio.ImageIO.write(ImageIO.java:1586) ~[?:?]
-	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.servlet.MapStorageResourceHandler.<init>(MapStorageResourceHandler.java:36) ~[Dynmap-3.7-beta-8-spigot.jar:?]
-	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.DynmapCore$3$2.<init>(DynmapCore.java:1016) ~[Dynmap-3.7-beta-8-spigot.jar:?]
-	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.DynmapCore$3.<init>(DynmapCore.java:1016) ~[Dynmap-3.7-beta-8-spigot.jar:?]
-	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.DynmapCore.loadWebserver(DynmapCore.java:986) ~[Dynmap-3.7-beta-8-spigot.jar:?]
-	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.DynmapCore.enableCore(DynmapCore.java:649) ~[Dynmap-3.7-beta-8-spigot.jar:?]
-	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.bukkit.DynmapPlugin.doEnable(DynmapPlugin.java:1052) ~[Dynmap-3.7-beta-8-spigot.jar:?]
-	at Dynmap-3.7-beta-8-spigot.jar/org.dynmap.bukkit.DynmapPlugin.onEnable(DynmapPlugin.java:1032) ~[Dynmap-3.7-beta-8-spigot.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:657) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:606) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[17:09:50] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-SNAPSHOT-968
-[17:09:50] [Server thread/INFO]: [dynmap] Unloaded 0 components.
-[17:09:50] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[17:09:51] [Server thread/INFO]: [dynmap] Disabled
-[17:09:51] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
-[17:09:51] [Thread-0/INFO]: [DropHeads] Disabling DropHeads v3.9.11
-[17:09:51] [Thread-0/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10+7004-768a436
-[17:09:51] [Thread-0/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[17:09:51] [Thread-0/INFO]: [TAB] Disabling TAB v5.0.7
-[17:09:51] [Thread-0/INFO]: [TAB] Disabled in 0ms
-[17:09:51] [Thread-0/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.1-SNAPSHOT
-[17:09:51] [Thread-0/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[17:09:51] [Thread-0/INFO]: [AxVaults] Disabling AxVaults v2.6.5
-[17:09:51] [Thread-0/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+189-eab2201
-[17:09:51] [Thread-0/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
-[17:09:51] [Thread-0/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[17:09:52] [Server thread/ERROR]: Encountered an unexpected exception
-com.sk89q.worldedit.extension.platform.NoCapablePlatformException: Not all platforms have been registered yet! Please wait until WorldEdit is initialized.
-	at worldedit-bukkit-7.3.10.jar/com.sk89q.worldedit.extension.platform.PlatformManager.queryCapability(PlatformManager.java:170) ~[worldedit-bukkit-7.3.10.jar:?]
-	at worldedit-bukkit-7.3.10.jar/com.sk89q.worldedit.extension.platform.PlatformManager.getConfiguration(PlatformManager.java:296) ~[worldedit-bukkit-7.3.10.jar:?]
-	at worldedit-bukkit-7.3.10.jar/com.sk89q.worldedit.WorldEdit.getConfiguration(WorldEdit.java:799) ~[worldedit-bukkit-7.3.10.jar:?]
-	at worldedit-bukkit-7.3.10.jar/com.sk89q.worldedit.bukkit.BukkitCommandInspector.getShortText(BukkitCommandInspector.java:56) ~[worldedit-bukkit-7.3.10.jar:?]
-	at worldedit-bukkit-7.3.10.jar/com.sk89q.bukkit.util.DynamicPluginCommandHelpTopic.<init>(DynamicPluginCommandHelpTopic.java:44) ~[worldedit-bukkit-7.3.10.jar:?]
-	at worldedit-bukkit-7.3.10.jar/com.sk89q.bukkit.util.DynamicPluginCommandHelpTopic$Factory.createTopic(DynamicPluginCommandHelpTopic.java:144) ~[worldedit-bukkit-7.3.10.jar:?]
-	at worldedit-bukkit-7.3.10.jar/com.sk89q.bukkit.util.DynamicPluginCommandHelpTopic$Factory.createTopic(DynamicPluginCommandHelpTopic.java:141) ~[worldedit-bukkit-7.3.10.jar:?]
-	at org.bukkit.craftbukkit.help.SimpleHelpMap.initializeCommands(SimpleHelpMap.java:136) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:620) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[17:09:52] [Thread-0/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
-[17:09:52] [Thread-0/INFO]: [LuckPerms] Starting shutdown process...
-[17:09:52] [Thread-0/INFO]: [LuckPerms] Closing storage...
-[17:09:52] [Thread-0/INFO]: [LuckPerms] Goodbye!
-[17:09:52] [Thread-0/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
-[17:09:52] [Thread-0/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[17:09:52] [Thread-0/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[17:09:52] [Thread-0/INFO]: Saving players
-[17:09:52] [Thread-0/WARN]: Asynchronous Save Players! Blocking thread until it returns 
+[17:28:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:28:37] [ServerMain/INFO]: Loaded 1370 recipes
+[17:28:37] [ServerMain/INFO]: Loaded 1481 advancements
+[17:28:37] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[17:28:37] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 344.7ms
+[17:28:38] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[17:28:38] [Server thread/INFO]: Loading properties
+[17:28:38] [Server thread/INFO]: This server is running Paper version 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[17:28:38] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:28:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:28:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:28:39] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[17:28:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[17:28:40] [Thread-0/INFO]: Stopping server
+[17:28:40] [Thread-0/INFO]: Saving players
+[17:28:40] [Thread-0/WARN]: Asynchronous Save Players! Blocking thread until it returns 
 java.lang.IllegalStateException: null
 	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:116) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
 	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1073) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
@@ -215,4 +28,11 @@ java.lang.IllegalStateException: null
 	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:757) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
 	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:974) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
 	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:27) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
-[17:09:52] [Server thread/ERROR]: This crash report has been saved to: /workspaces/FriendlySMP/crafty/servers/8431bed5-48c2-468a-bed1-7eb64b1b9468/crash-reports/crash-2025-03-18_17.09.52-server.txt
+[17:28:40] [Server thread/INFO]: Default game type: SURVIVAL
+[17:28:40] [Server thread/INFO]: Generating keypair
+[17:28:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:28:40] [Server thread/INFO]: Using epoll channel type
+[17:28:40] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[17:28:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:28:43] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[17:28:43] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
