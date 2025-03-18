@@ -15,7 +15,7 @@ git pull origin "$BRANCH" --rebase
 git add .
 
 # Commit with timestamp
-git commit -m "$TIMESTAMP"
+git commit -a -m "$TIMESTAMP"
 
 # Force push to remote branch
 git push origin "$BRANCH" --force
