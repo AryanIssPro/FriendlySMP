@@ -1,0 +1,4 @@
+{
+    "name": "FriendlySMP Server 1",
+    "postCreateCommand": "bash start.sh"
+  }

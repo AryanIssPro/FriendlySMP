@@ -1,0 +1,122 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axvaults.html
+# ITEM BUILDER: https://docs.artillex-studios.com/item-builder.html
+
+guis:
+  selector:
+    title: '&0My Vaults'
+    item-owned:
+      # players can change the material if they have permission, this is the default value
+      material: BARREL
+      name: '&#55ff00&lVault #%num%'
+      glow: false
+      lore:
+      - ' '
+      - ' &7- &fSlots: &#aaffaa%used%&7/&#55ff00%max%'
+      - ' '
+      - '&#55ff00&l(!) &#55ff00Click - Open Vault'
+      - '&#55ff00&l(!) &#55ff00Shift + Click - Change Item'
+    item-locked:
+      material: RED_STAINED_GLASS_PANE
+      name: '&#FF0000&lVault #%num%'
+      glow: false
+      lore:
+      - ' '
+      - ' &7- &fYou have &#FF0000not unlocked &fthis vault yet!'
+      - ' '
+      - '&#FF0000&l(!) &#FF0000Locked Vault'
+  item-picker:
+    title: '&0Item Picker'
+  vault:
+    title: '&0Vault #%num%'
+
+gui-items:
+  close:
+    material: BARRIER
+    name: '&#FF3333&lClose'
+  back:
+    material: BARRIER
+    name: '&#FF3333&lBack'
+  previous-page:
+    material: ARROW
+    name: '&#FF6600&lPrevious Page'
+  next-page:
+    material: ARROW
+    name: '&#FFCC00&lNext Page'
+
+help:
+- '&#55ff00&lAxVaults &7» &#AAFFAAHelp:'
+- ' '
+- '  &7⋆ &f/axvaultsadmin view <player> <vault> &7| &#AAFFAAOpen another player''s vault'
+- '  &7⋆ &f/axvaultsadmin forceopen <player> &7| &#AAFFAAOpen vault selector to player'
+- '  &7⋆ &f/axvaultsadmin set [number] &7| &#AAFFAAAdd vault to block'
+- '  &7⋆ &f/axvaultsadmin reload &7| &#AAFFAAReload configuration'
+- '  &7⋆ &f/axvaultsadmin delete <player> <vault> &7| &#AAFFAADelete vault of player'
+- '  &7⋆ &f/axvaultsadmin stats &7| &#AAFFAAServer statistics'
+- '  &7⋆ &f/axvaultsadmin converter <plugin> &7| &#AAFFAAConvert from another plugin'
+- ' '
+
+# you can disable any messages by setting it to ""
+vault:
+  not-unlocked: '&#FF0000You don''t own this vault!'
+  opened: '&fVault &#55FF00#%num% &fopened!'
+  closed: '&fVault &#55FF00#%num% &fclosed!'
+
+reload:
+  success: '&#33FF33Plugin successfully reloaded!'
+  failed: '&#FF3333Failed to reload the plugin! Something is wrong in the &f%file%&#FF3333 file, look in the console or use a yaml validator to fix the errors!'
+
+set:
+  success: '&#00FF00You have successfully added the vault to this block!'
+  already: '&#FF0000This block already has a vault on it!'
+  no-block: '&#FF0000You must look at a block!'
+  removed: '&#FF0000You have removed the vault from this block!'
+
+save:
+  manual: '&#00FF00Saved vaults manually in &f%time%ms&#00FF00! &#DDDDDD(this command is meant for testing and may cause unnecessary lag)'
+
+no-permission: '&#FF0000You don''t have permission to use this!'
+force-open: '&#00FF00Opened vault selector for &f%player%&#55FF00!'
+force-open-vault: '&#00FF00Opening vault &f#%num% &#00FF00for &f%player%&#55FF00!'
+delete: '&fDeleted vault &#FF0000#%num% &fof &#FF0000&#FF0000%player%&f!'
+banned-item: '&#FF0000You can''t put this item into vaults!'
+
+view:
+  open: '&#55FF00%player%&f''s &#55FF00#%num% &fvault opened!'
+  info: '&fVaults of &#55FF00%player%&f: &#AAFFAA%vaults%'
+  not-found: '&#FF0000Can''t find player or vault!'
+
+# you can disable sounds by setting the sections to ""
+# for example: open: ""
+# list of sounds: https://www.digminecraft.com/lists/sound_list_pc.php
+# format: <sound>|[volume]|[pitch] (volume and pitch is optional)
+sounds:
+  open: block.barrel.open|1.0|1.0
+  close: block.barrel.close|1.0|1.0
+  select-icon: block.barrel.close|1.0|1.0
+
+stats:
+- ' '
+- '&#55ff00&lAxVaults &#aaff55Server Stats &7»'
+- ' &7- &fLoaded players: &#55ff00%players%'
+- ' &7- &fLoaded vaults: &#55ff00%vaults%/%vaults2%'
+- ' &7- &fLast autosave length: &#55ff00%auto-save% ms'
+- ' &7- &fLast autosave saved: &#55ff00%saved-vaults% vaults'
+- ' '
+
+converter:
+  started: '&#55FF00The converter has started! Check the console for the current status!'
+
+commands:
+  invalid-value: '&#FF0000Invalid parameter: &#BB0000%value%'
+  invalid-command: '&#FF0000Invalid command or subcommand!'
+  missing-argument: '&#FF0000Missing argument! You must specify a value for &#BB0000%value%&#FF0000.'
+  no-permission: '&#FF0000You don''t have permission to access this command!'
+  out-of-range: '&#FF0000The &#BB0000%number% &#FF0000must be between &#BB0000%min% &#FF0000and &#BB0000%max%&#FF0000!'
+  player-only: '&#FF0000You must be a player to use this command!'
+  invalid-player: '&#FF0000The player &#BB0000%player% &#FF0000can not be found!'
+  invalid-selector: '&#FF0000You can not use this selector in this command!'
+
+update-notifier: '&#BBFF88There is a new version of AxVaults available! &#DDDDDD(&#FFFFFFcurrent: &#FF0000%current% &#DDDDDD| &#FFFFFFlatest: &#00FF00%latest%&#DDDDDD)'
+
+# do not change this
+version: 10
