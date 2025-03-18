@@ -1,2 +1,6 @@
 2025-03-18 07:54:12,646 - [AUTH] - INFO - User attempting to authenticate from 10.240.2.131
 2025-03-18 07:54:12,733 - [AUTH] - INFO - admin successfully authenticated and logged into panel from remote IP 10.240.2.131
+2025-03-18 10:27:17,413 - [AUTH] - INFO - User attempting to authenticate from 10.240.0.69
+2025-03-18 10:27:17,675 - [AUTH] - INFO - admin successfully authenticated and logged into panel from remote IP 10.240.0.69
+2025-03-18 10:27:59,656 - [AUTH] - INFO - User attempting to authenticate from 10.240.0.69
+2025-03-18 10:27:59,870 - [AUTH] - INFO - admin successfully authenticated and logged into panel from remote IP 10.240.0.69

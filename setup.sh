@@ -7,4 +7,3 @@ sudo tailscale up
 
 chmod +x start.sh
 chmod +x sync.sh
-chmod +x backup.sh

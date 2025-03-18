@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.153.101.170
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1742296294426
+  login: 1742296283552
+money: '0'
+last-account-name: Dseven7407
+logoutlocation:
+  world: f40796f5-8651-47b6-ae21-bbf1ca44ff73
+  world-name: world
+  x: 166.38795967495116
+  y: 67.0
+  z: -398.11194690220583
+  yaw: -166.99795532226562
+  pitch: 16.835044860839844

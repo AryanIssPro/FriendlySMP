@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.224.111.62
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1742296621550
+  login: 1742296351926
+money: '0'
+last-account-name: egegvner
+lastlocation:
+  world: f40796f5-8651-47b6-ae21-bbf1ca44ff73
+  world-name: world
+  x: 23.23467090315382
+  y: 67.0
+  z: -9.83588825297535
+  yaw: 108.89979553222656
+  pitch: 40.95000457763672
+logoutlocation:
+  world: f40796f5-8651-47b6-ae21-bbf1ca44ff73
+  world-name: world
+  x: 300.25630453244617
+  y: 64.0
+  z: 56.74194970005014
+  yaw: -29.849851608276367
+  pitch: 12.450113296508789
