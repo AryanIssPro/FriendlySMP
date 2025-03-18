@@ -2,10 +2,6 @@
 ---
 tiles:
 -   class: org.dynmap.hdmap.HDMapTile
-    data: -38,43,iso_SE_30_hires,0,0
--   class: org.dynmap.hdmap.HDMapTile
-    data: -38,44,iso_SE_30_hires,0,0
--   class: org.dynmap.hdmap.HDMapTile
     data: -38,45,iso_SE_30_hires,0,0
 -   class: org.dynmap.hdmap.HDMapTile
     data: -38,46,iso_SE_30_hires,0,0
@@ -239,11 +235,17 @@ tiles:
     data: -33,45,iso_SE_30_hires,0,0
 -   class: org.dynmap.hdmap.HDMapTile
     data: -33,46,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 0,0,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 0,1,iso_SE_30_hires,0,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: 0,2,iso_SE_30_hires,0,0
 invalid:
     ct: [
         ]
     t:
-    - 0/0:ffffc000/400bffff:ffffcc00/6003ffff:ffffec83/8000ffff:fffffe80/7fff:ffffff80/3010fff:ffffff80/43fd83ff:ffffff83/3e402ff:ffffff8f/47408eff:ffffff9f/f3001fff:ffffff9b/f7007fff:ffffff83/f381ffff:ffffff87/ffc7ffff:ffffff87/ff87ffff:ffffff8f/ff87ffff:ffffff8f/fff7ffff:ffffff87/ffe7ffff:ffffff87/ff87ffff:ffffff87/ffc7ffff:ffffff87/ffc7ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff807ffc:ffffff87/f0007ffc:ffffff80/7ffc:ffffff80/7ffc:ffffff80/0:ffffff80/0:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87fffc:ffffffff/ff8783c0:1fffffcf/ff800000:fffff87/fe000000:1fffc00/0:fff800/0:3fe000/0:f8000/0:0/0
+    - 0/0:ffffc000/400bfffe:ffffcc00/6003fffe:ffffec83/8000fffe:fffffe80/7fff:ffffff80/3010fff:ffffff80/43fd83ff:ffffff83/3e402ff:ffffff8f/47408eff:ffffff9f/f3001fff:ffffff9b/f7007fff:ffffff83/f381ffff:ffffff87/ffc7ffff:ffffff87/ff87ffff:ffffff8f/ff87ffff:ffffff8f/fff7ffff:ffffff87/ffe7ffff:ffffff87/ff87ffff:ffffff87/ffc7ffff:ffffff87/ffc7ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff87ffff:ffffff87/ff807ffc:ffffff87/f0007ffc:ffffff80/7ffc:ffffff80/7ffc:ffffff80/0:ffffff80/0:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87ffff:ffffffff/ff87fffc:ffffffff/ff8783c0:1fffffcf/ff800000:fffff87/fe000000:1fffc00/0:fff800/0:3fe000/0:f8000/0:0/0
     - ffffffff/ffffffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:c/0:3c/0:7c/0:7c/0:7c/7000000:7c/7c00000:7c/7e00000:7c/7e00000:7c/7e00000:7c/7e00000:7c/7e00000:7c/7e00000:8000007c/7e00000:8000187c/7e00000:4080007c/7e00000:680007c/7e00000:7c/7e00000:7c/7e00000:1800007c/7e00000:1880007e/7e00000:680007e/7e00000:266003fe/7e00000:e6e407fe/7e00000:8ca03ffe/7e00000:c30fffe/7e00000
     - ffffffff/0:fffffffe/0:fffffffe/0:fffffffe/0:fffffffe/0:fffffffe/0:fffffffe/0:fffffffe/0:fffffffe/0:fffffffe/0:fffffffe/0:fffffffe/0:fffffffe/0:fffffffe/0:fffffffe/0:fffffffe/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:fffffffc/0:0/0:0/0:0/0:0/0:0/0:0/0:ffffffff/0:ffffffff/0:ffffffff/0:ffffffff/80000000:ffffffff/80000000:ffffffff/80000000:ffffffff/80000000:ffffffff/80000000:ffffffff/80000000:ffffffff/80000000:cfffffff/80000000:8fffffff/80000000:fffffff/80000000:7fffff/80000000:3ffff/80000000:ffff/80000000:3fff/80000000:1fff/80000000:3ff/80000000:1ff/80000000
     - 0/ffffffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/3d:0/3ff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/3ffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:7c00000/0:1ff00000/0:1ffc0000/20000000:1fff8000/20000000:1fffc000/0:1fffe000/0:7ffffc00/0:ffffff00/203ffff:ffffff80/203ffff:ffffff80/7ffff:ffffff80/7ffff:ffffff80/3ffff:ffffff80/7ffff:ffffff80/3fffff:ffffff80/3fffff:ffffff80/3703ffff:ffffff80/243ffff:ffffff81/83c3ffff:ffffff80/383ffff:ffffff80/b03ffff:ffffff80/2803ffff:ffffff80/3ffff:ffffff80/43ffff:ffffff88/214bffff
@@ -256,20 +258,14 @@ invalid:
         ]
 invZoomOut:
     t:
-    - [
+    - &id001 [
         ]
-    - [
-        ]
-    - [
-        ]
-    - [
-        ]
-    - [
-        ]
-    - [
-        ]
-    - [
-        ]
+    - *id001
+    - *id001
+    - *id001
+    - *id001
+    - *id001
+    - *id001
     -   - ffffffff/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/8000000:0/c000000:0/c000000:0/c000000:0/c000000:0/c000000:0/4000000:0/4000000:0/4000000:0/4000000:0/4000000:0/4000000:0/4000000:0/4000000:0/4000000:0/4000000:0/4000000:0/4000000:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
         - 0/ffffffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/2500000:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
     -   - ffffffff/0:2000/0:2000/0:2000/0:2000/0:2000/0:2000/0:2000/0:0/0:0/0:1000/0:3000/0:3000/0:3000/0:1000/0:1000/0:1000/0:1000/0:1000/0:1000/0:1000/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0

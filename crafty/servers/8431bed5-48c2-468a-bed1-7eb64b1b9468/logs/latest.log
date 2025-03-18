@@ -1,489 +1,203 @@
-[10:22:19] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Microsoft Microsoft-10376803) on Linux 6.8.0-1021-azure (amd64)
-[10:22:19] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) for Minecraft 1.21.4
-[10:22:19] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[10:22:20] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
-[10:22:20] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+[12:10:36] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Microsoft Microsoft-10376803) on Linux 6.8.0-1021-azure (amd64)
+[12:10:36] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) for Minecraft 1.21.4
+[12:10:37] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:10:38] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[12:10:38] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
  - AxVaults (2.6.5), DropHeads (3.9.11), Essentials (2.21.0-dev+189-eab2201), Geyser-Spigot (2.6.1-SNAPSHOT), LuckPerms (5.4.156), TAB (5.0.7), ViaBackwards (5.2.1), ViaRewind (4.0.4), ViaVersion (5.2.1), WorldEdit (7.3.10+7004-768a436), dynmap (3.7-SNAPSHOT-968), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[10:22:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[10:22:39] [ServerMain/INFO]: Loaded 1370 recipes
-[10:22:39] [ServerMain/INFO]: Loaded 1481 advancements
-[10:22:39] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[10:22:39] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 477.3ms
-[10:22:40] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[10:22:40] [Server thread/INFO]: Loading properties
-[10:22:40] [Server thread/INFO]: This server is running Paper version 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[10:22:40] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[10:22:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:22:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:22:43] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[10:22:43] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[10:22:43] [Server thread/INFO]: Default game type: SURVIVAL
-[10:22:43] [Server thread/INFO]: Generating keypair
-[10:22:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:22:44] [Server thread/INFO]: Using epoll channel type
-[10:22:44] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[10:22:44] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[10:22:47] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[10:22:47] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[10:22:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[10:22:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[10:22:49] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[10:22:49] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[10:22:50] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[10:22:51] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[10:22:51] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
-[10:22:52] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[10:22:53] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[10:22:54] [Server thread/INFO]: [floodgate] Took 2,008ms to boot Floodgate
-[10:22:54] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
-[10:22:54] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
-[10:22:54] [Server thread/INFO]: [AxVaults] Loading server plugin AxVaults v2.6.5
-[10:22:55] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.1-SNAPSHOT
-[10:22:57] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[10:22:57] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[10:22:57] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[10:22:57] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10+7004-768a436
-[10:22:58] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2c7c7572]
-[10:22:58] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
-[10:22:58] [Server thread/INFO]: [dynmap] version=1.21.4-212-bb1beda (MC: 1.21.4)
-[10:22:58] [Server thread/INFO]: [dynmap] Mod Support API available
-[10:22:58] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
-[10:22:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:22:58] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[10:23:00] [Server thread/INFO]:         __    
-[10:23:00] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[10:23:00] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[10:23:00] [Server thread/INFO]: 
-[10:23:00] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[10:23:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[10:23:01] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[10:23:01] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[10:23:02] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3385ms)
-[10:23:02] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
-[10:23:02] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
-[10:23:02] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[10:23:02] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[10:23:03] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
-[10:23:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:23:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:23:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:23:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:23:09] [Server thread/INFO]: Preparing level "world"
-[10:23:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:23:12] [Server thread/INFO]: Preparing spawn area: 0%
-[10:23:12] [Server thread/INFO]: Preparing spawn area: 0%
-[10:23:15] [Server thread/INFO]: Preparing spawn area: 0%
-[10:23:15] [Server thread/INFO]: Preparing spawn area: 0%
-[10:23:15] [Server thread/INFO]: Preparing spawn area: 0%
-[10:23:15] [Server thread/INFO]: Preparing spawn area: 0%
-[10:23:15] [Server thread/INFO]: Preparing spawn area: 0%
-[10:23:15] [Server thread/INFO]: Time elapsed: 3063 ms
-[10:23:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[10:23:15] [Server thread/INFO]: Preparing spawn area: 0%
-[10:23:15] [Server thread/INFO]: Preparing spawn area: 16%
-[10:23:16] [Server thread/INFO]: Preparing spawn area: 91%
-[10:23:16] [Server thread/INFO]: Time elapsed: 1081 ms
-[10:23:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[10:23:16] [Server thread/INFO]: Preparing spawn area: 0%
-[10:23:17] [Server thread/INFO]: Preparing spawn area: 81%
-[10:23:17] [Server thread/INFO]: Time elapsed: 524 ms
-[10:23:17] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[10:23:17] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
-[10:23:17] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[10:23:17] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[10:23:18] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
-[10:23:19] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[10:23:19] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[10:23:19] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[10:23:19] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[10:23:20] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[10:23:20] [Server thread/INFO]: [Essentials] Using locale en
-[10:23:21] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[10:23:21] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[10:23:21] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[10:23:21] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[10:23:21] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[10:23:21] [Server thread/INFO]: [AxVaults] Enabling AxVaults v2.6.5
-[10:23:24] [Server thread/INFO]: [AxVaults] Loaded plugin!
-[10:23:24] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
-[10:23:25] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[10:23:25] [Server thread/INFO]: [TAB] Loaded NMS hook in 169ms
-[10:23:26] [Server thread/INFO]: [TAB] Enabled in 459ms
-[10:23:26] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
-[10:23:26] [Server thread/INFO]: [dynmap] Added 21 custom biome mappings
-[10:23:26] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.156 for access control
-[10:23:27] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[10:23:33] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[10:23:33] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[10:23:33] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[10:23:33] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[10:23:33] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[10:23:34] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[10:23:34] [Server thread/INFO]: [dynmap] version 3.7-SNAPSHOT-968 is enabled - core version 3.7-SNAPSHOT-985
-[10:23:34] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[10:23:34] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
-[10:23:34] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[10:23:34] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[10:23:34] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[10:23:34] [Server thread/INFO]: [dynmap] Loaded 8882 pending tile renders for world 'world'
-[10:23:34] [Server thread/INFO]: [dynmap] Full render for world 'world' restored
-[10:23:34] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[10:23:34] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[10:23:34] [Server thread/INFO]: [dynmap] Enabled
-[10:23:34] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
-[10:23:36] [Server thread/INFO]: [spark] Starting background profiler...
-[10:23:36] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[10:23:36] [Server thread/INFO]: [Geyser-Spigot] 
-[10:23:36] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.1-b786 (git-master-32160c5)
-[10:23:36] [Server thread/INFO]: [Geyser-Spigot] 
-[10:23:36] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[10:23:45] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[10:23:45] [Server thread/INFO]: [Geyser-Spigot] Done (8.861s)! Run /geyser help for help!
-[10:23:46] [Server thread/INFO]: Done preparing level "world" (36.886s)
-[10:23:46] [Server thread/INFO]: Starting GS4 status listener
-[10:23:46] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[10:23:46] [Server thread/INFO]: Thread Query Listener started
-[10:23:46] [Server thread/INFO]: Running delayed init tasks
-[10:23:46] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[10:23:46] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
-[10:23:47] [Server thread/INFO]: Done (90.385s)! For help, type "help"
-[10:23:47] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
-[10:24:46] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 1800 tiles rendered (911.66 msec/tile, 943.25 msec per render)
-[10:26:11] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 1900 tiles rendered (907.99 msec/tile, 792.91 msec per render)
-[10:27:37] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 2000 tiles rendered (905.54 msec/tile, 792.41 msec per render)
-[10:28:58] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 2100 tiles rendered (900.58 msec/tile, 769.81 msec per render)
-[10:29:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2617ms or 52 ticks behind
-[10:30:14] [User Authenticator #0/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
-[10:30:18] [Server thread/INFO]: AryanIssPro joined the game
-[10:30:18] [Server thread/INFO]: AryanIssPro[/100.123.210.10:48080] logged in with entity id 36 at ([world]129.2249241759688, 68.5625, -154.69999998807907)
-[10:30:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2612ms or 52 ticks behind
-[10:31:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2526ms or 50 ticks behind
-[10:31:21] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 2200 tiles rendered (915.84 msec/tile, 831.21 msec per render)
-[10:31:23] [Server thread/WARN]: AryanIssPro moved wrongly!
-[10:31:33] [Server thread/WARN]: AryanIssPro moved wrongly!
-[10:31:33] [Server thread/WARN]: AryanIssPro moved wrongly!
-[10:31:33] [Server thread/WARN]: AryanIssPro moved wrongly!
-[10:31:34] [Server thread/WARN]: AryanIssPro moved wrongly!
-[10:31:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2707ms or 54 ticks behind
-[10:33:16] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 2300 tiles rendered (922.85 msec/tile, 821.95 msec per render)
-[10:34:34] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 2400 tiles rendered (916.77 msec/tile, 804.74 msec per render)
-[10:35:31] [Server thread/INFO]: Made AryanIssPro no longer a server operator
-[10:35:46] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 2500 tiles rendered (908.50 msec/tile, 783.16 msec per render)
-[10:36:11] [Server thread/INFO]: AryanIssPro issued server command: /lp
-[10:36:29] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
-[10:36:32] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
-[10:36:32] [luckperms-command-executor/INFO]: https://luckperms.net/editor/3ayXuXoGpK
-[10:36:44] [luckperms-worker-0/INFO]: [LP] An editor window has connected, but it is not yet trusted.
-[10:36:44] [luckperms-worker-0/INFO]: [LP] (session id = df6e-5e39, browser = Chrome on Windows)
-[10:36:44] [luckperms-worker-0/INFO]: [LP] If it was you, run /lp trusteditor df6e-5e39 to trust the session!
-[10:36:51] [luckperms-command-executor/INFO]: [LP] The editor session has been marked as trusted.
-[10:36:51] [luckperms-command-executor/INFO]: [LP] In the future, connections from the same browser will be trusted automatically.
-[10:36:51] [luckperms-command-executor/INFO]: [LP] The plugin will now attempt to establish a connection with the editor...
-[10:36:52] [luckperms-worker-0/INFO]: [LP] Editor window connected successfully.
-[10:37:09] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 2600 tiles rendered (905.11 msec/tile, 779.30 msec per render)
-[10:38:25] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 2700 tiles rendered (899.62 msec/tile, 768.50 msec per render)
-[10:39:50] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 2800 tiles rendered (897.65 msec/tile, 769.19 msec per render)
-[10:41:06] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 2900 tiles rendered (892.46 msec/tile, 760.37 msec per render)
-[10:42:30] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 3000 tiles rendered (890.75 msec/tile, 761.66 msec per render)
-[10:43:49] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 3100 tiles rendered (886.91 msec/tile, 755.69 msec per render)
-[10:45:07] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 3200 tiles rendered (883.68 msec/tile, 754.12 msec per render)
-[10:45:10] [luckperms-worker-4/INFO]: [LP] Changes have been received from the connected web editor session.
-[10:45:11] [luckperms-worker-4/INFO]: [LP] Web editor data was applied to group default successfully.
-[10:45:11] [luckperms-worker-4/INFO]: [LP] (57 additions and 0 deletions)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.enderchest (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  geyser.command.tooltips (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  axvaults (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.back.into (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.afk.auto (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.tpacancel (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  geyser.command.statistics (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.recipe (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.list (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.tpa (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  axvaults.vault (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.msg (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  geyser.command.advancements (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  axvaults.vault.8 (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.tpaccept (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.back.onteleport (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.sethome.bed (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  geyser.command.connectiontest (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  geyser.command.list (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  axvaults.vault.6 (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  floodgate.command.unlinkaccount (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  geyser.command.help (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  bukkit.command.tps (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.tpaall (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  axvaults.vault.4 (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  floodgate.command.linkaccount (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  axvaults.vault.2 (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  luckperms.* (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.feed (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.renamehome (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  axvaults.vault.10 (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.delwarp (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.warp (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.home (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.back.into.world (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  geyser.command.ping (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.tpahere (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.delhome (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  axvaults.vault.9 (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.back.ondeath (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.back (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  axvaults.vault.7 (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.back.into.world_nether (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  axvaults.vault.1 (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.back.into.world_the_end (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.tpdeny (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.sethome (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.heal (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.setwarp (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  axvaults.vault.5 (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  geyser.command.reload (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.suicide (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.kick (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  geyser.command.offhand (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  axvaults.vault.3 (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.skull (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  essentials.afk (true)
-[10:45:11] [luckperms-worker-4/INFO]: [LP] Web editor data was applied to user aryanisspro successfully.
-[10:45:11] [luckperms-worker-4/INFO]: [LP] (2 additions and 0 deletions)
-[10:45:11] [luckperms-worker-4/INFO]: +  minecraft.command.op (true)
-[10:45:11] [luckperms-worker-4/INFO]: +  minecraft.command.deop (true)
-[10:45:26] [Async Chat Thread - #0/INFO]: [Not Secure] <AryanIssPro> t
-[10:45:36] [luckperms-worker-4/INFO]: [LP] Changes have been received from the connected web editor session.
-[10:45:36] [luckperms-worker-4/INFO]: [LP] No changes were applied from the web editor, the returned data didn't contain any edits.
-[10:45:46] [Server thread/INFO]: AryanIssPro issued server command: /online
-[10:46:18] [Server thread/INFO]: AryanIssPro issued server command: /sethome village
-[10:46:32] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 3300 tiles rendered (882.18 msec/tile, 753.26 msec per render)
-[10:46:39] [Server thread/INFO]: AryanIssPro lost connection: Disconnected
-[10:46:39] [Server thread/INFO]: AryanIssPro left the game
-[10:47:45] [Server thread/INFO]: Unknown or incomplete command, see below for error
-minecraft.command.minecraft.command.<--[HERE]
-[10:47:52] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 3400 tiles rendered (879.44 msec/tile, 751.92 msec per render)
-[10:48:05] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username AryanIssPro
-[10:48:05] [localSession-7-2/INFO]: [Geyser-Spigot] AryanIssPro (logged in as: AryanIssPro) has connected to the Java server
-[10:48:06] [Server thread/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro joined (UUID: 00000000-0000-0000-0009-01fbbf97ed72)
-[10:48:06] [Server thread/INFO]: .AryanIssPro joined the game
-[10:48:06] [Server thread/INFO]: .AryanIssPro[/100.115.57.98:0] logged in with entity id 2936 at ([world]25.5, 67.0, 6.5)
-[10:48:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2768ms or 55 ticks behind
-[10:49:17] [Server thread/INFO]: .AryanIssPro issued server command: /ping
-[10:49:17] [Server thread/INFO]: [Essentials] .AryanIssPro was denied access to command.
-[10:49:51] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 3500 tiles rendered (885.68 msec/tile, 766.03 msec per render)
-[10:51:05] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 3600 tiles rendered (881.49 msec/tile, 760.34 msec per render)
-[10:53:00] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 3700 tiles rendered (888.66 msec/tile, 776.14 msec per render)
-[10:54:39] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 3800 tiles rendered (890.61 msec/tile, 779.91 msec per render)
-[10:55:17] [Server thread/INFO]: .AryanIssPro was slain by Spider
-[10:56:07] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 3900 tiles rendered (890.09 msec/tile, 781.39 msec per render)
-[10:56:31] [Server thread/INFO]: .AryanIssPro fell from a high place
-[10:57:51] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 4000 tiles rendered (893.60 msec/tile, 786.94 msec per render)
-[10:58:07] [User Authenticator #1/INFO]: UUID of player Dseven7407 is 64f7124b-3744-3036-927e-13a1340d9367
-[10:58:10] [Server thread/INFO]: Dseven7407 joined the game
-[10:58:10] [Server thread/INFO]: Dseven7407[/127.153.101.170:38671] logged in with entity id 4798 at ([world]22.5, 67.0, 4.5)
-[10:58:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2564ms or 51 ticks behind
-[10:59:22] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:23] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:23] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:23] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:23] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:23] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:24] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:24] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:24] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:24] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:24] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 4100 tiles rendered (892.68 msec/tile, 786.00 msec per render)
-[10:59:34] [Server thread/INFO]: Dseven7407 lost connection: Disconnected
-[10:59:34] [Server thread/INFO]: Dseven7407 left the game
-[10:59:40] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:40] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:40] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:40] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:41] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:41] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:41] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:42] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:42] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:42] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:42] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:42] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:42] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:43] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:43] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:44] [User Authenticator #2/INFO]: UUID of player Dseven7407 is 64f7124b-3744-3036-927e-13a1340d9367
-[10:59:45] [Server thread/INFO]: Dseven7407 joined the game
-[10:59:45] [Server thread/INFO]: Dseven7407[/127.153.101.170:57479] logged in with entity id 5138 at ([world]87.95178195084239, 69.9375, -174.78021975210441)
-[10:59:46] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:47] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:47] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:47] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:48] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:48] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:48] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:48] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[10:59:48] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:00:01] [Server thread/INFO]: .AryanIssPro has made the advancement [Sweet Dreams]
-[11:00:56] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 4200 tiles rendered (893.03 msec/tile, 788.61 msec per render)
-[11:00:59] [Server thread/INFO]: Dseven7407 has made the advancement [Diamonds!]
-[11:01:00] [Server thread/INFO]: Dseven7407 has made the advancement [Acquire Hardware]
-[11:01:00] [Server thread/INFO]: Dseven7407 has made the advancement [Suit Up]
-[11:01:54] [localSession-7-2/INFO]: [Geyser-Spigot] AryanIssPro has disconnected from the Java server because of Bedrock client disconnected
-[11:01:54] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro disconnected
-[11:01:54] [Server thread/INFO]: .AryanIssPro lost connection: Disconnected
-[11:01:54] [Server thread/INFO]: .AryanIssPro left the game
-[11:02:00] [Server thread/WARN]: Dseven7407 moved wrongly!
-[11:02:14] [User Authenticator #3/INFO]: UUID of player hero_jayden is 8933619c-ca84-3d64-b403-5f458a5fd71a
-[11:02:16] [Server thread/INFO]: hero_jayden joined the game
-[11:02:16] [Server thread/INFO]: hero_jayden[/127.61.25.232:37603] logged in with entity id 5621 at ([world]23.5, 66.0, 6.5)
-[11:02:23] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 4300 tiles rendered (892.47 msec/tile, 787.69 msec per render)
-[11:03:07] [Server thread/INFO]: Dseven7407 lost connection: Disconnected
-[11:03:07] [Server thread/INFO]: Dseven7407 left the game
-[11:03:29] [User Authenticator #4/INFO]: UUID of player Dseven7407 is 64f7124b-3744-3036-927e-13a1340d9367
-[11:03:31] [Server thread/INFO]: Dseven7407 joined the game
-[11:03:31] [Server thread/INFO]: Dseven7407[/127.153.101.170:55653] logged in with entity id 6041 at ([world]103.14112184482103, 68.0, -205.91040820526734)
-[11:03:34] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username AryanIssPro
-[11:03:34] [localSession-7-3/INFO]: [Geyser-Spigot] AryanIssPro (logged in as: AryanIssPro) has connected to the Java server
-[11:03:35] [Server thread/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro joined (UUID: 00000000-0000-0000-0009-01fbbf97ed72)
-[11:03:35] [Server thread/INFO]: .AryanIssPro joined the game
-[11:03:35] [Server thread/INFO]: .AryanIssPro[/100.115.57.98:0] logged in with entity id 6060 at ([world]105.873856, 68.0, -209.26819)
-[11:03:49] [Async Chat Thread - #2/INFO]: [Not Secure] <hero_jayden> ㄴ누
-[11:03:50] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 4400 tiles rendered (891.77 msec/tile, 788.36 msec per render)
-[11:03:52] [Async Chat Thread - #2/INFO]: [Not Secure] <hero_jayden> who
-[11:03:53] [Async Chat Thread - #3/INFO]: [Not Secure] <hero_jayden> are
-[11:04:16] [Server thread/INFO]: .AryanIssPro was slain by hero_jayden
-[11:04:25] [Async Chat Thread - #2/INFO]: [Not Secure] <hero_jayden> why u hit me
-[11:04:27] [Async Chat Thread - #3/INFO]: [Not Secure] <hero_jayden> who are u
-[11:05:37] [Server thread/INFO]: .AryanIssPro issued server command: /op AryanIssPro
-[11:05:44] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 4500 tiles rendered (897.30 msec/tile, 797.93 msec per render)
-[11:05:45] [Async Chat Thread - #4/INFO]: [Not Secure] <.AryanIssPro> hello
-[11:05:55] [Async Chat Thread - #5/INFO]: [Not Secure] <.AryanIssPro> who are you both
-[11:06:04] [Async Chat Thread - #4/INFO]: [Not Secure] <hero_jayden> u can literally
-[11:06:07] [Async Chat Thread - #5/INFO]: [Not Secure] <hero_jayden> see my name
-[11:06:17] [Async Chat Thread - #4/INFO]: [Not Secure] <.AryanIssPro> how you both joined my server?
-[11:06:17] [Async Chat Thread - #5/INFO]: [Not Secure] <hero_jayden> the second half
-[11:06:26] [Async Chat Thread - #4/INFO]: [Not Secure] <hero_jayden> wait
-[11:06:34] [Async Chat Thread - #4/INFO]: [Not Secure] <hero_jayden> who are u fr
-[11:06:43] [Async Chat Thread - #5/INFO]: [Not Secure] <.AryanIssPro> this is my personal server
-[11:06:54] [Async Chat Thread - #4/INFO]: [Not Secure] <.AryanIssPro> how you both enter
-[11:07:00] [Async Chat Thread - #5/INFO]: [Not Secure] <.AryanIssPro> in my server
-[11:07:03] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 4600 tiles rendered (894.85 msec/tile, 794.87 msec per render)
-[11:07:11] [Async Chat Thread - #4/INFO]: [Not Secure] <hero_jayden> our friend
-[11:07:14] [Async Chat Thread - #4/INFO]: [Not Secure] <hero_jayden> sent me the code
-[11:07:24] [Async Chat Thread - #5/INFO]: [Not Secure] <hero_jayden> i thought this was our school code
-[11:07:30] [Async Chat Thread - #4/INFO]: [Not Secure] <.AryanIssPro> your name?
-[11:07:51] [Async Chat Thread - #4/INFO]: [Not Secure] <.AryanIssPro> school code? lol
-[11:07:56] [Async Chat Thread - #5/INFO]: [Not Secure] <hero_jayden> the second half
-[11:08:02] [Async Chat Thread - #4/INFO]: [Not Secure] <hero_jayden> told ya
-[11:08:20] [Async Chat Thread - #5/INFO]: [Not Secure] <.AryanIssPro> nice
-[11:08:37] [Async Chat Thread - #4/INFO]: [Not Secure] <.AryanIssPro> do you both use playit.gg
-[11:08:42] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 4700 tiles rendered (896.29 msec/tile, 798.64 msec per render)
-[11:08:44] [Async Chat Thread - #4/INFO]: [Not Secure] <hero_jayden> no
-[11:08:47] [Async Chat Thread - #5/INFO]: [Not Secure] <hero_jayden> what is that
-[11:09:23] [Async Chat Thread - #4/INFO]: [Not Secure] <.AryanIssPro> huh?
-[11:09:37] [Async Chat Thread - #5/INFO]: [Not Secure] <.AryanIssPro> how you both get ip address
-[11:10:39] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 4800 tiles rendered (901.96 msec/tile, 806.04 msec per render)
-[11:11:09] [Server thread/INFO]: Dseven7407 lost connection: Disconnected
-[11:11:09] [Server thread/INFO]: Dseven7407 left the game
-[11:11:22] [Async Chat Thread - #6/INFO]: [Not Secure] <hero_jayden> broski
-[11:11:22] [User Authenticator #5/INFO]: UUID of player Dseven7407 is 64f7124b-3744-3036-927e-13a1340d9367
-[11:11:23] [Server thread/INFO]: Dseven7407 joined the game
-[11:11:23] [Server thread/INFO]: Dseven7407[/127.153.101.170:38031] logged in with entity id 8483 at ([world]187.10557635964557, 62.0, -381.3567671056885)
-[11:11:29] [Async Chat Thread - #7/INFO]: [Not Secure] <hero_jayden> sry for coming in
-[11:11:34] [Server thread/INFO]: Dseven7407 lost connection: Disconnected
-[11:11:34] [Server thread/INFO]: Dseven7407 left the game
-[11:11:34] [Server thread/INFO]: hero_jayden lost connection: Disconnected
-[11:11:35] [Server thread/INFO]: hero_jayden left the game
-[11:12:11] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 4900 tiles rendered (901.95 msec/tile, 805.64 msec per render)
-[11:12:28] [User Authenticator #6/INFO]: UUID of player egegvner is 6c09d746-1ea6-3041-91c8-978321378521
-[11:12:31] [Server thread/INFO]: egegvner joined the game
-[11:12:31] [Server thread/INFO]: egegvner[/127.224.111.62:39265] logged in with entity id 8786 at ([world]13.5, 63.0, 9.5)
-[11:12:41] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:12:58] [Async Chat Thread - #8/INFO]: [Not Secure] <egegvner> broo
-[11:13:05] [Async Chat Thread - #9/INFO]: [Not Secure] <egegvner> why everything got reset
-[11:13:13] [Async Chat Thread - #8/INFO]: [Not Secure] <.AryanIssPro> what?
-[11:13:42] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5000 tiles rendered (901.76 msec/tile, 806.55 msec per render)
-[11:13:42] [Server thread/INFO]: egegvner issued server command: /
-[11:14:21] [Async Chat Thread - #10/INFO]: [Not Secure] <.AryanIssPro> how you got ip address
-[11:14:36] [Server thread/INFO]: egegvner has made the advancement [Monster Hunter]
-[11:14:41] [Async Chat Thread - #10/INFO]: [Not Secure] <egegvner> wait
-[11:14:49] [Async Chat Thread - #11/INFO]: [Not Secure] <egegvner> who are u
-[11:15:03] [Server thread/INFO]: egegvner was shot by Skeleton
-[11:15:08] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5100 tiles rendered (900.89 msec/tile, 805.40 msec per render)
-[11:15:26] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:15:27] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:15:27] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:15:27] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:15:27] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:15:28] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:15:39] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:15:39] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:15:39] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:15:40] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:15:40] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:16:27] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:16:38] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5200 tiles rendered (900.58 msec/tile, 805.71 msec per render)
-[11:16:45] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:16:45] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:16:45] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:16:45] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:16:45] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:16:46] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:16:46] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:16:46] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:16:46] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:16:46] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:16:46] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:16:46] [Server thread/WARN]: .AryanIssPro moved wrongly!
-[11:17:01] [Server thread/INFO]: egegvner lost connection: Disconnected
-[11:17:01] [Server thread/INFO]: egegvner left the game
-[11:18:15] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5300 tiles rendered (901.87 msec/tile, 808.37 msec per render)
-[11:18:23] [localSession-7-3/INFO]: [Geyser-Spigot] AryanIssPro has disconnected from the Java server because of Bedrock client disconnected
-[11:18:23] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro disconnected
-[11:18:23] [Server thread/INFO]: .AryanIssPro lost connection: Disconnected
-[11:18:23] [Server thread/INFO]: .AryanIssPro left the game
-[11:19:23] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5400 tiles rendered (897.81 msec/tile, 802.69 msec per render)
-[11:20:36] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5500 tiles rendered (894.67 msec/tile, 798.92 msec per render)
-[11:22:05] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5600 tiles rendered (894.48 msec/tile, 799.57 msec per render)
-[11:23:12] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5700 tiles rendered (890.34 msec/tile, 794.12 msec per render)
-[11:24:26] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5800 tiles rendered (887.59 msec/tile, 791.00 msec per render)
-[11:24:42] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Bedrock user with ip: /100.115.57.98 has disconnected for reason Bedrock client timed out
-[11:25:55] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 5900 tiles rendered (887.67 msec/tile, 792.12 msec per render)
-[11:27:03] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6000 tiles rendered (884.19 msec/tile, 787.71 msec per render)
-[11:28:14] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6100 tiles rendered (881.22 msec/tile, 784.33 msec per render)
-[11:29:38] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6200 tiles rendered (880.54 msec/tile, 784.53 msec per render)
-[11:30:52] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6300 tiles rendered (878.17 msec/tile, 781.81 msec per render)
-[11:32:05] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6400 tiles rendered (875.73 msec/tile, 779.17 msec per render)
-[11:33:21] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6500 tiles rendered (873.92 msec/tile, 777.82 msec per render)
-[11:34:44] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6600 tiles rendered (873.20 msec/tile, 777.25 msec per render)
-[11:35:50] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6700 tiles rendered (869.97 msec/tile, 773.52 msec per render)
-[11:36:43] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username AryanIssPro
-[11:36:43] [localSession-7-4/INFO]: [Geyser-Spigot] AryanIssPro (logged in as: AryanIssPro) has connected to the Java server
-[11:36:44] [Server thread/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro joined (UUID: 00000000-0000-0000-0009-01fbbf97ed72)
-[11:36:44] [Server thread/INFO]: .AryanIssPro joined the game
-[11:36:44] [Server thread/INFO]: .AryanIssPro[/100.115.57.98:0] logged in with entity id 10094 at ([world]158.86755, 65.5625, -191.6262)
-[11:37:04] [Dynmap Render Thread/INFO]: [dynmap] Full render of map 'surface' of 'world' in progress - 6800 tiles rendered (867.89 msec/tile, 771.88 msec per render)
-[11:37:24] [Server thread/INFO]: Villager Villager['Leatherworker'/46, uuid='fbca9129-d26d-46fa-9f2d-f529494acd68', l='ServerLevel[world]', x=103.91, y=69.00, z=-202.09, cpos=[6, -13], tl=23608, v=true] died, message: 'Leatherworker was slain by Zombie'
-[11:37:28] [localSession-7-4/INFO]: [Geyser-Spigot] AryanIssPro has disconnected from the Java server because of Bedrock client disconnected
-[11:37:28] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro disconnected
-[11:37:28] [Server thread/INFO]: .AryanIssPro lost connection: Disconnected
-[11:37:28] [Server thread/INFO]: .AryanIssPro left the game
+[12:10:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:10:49] [ServerMain/INFO]: Loaded 1370 recipes
+[12:10:49] [ServerMain/INFO]: Loaded 1481 advancements
+[12:10:49] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[12:10:49] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 359.9ms
+[12:10:50] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[12:10:50] [Server thread/INFO]: Loading properties
+[12:10:50] [Server thread/INFO]: This server is running Paper version 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[12:10:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[12:10:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:10:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:10:51] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[12:10:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[12:10:52] [Server thread/INFO]: Default game type: SURVIVAL
+[12:10:52] [Server thread/INFO]: Generating keypair
+[12:10:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:10:52] [Server thread/INFO]: Using epoll channel type
+[12:10:52] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:10:52] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[12:10:54] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[12:10:54] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[12:10:55] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[12:10:56] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[12:10:56] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[12:10:56] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[12:10:57] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[12:10:57] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[12:10:57] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
+[12:10:58] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[12:10:59] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[12:10:59] [Server thread/INFO]: [floodgate] Took 1,319ms to boot Floodgate
+[12:10:59] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
+[12:10:59] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
+[12:10:59] [Server thread/INFO]: [AxVaults] Loading server plugin AxVaults v2.6.5
+[12:11:00] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.1-SNAPSHOT
+[12:11:01] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[12:11:01] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[12:11:01] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[12:11:01] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10+7004-768a436
+[12:11:03] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@18af83c]
+[12:11:03] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
+[12:11:03] [Server thread/INFO]: [dynmap] version=1.21.4-212-bb1beda (MC: 1.21.4)
+[12:11:03] [Server thread/INFO]: [dynmap] Mod Support API available
+[12:11:03] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
+[12:11:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:11:03] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[12:11:03] [Server thread/INFO]:         __    
+[12:11:03] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[12:11:03] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[12:11:03] [Server thread/INFO]: 
+[12:11:03] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:11:04] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[12:11:04] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[12:11:04] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[12:11:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1882ms)
+[12:11:04] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[12:11:04] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
+[12:11:05] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[12:11:05] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:11:05] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
+[12:11:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:11:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:11:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:11:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:11:09] [Server thread/INFO]: Preparing level "world"
+[12:11:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:11:11] [Server thread/INFO]: Preparing spawn area: 0%
+[12:11:11] [Server thread/INFO]: Preparing spawn area: 0%
+[12:11:13] [Server thread/INFO]: Preparing spawn area: 0%
+[12:11:13] [Server thread/INFO]: Preparing spawn area: 0%
+[12:11:13] [Server thread/INFO]: Time elapsed: 1948 ms
+[12:11:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:11:13] [Server thread/INFO]: Preparing spawn area: 0%
+[12:11:13] [Server thread/INFO]: Time elapsed: 384 ms
+[12:11:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:11:13] [Server thread/INFO]: Preparing spawn area: 0%
+[12:11:13] [Server thread/INFO]: Time elapsed: 197 ms
+[12:11:13] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[12:11:13] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[12:11:13] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[12:11:13] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[12:11:14] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
+[12:11:15] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[12:11:15] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[12:11:15] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[12:11:15] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[12:11:16] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[12:11:16] [Server thread/INFO]: [Essentials] Using locale en
+[12:11:17] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[12:11:17] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[12:11:17] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[12:11:17] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[12:11:17] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[12:11:17] [Server thread/INFO]: [AxVaults] Enabling AxVaults v2.6.5
+[12:11:19] [Server thread/INFO]: [AxVaults] Loaded plugin!
+[12:11:19] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
+[12:11:20] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[12:11:20] [Server thread/INFO]: [TAB] Loaded NMS hook in 129ms
+[12:11:21] [Server thread/INFO]: [TAB] Enabled in 464ms
+[12:11:21] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
+[12:11:21] [Server thread/INFO]: [dynmap] Added 21 custom biome mappings
+[12:11:21] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.156 for access control
+[12:11:21] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[12:11:26] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[12:11:26] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[12:11:26] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[12:11:26] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[12:11:26] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[12:11:27] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[12:11:27] [Server thread/INFO]: [dynmap] version 3.7-SNAPSHOT-968 is enabled - core version 3.7-SNAPSHOT-985
+[12:11:27] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[12:11:27] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[12:11:27] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[12:11:27] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[12:11:27] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[12:11:27] [Server thread/INFO]: [dynmap] Loaded 8263 pending tile renders for world 'world'
+[12:11:27] [Server thread/INFO]: [dynmap] Full render for world 'world' restored
+[12:11:27] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[12:11:27] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[12:11:27] [Server thread/INFO]: [dynmap] Enabled
+[12:11:27] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
+[12:11:28] [Thread-0/INFO]: Stopping server
+[12:11:28] [Thread-0/INFO]: [DropHeads] Disabling DropHeads v3.9.11
+[12:11:28] [Thread-0/INFO]: [dynmap] Disabling dynmap v3.7-SNAPSHOT-968
+[12:11:28] [Thread-0/INFO]: [dynmap] Unloaded 11 components.
+[12:11:28] [Thread-0/INFO]: [dynmap] Stopping map renderer...
+[12:11:29] [Thread-0/INFO]: [dynmap] Saved 8261 pending tile renders in world 'world'
+[12:11:29] [Thread-0/INFO]: [dynmap] Full render job saved for world 'world'
+[12:11:34] [Thread-0/INFO]: [dynmap] Disabled
+[12:11:34] [Thread-0/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10+7004-768a436
+[12:11:34] [Thread-0/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[12:11:34] [Thread-0/INFO]: [TAB] Disabling TAB v5.0.7
+[12:11:34] [Thread-0/INFO]: [TAB] Disabled in 0ms
+[12:11:34] [Thread-0/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.1-SNAPSHOT
+[12:11:34] [Thread-0/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[12:11:34] [Thread-0/INFO]: [AxVaults] Disabling AxVaults v2.6.5
+[12:11:34] [Thread-0/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+189-eab2201
+[12:11:34] [Thread-0/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
+[12:11:34] [Thread-0/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[12:11:34] [Thread-0/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
+[12:11:34] [Thread-0/INFO]: [LuckPerms] Starting shutdown process...
+[12:11:35] [Thread-0/INFO]: [LuckPerms] Closing storage...
+[12:11:35] [Thread-0/INFO]: [LuckPerms] Goodbye!
+[12:11:35] [Thread-0/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[12:11:35] [Thread-0/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[12:11:35] [Thread-0/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[12:11:35] [Thread-0/INFO]: Saving players
+[12:11:35] [Thread-0/WARN]: Asynchronous Save Players! Blocking thread until it returns 
+java.lang.IllegalStateException: null
+	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:116) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1073) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1069) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1016) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:757) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
+	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:974) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
+	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:27) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
+[12:11:35] [Server thread/INFO]: [spark] Starting background profiler...
+[12:11:36] [Server thread/ERROR]: Encountered an unexpected exception
+com.sk89q.worldedit.extension.platform.NoCapablePlatformException: Not all platforms have been registered yet! Please wait until WorldEdit is initialized.
+	at worldedit-bukkit-7.3.10.jar/com.sk89q.worldedit.extension.platform.PlatformManager.queryCapability(PlatformManager.java:170) ~[worldedit-bukkit-7.3.10.jar:?]
+	at worldedit-bukkit-7.3.10.jar/com.sk89q.worldedit.extension.platform.PlatformManager.getConfiguration(PlatformManager.java:296) ~[worldedit-bukkit-7.3.10.jar:?]
+	at worldedit-bukkit-7.3.10.jar/com.sk89q.worldedit.WorldEdit.getConfiguration(WorldEdit.java:799) ~[worldedit-bukkit-7.3.10.jar:?]
+	at worldedit-bukkit-7.3.10.jar/com.sk89q.worldedit.bukkit.BukkitCommandInspector.getShortText(BukkitCommandInspector.java:56) ~[worldedit-bukkit-7.3.10.jar:?]
+	at worldedit-bukkit-7.3.10.jar/com.sk89q.bukkit.util.DynamicPluginCommandHelpTopic.<init>(DynamicPluginCommandHelpTopic.java:44) ~[worldedit-bukkit-7.3.10.jar:?]
+	at worldedit-bukkit-7.3.10.jar/com.sk89q.bukkit.util.DynamicPluginCommandHelpTopic$Factory.createTopic(DynamicPluginCommandHelpTopic.java:144) ~[worldedit-bukkit-7.3.10.jar:?]
+	at worldedit-bukkit-7.3.10.jar/com.sk89q.bukkit.util.DynamicPluginCommandHelpTopic$Factory.createTopic(DynamicPluginCommandHelpTopic.java:141) ~[worldedit-bukkit-7.3.10.jar:?]
+	at org.bukkit.craftbukkit.help.SimpleHelpMap.initializeCommands(SimpleHelpMap.java:136) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:749) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-212-bb1beda]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[12:11:36] [Server thread/ERROR]: This crash report has been saved to: /workspaces/FriendlySMP/crafty/servers/8431bed5-48c2-468a-bed1-7eb64b1b9468/crash-reports/crash-2025-03-18_12.11.36-server.txt
+[12:12:41] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[12:13:41] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[12:14:41] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics

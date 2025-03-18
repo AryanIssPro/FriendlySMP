@@ -19,3 +19,4 @@
 2025-03-18 08:46:43,029 - [AUTH] - INFO - Current queued commands: [{'server_id': '8431bed5-48c2-468a-bed1-7eb64b1b9468', 'user_id': 1, 'command': 'stop_server', 'action_id': None}]
 2025-03-18 10:28:41,357 - [AUTH] - INFO - Current queued commands: [{'server_id': '8431bed5-48c2-468a-bed1-7eb64b1b9468', 'user_id': 1, 'command': 'backup_server', 'action_id': '49c12c45-5008-498c-8b7d-f4cb5919637c'}]
 2025-03-18 10:29:00,395 - [AUTH] - INFO - Current queued commands: [{'server_id': '8431bed5-48c2-468a-bed1-7eb64b1b9468', 'user_id': 1, 'command': 'backup_server', 'action_id': '49c12c45-5008-498c-8b7d-f4cb5919637c'}]
+2025-03-18 12:13:15,729 - [AUTH] - INFO - Current queued commands: [{'server_id': '8431bed5-48c2-468a-bed1-7eb64b1b9468', 'user_id': 1, 'command': 'stop_server', 'action_id': None}]
