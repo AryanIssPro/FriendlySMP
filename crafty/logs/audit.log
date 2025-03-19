@@ -81,3 +81,4 @@
 {"level": "INFO", "time": "2025-03-19 19:31:36,543", "log_msg": "modified role with ID 1", "user_name": "admin", "user_id": 1, "server_id": null, "source_ip": "10.240.4.3"}
 {"level": "INFO", "time": "2025-03-19 19:31:47,960", "log_msg": "Logged in", "user_name": "guest", "user_id": 3, "server_id": null, "source_ip": "10.240.4.3"}
 {"level": "INFO", "time": "2025-03-19 19:32:12,217", "log_msg": "issued command kill_server for server Friendly SMP with ID: 8431bed5-48c2-468a-bed1-7eb64b1b9468", "user_name": "guest", "user_id": 3, "server_id": "8431bed5-48c2-468a-bed1-7eb64b1b9468", "source_ip": "10.240.4.3"}
+{"level": "INFO", "time": "2025-03-19 19:52:06,104", "log_msg": "Logged in", "user_name": "guest", "user_id": 3, "server_id": null, "source_ip": "10.240.4.3"}
