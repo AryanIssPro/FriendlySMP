@@ -11425,3 +11425,71 @@ HTTPSConnectionPool(host='gitlab.com', port=443): Read timed out. (read timeout=
 2025-03-19 17:51:39,605 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
 2025-03-19 17:52:09,605 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
 2025-03-19 17:52:39,605 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:47:56,680 - [Crafty] - INFO     - __main__ - ***** Crafty Controller Started *****
+2025-03-19 18:47:56,683 - [Crafty] - INFO     - app.classes.shared.helpers - No process found for pid. Assuming crafty crashed. Deleting stale session.lock
+2025-03-19 18:47:56,683 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2025-03-19 18:47:56,698 - [Crafty] - INFO     - app.classes.shared.migration - There is nothing to migrate
+2025-03-19 18:47:56,761 - [Crafty] - INFO     - app.classes.shared.helpers - SSL Cert File is set to: /workspaces/FriendlySMP/crafty/app/config/web/certs/commander.cert.pem
+2025-03-19 18:47:56,761 - [Crafty] - INFO     - __main__ - Initializing all servers defined
+2025-03-19 18:47:56,761 - [Crafty] - INFO     - app.classes.shared.helpers - SSL Key File is set to: /workspaces/FriendlySMP/crafty/app/config/web/certs/commander.key.pem
+2025-03-19 18:47:56,764 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Checking to see if we already registered 8431bed5-48c2-468a-bed1-7eb64b1b9468
+2025-03-19 18:47:56,764 - [Crafty] - INFO     - app.classes.shared.helpers - Cert and Key files already exists, not creating them.
+2025-03-19 18:47:56,768 - [Crafty] - INFO     - app.classes.web.tornado_handler - Starting Web Server on ports https:8443
+2025-03-19 18:47:56,780 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2025-03-19 18:47:56,783 - [Crafty] - INFO     - app.classes.shared.migration - There is nothing to migrate
+2025-03-19 18:47:56,881 - [Crafty] - INFO     - app.classes.web.tornado_handler - https://10.0.0.51:8443 is up and ready for connections.
+2025-03-19 18:47:57,021 - [Crafty] - INFO     - app.classes.shared.server - Creating Server object: 8431bed5-48c2-468a-bed1-7eb64b1b9468 | Server Name: Friendly SMP | Auto Start: True
+2025-03-19 18:47:57,022 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:47:57,118 - [Crafty] - INFO     - app.classes.shared.server - Scheduling server Friendly SMP to start in 10 seconds
+2025-03-19 18:48:00,015 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Checking Big Bucket status
+2025-03-19 18:48:00,501 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Big bucket is alive and responding as expected
+2025-03-19 18:48:00,502 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Cache file is not old enough to require automatic refresh.
+2025-03-19 18:48:01,323 - [Crafty] - INFO     - __main__ - Checking Internet. This may take a minute.
+2025-03-19 18:48:03,326 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Manual bucket cache refresh initiated.
+2025-03-19 18:48:03,326 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Checking Big Bucket status
+2025-03-19 18:48:03,327 - [Crafty] - INFO     - __main__ - Execution Mode: Non-interactive (e.g. 'python main.py')
+2025-03-19 18:48:03,327 - [Crafty] - INFO     - __main__ - Application path: '/workspaces/FriendlySMP/crafty'
+2025-03-19 18:48:03,692 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Big bucket is alive and responding as expected
+2025-03-19 18:48:04,059 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Cache file successfully refreshed manually.
+2025-03-19 18:48:04,059 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Manual refresh completed.
+2025-03-19 18:48:05,076 - [Crafty] - ERROR    - app.classes.shared.helpers - Unable to check for new crafty version! 
+HTTPSConnectionPool(host='gitlab.com', port=443): Read timed out. (read timeout=1)
+2025-03-19 18:48:05,076 - [Crafty] - INFO     - __main__ - Removing old temp dirs
+2025-03-19 18:48:07,119 - [Crafty] - INFO     - app.classes.shared.server - Starting server ID: 8431bed5-48c2-468a-bed1-7eb64b1b9468 - Friendly SMP
+2025-03-19 18:48:07,232 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server Friendly SMP
+2025-03-19 18:48:07,233 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics Friendly SMP every 5 seconds
+2025-03-19 18:48:07,234 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics Friendly SMP every 30 seconds
+2025-03-19 18:48:07,235 - [Crafty] - INFO     - app.classes.shared.helpers - /workspaces/FriendlySMP/crafty/servers/8431bed5-48c2-468a-bed1-7eb64b1b9468/tempfile.txt is writable
+2025-03-19 18:48:07,251 - [Crafty] - INFO     - app.classes.shared.server - Launching Server Friendly SMP with command ['/usr/lib/jvm/java-21-openjdk-amd64/bin/java', '-Xms4G', '-Xmx8G', '-jar', 'paper.jar', 'nogui']
+2025-03-19 18:48:07,254 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2025-03-19 18:48:07,255 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /workspaces/FriendlySMP/crafty/servers/8431bed5-48c2-468a-bed1-7eb64b1b9468 with command: ['/usr/lib/jvm/java-21-openjdk-amd64/bin/java', '-Xms4G', '-Xmx8G', '-jar', 'paper.jar', 'nogui']
+2025-03-19 18:48:07,283 - [Crafty] - ERROR    - app.classes.shared.helpers - Java Detect Error: Command '['/usr/bin/update-alternatives', '--list', 'java']' returned non-zero exit status 2.
+2025-03-19 18:48:07,285 - [Crafty] - ERROR    - app.classes.shared.server - Server Friendly SMP failed to start with error code: [Errno 2] No such file or directory: '/usr/lib/jvm/java-21-openjdk-amd64/bin/java'
+2025-03-19 18:48:37,235 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:49:07,235 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:49:37,235 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:50:07,235 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:50:37,235 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:51:07,235 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:51:37,235 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:52:07,235 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:52:18,639 - [Crafty] - INFO     - app.classes.web.public_handler - User: 1 Logged in from IP: 10.240.4.3
+2025-03-19 18:52:18,643 - [Crafty] - INFO     - audit_log - Logged in
+2025-03-19 18:52:27,703 - [Crafty] - INFO     - audit_log - issued command start_server for server Friendly SMP with ID: 8431bed5-48c2-468a-bed1-7eb64b1b9468
+2025-03-19 18:52:28,049 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics Friendly SMP every 5 seconds
+2025-03-19 18:52:28,050 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics Friendly SMP every 30 seconds
+2025-03-19 18:52:28,054 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server Friendly SMP
+2025-03-19 18:52:28,055 - [Crafty] - INFO     - app.classes.shared.helpers - /workspaces/FriendlySMP/crafty/servers/8431bed5-48c2-468a-bed1-7eb64b1b9468/tempfile.txt is writable
+2025-03-19 18:52:28,064 - [Crafty] - INFO     - app.classes.shared.server - Launching Server Friendly SMP with command ['/usr/lib/jvm/java-21-openjdk-amd64/bin/java', '-Xms4G', '-Xmx8G', '-jar', 'paper.jar', 'nogui']
+2025-03-19 18:52:28,064 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2025-03-19 18:52:28,064 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /workspaces/FriendlySMP/crafty/servers/8431bed5-48c2-468a-bed1-7eb64b1b9468 with command: ['/usr/lib/jvm/java-21-openjdk-amd64/bin/java', '-Xms4G', '-Xmx8G', '-jar', 'paper.jar', 'nogui']
+2025-03-19 18:52:28,069 - [Crafty] - ERROR    - app.classes.shared.helpers - Java Detect Error: Command '['/usr/bin/update-alternatives', '--list', 'java']' returned non-zero exit status 2.
+2025-03-19 18:52:28,069 - [Crafty] - ERROR    - app.classes.shared.server - Server Friendly SMP failed to start with error code: [Errno 2] No such file or directory: '/usr/lib/jvm/java-21-openjdk-amd64/bin/java'
+2025-03-19 18:52:58,052 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:53:28,051 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:53:58,051 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:54:28,051 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:54:58,051 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:55:28,051 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:55:58,051 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-19 18:56:28,051 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
