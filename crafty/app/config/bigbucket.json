@@ -1,5 +1,5 @@
 {
-    "last_refreshed": "03/18/2025, 17:35:24",
+    "last_refreshed": "03/19/2025, 08:01:16",
     "categories": {
         "mc_java_servers": {
             "enabled": true,
@@ -1311,7 +1311,7 @@
                             "url": [
                                 "https://jars.arcadiatech.org/bungee-cord/latest/bungee-cord.jar"
                             ],
-                            "sha256": "f827b6d19206ca52cb62fa4b6dce44d849bca222bcf213f5c880716d43048a8b"
+                            "sha256": "50adc7b6905e067398fa04cf869b5e3e120016425674c8d506882c31ab115d99"
                         }
                     }
                 }
