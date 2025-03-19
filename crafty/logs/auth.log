@@ -28,3 +28,5 @@
 2025-03-19 21:01:58,031 - [AUTH] - INFO - admin successfully authenticated and logged into panel from remote IP 10.240.1.166
 2025-03-19 21:56:50,393 - [AUTH] - INFO - User attempting to authenticate from 10.240.0.199
 2025-03-19 21:56:50,507 - [AUTH] - INFO - admin successfully authenticated and logged into panel from remote IP 10.240.0.199
+2025-03-19 17:09:51,881 - [AUTH] - INFO - User attempting to authenticate from 10.240.4.3
+2025-03-19 17:09:51,972 - [AUTH] - INFO - guest successfully authenticated and logged into panel from remote IP 10.240.4.3
