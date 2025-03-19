@@ -1,3 +1,6 @@
+echo 'export TZ=Asia/Kolkata' >> ~/.bashrc
+source ~/.bashrc
+
 sudo apt update
 sudo apt install openjdk-21-jdk -y
 
