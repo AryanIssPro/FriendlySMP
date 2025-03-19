@@ -1,1 +1,8 @@
 1742247404912,gethead command,AryanIssPro,AryanIssPro
+1742375552471,player decapitated,AryanIssPro,.AryanIssPro,§f[Wooden Sword]
+1742375580169,player decapitated,.AryanIssPro,AryanIssPro,
+1742375911170,player decapitated,AryanIssPro,.AryanIssPro,§f[Wooden Sword]
+1742377906965,player decapitated,.AryanIssPro,VaibhavIssPro,§f[Iron Axe]
+1742377938608,player decapitated,VaibhavIssPro,.AryanIssPro,
+1742379273023,player decapitated,.AryanIssPro,AryanIssPro,§f[Iron Axe]
+1742382419649,player decapitated,AryanIssPro,VaibhavIssPro,§f[Iron Axe]
