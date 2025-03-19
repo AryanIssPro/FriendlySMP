@@ -21354,3 +21354,13 @@ TypeError: argument of type 'int' is not iterable
 2025-03-19 17:52:29,603 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 17:52:34 UTC)" executed successfully
 2025-03-19 17:52:30,900 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 17:52:35 UTC)" (scheduled at 2025-03-19 17:52:30.900424+00:00)
 2025-03-19 17:52:30,902 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 17:52:35 UTC)" executed successfully
+2025-03-19 17:52:34,602 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 17:52:39 UTC)" (scheduled at 2025-03-19 17:52:34.602297+00:00)
+2025-03-19 17:52:34,603 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 17:52:39 UTC)" executed successfully
+2025-03-19 17:52:35,900 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 17:52:40 UTC)" (scheduled at 2025-03-19 17:52:35.900424+00:00)
+2025-03-19 17:52:35,903 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 17:52:40 UTC)" executed successfully
+2025-03-19 17:52:39,603 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 17:52:44 UTC)" (scheduled at 2025-03-19 17:52:39.602297+00:00)
+2025-03-19 17:52:39,604 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 17:52:44 UTC)" executed successfully
+2025-03-19 17:52:39,605 - [Schedules] - INFO - Running job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 17:53:09 UTC)" (scheduled at 2025-03-19 17:52:39.604999+00:00)
+2025-03-19 17:52:39,621 - [Schedules] - INFO - Job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 17:53:09 UTC)" executed successfully
+2025-03-19 17:52:40,901 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 17:52:45 UTC)" (scheduled at 2025-03-19 17:52:40.900424+00:00)
+2025-03-19 17:52:40,906 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 17:52:45 UTC)" executed successfully
