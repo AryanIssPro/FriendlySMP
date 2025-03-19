@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 100.115.57.98
+ip-address: 127.0.0.1
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1742378004209
+  lastteleport: 1742398049482
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742388687880
-  login: 1742387467386
+  logout: 1742401197945
+  login: 1742401126097
 money: '0'
 last-account-name: .AryanIssPro
 lastlocation:
   world: f40796f5-8651-47b6-ae21-bbf1ca44ff73
   world-name: world
-  x: -16.264944
-  y: 64.0
-  z: -250.52133
-  yaw: 146.072509765625
-  pitch: 2.2389068603515625
+  x: 141.34355
+  y: 62.9375
+  z: -182.23318
+  yaw: 126.807373046875
+  pitch: 24.150894165039062
 logoutlocation:
   world: f40796f5-8651-47b6-ae21-bbf1ca44ff73
   world-name: world
-  x: 150.30394
-  y: 64.0
-  z: -194.23645
-  yaw: -106.68358612060547
-  pitch: 3.113739013671875
+  x: 65.7
+  y: 71.0
+  z: -176.697
+  yaw: -41.182708740234375
+  pitch: 26.238296508789062

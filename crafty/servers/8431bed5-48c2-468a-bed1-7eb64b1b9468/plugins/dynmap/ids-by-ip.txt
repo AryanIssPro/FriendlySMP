@@ -12,5 +12,6 @@
 - AryanIssPro
 '127_0_0_1':
 - .AryanIssPro
+- .AryaveerIsPro
 '127_240_16_166':
 - VaibhavIssPro

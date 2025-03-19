@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1742398207987
+  login: 1742397987854
+money: '0'
+last-account-name: .AryaveerIsPro
+logoutlocation:
+  world: f40796f5-8651-47b6-ae21-bbf1ca44ff73
+  world-name: world
+  x: 164.14357
+  y: 69.0
+  z: -266.92755
+  yaw: 36.967193603515625
+  pitch: 29.67987060546875
+lastlocation:
+  world: f40796f5-8651-47b6-ae21-bbf1ca44ff73
+  world-name: world
+  x: 25.22863
+  y: 70.0
+  z: 25.090511
+  yaw: -80.40879821777344
+  pitch: 27.375289916992188
