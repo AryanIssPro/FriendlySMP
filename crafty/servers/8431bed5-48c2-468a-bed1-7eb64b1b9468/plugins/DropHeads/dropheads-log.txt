@@ -6,3 +6,4 @@
 1742377938608,player decapitated,VaibhavIssPro,.AryanIssPro,
 1742379273023,player decapitated,.AryanIssPro,AryanIssPro,§f[Iron Axe]
 1742382419649,player decapitated,AryanIssPro,VaibhavIssPro,§f[Iron Axe]
+1742388483247,player decapitated,AryanIssPro,.AryanIssPro,

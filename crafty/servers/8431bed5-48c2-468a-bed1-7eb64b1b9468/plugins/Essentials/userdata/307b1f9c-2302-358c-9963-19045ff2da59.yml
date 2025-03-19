@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.25.209.140
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1742387478880
+  login: 1742386166230
+money: '0'
+last-account-name: kevin_ke_papa
+lastlocation:
+  world: f40796f5-8651-47b6-ae21-bbf1ca44ff73
+  world-name: world
+  x: 137.69999998807907
+  y: 64.30326568965039
+  z: -155.29291473342968
+  yaw: -65.99970245361328
+  pitch: 44.100013732910156
+logoutlocation:
+  world: f40796f5-8651-47b6-ae21-bbf1ca44ff73
+  world-name: world
+  x: 94.30000001192093
+  y: 69.0
+  z: -188.69999998807907
+  yaw: -30.14990234375
+  pitch: 40.49996566772461
