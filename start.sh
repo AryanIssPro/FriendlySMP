@@ -2,6 +2,8 @@
 sudo tailscaled & 
 sudo tailscale up
 
+nohup playit > playit.log 2>&1 &
+
 ./sync.sh
 
 cd crafty
