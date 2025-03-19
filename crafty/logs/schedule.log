@@ -21908,3 +21908,358 @@ TypeError: argument of type 'int' is not iterable
 2025-03-19 18:56:42,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:56:47 UTC)" executed successfully
 2025-03-19 18:56:43,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:56:48 UTC)" (scheduled at 2025-03-19 18:56:43.050436+00:00)
 2025-03-19 18:56:43,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:56:48 UTC)" executed successfully
+2025-03-19 18:56:47,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:56:52 UTC)" (scheduled at 2025-03-19 18:56:47.005646+00:00)
+2025-03-19 18:56:47,009 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:56:52 UTC)" executed successfully
+2025-03-19 18:56:48,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:56:53 UTC)" (scheduled at 2025-03-19 18:56:48.050436+00:00)
+2025-03-19 18:56:48,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:56:53 UTC)" executed successfully
+2025-03-19 18:56:52,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:56:57 UTC)" (scheduled at 2025-03-19 18:56:52.005646+00:00)
+2025-03-19 18:56:52,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:56:57 UTC)" executed successfully
+2025-03-19 18:56:53,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:56:58 UTC)" (scheduled at 2025-03-19 18:56:53.050436+00:00)
+2025-03-19 18:56:53,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:56:58 UTC)" executed successfully
+2025-03-19 18:56:57,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:02 UTC)" (scheduled at 2025-03-19 18:56:57.005646+00:00)
+2025-03-19 18:56:57,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:02 UTC)" executed successfully
+2025-03-19 18:56:58,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:03 UTC)" (scheduled at 2025-03-19 18:56:58.050436+00:00)
+2025-03-19 18:56:58,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:03 UTC)" executed successfully
+2025-03-19 18:56:58,051 - [Schedules] - INFO - Running job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:57:28 UTC)" (scheduled at 2025-03-19 18:56:58.051200+00:00)
+2025-03-19 18:56:58,062 - [Schedules] - INFO - Job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:57:28 UTC)" executed successfully
+2025-03-19 18:56:59,995 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:57:29 UTC)" (scheduled at 2025-03-19 18:56:59.994521+00:00)
+2025-03-19 18:57:00,502 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:57:29 UTC)" executed successfully
+2025-03-19 18:57:00,502 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-03-19 18:57:02,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:07 UTC)" (scheduled at 2025-03-19 18:57:02.005646+00:00)
+2025-03-19 18:57:02,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:07 UTC)" executed successfully
+2025-03-19 18:57:03,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:08 UTC)" (scheduled at 2025-03-19 18:57:03.050436+00:00)
+2025-03-19 18:57:03,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:08 UTC)" executed successfully
+2025-03-19 18:57:07,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:12 UTC)" (scheduled at 2025-03-19 18:57:07.005646+00:00)
+2025-03-19 18:57:07,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:12 UTC)" executed successfully
+2025-03-19 18:57:08,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:13 UTC)" (scheduled at 2025-03-19 18:57:08.050436+00:00)
+2025-03-19 18:57:08,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:13 UTC)" executed successfully
+2025-03-19 18:57:12,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:17 UTC)" (scheduled at 2025-03-19 18:57:12.005646+00:00)
+2025-03-19 18:57:12,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:17 UTC)" executed successfully
+2025-03-19 18:57:13,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:18 UTC)" (scheduled at 2025-03-19 18:57:13.050436+00:00)
+2025-03-19 18:57:13,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:18 UTC)" executed successfully
+2025-03-19 18:57:17,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:22 UTC)" (scheduled at 2025-03-19 18:57:17.005646+00:00)
+2025-03-19 18:57:17,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:22 UTC)" executed successfully
+2025-03-19 18:57:18,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:23 UTC)" (scheduled at 2025-03-19 18:57:18.050436+00:00)
+2025-03-19 18:57:18,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:23 UTC)" executed successfully
+2025-03-19 18:57:22,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:27 UTC)" (scheduled at 2025-03-19 18:57:22.005646+00:00)
+2025-03-19 18:57:22,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:27 UTC)" executed successfully
+2025-03-19 18:57:23,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:28 UTC)" (scheduled at 2025-03-19 18:57:23.050436+00:00)
+2025-03-19 18:57:23,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:28 UTC)" executed successfully
+2025-03-19 18:57:27,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:32 UTC)" (scheduled at 2025-03-19 18:57:27.005646+00:00)
+2025-03-19 18:57:27,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:32 UTC)" executed successfully
+2025-03-19 18:57:28,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:33 UTC)" (scheduled at 2025-03-19 18:57:28.050436+00:00)
+2025-03-19 18:57:28,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:33 UTC)" executed successfully
+2025-03-19 18:57:28,051 - [Schedules] - INFO - Running job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:57:58 UTC)" (scheduled at 2025-03-19 18:57:28.051200+00:00)
+2025-03-19 18:57:28,062 - [Schedules] - INFO - Job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:57:58 UTC)" executed successfully
+2025-03-19 18:57:29,994 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:57:59 UTC)" (scheduled at 2025-03-19 18:57:29.994521+00:00)
+2025-03-19 18:57:30,504 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:57:59 UTC)" executed successfully
+2025-03-19 18:57:30,504 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-03-19 18:57:32,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:37 UTC)" (scheduled at 2025-03-19 18:57:32.005646+00:00)
+2025-03-19 18:57:32,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:37 UTC)" executed successfully
+2025-03-19 18:57:33,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:38 UTC)" (scheduled at 2025-03-19 18:57:33.050436+00:00)
+2025-03-19 18:57:33,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:38 UTC)" executed successfully
+2025-03-19 18:57:37,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:42 UTC)" (scheduled at 2025-03-19 18:57:37.005646+00:00)
+2025-03-19 18:57:37,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:42 UTC)" executed successfully
+2025-03-19 18:57:38,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:43 UTC)" (scheduled at 2025-03-19 18:57:38.050436+00:00)
+2025-03-19 18:57:38,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:43 UTC)" executed successfully
+2025-03-19 18:57:42,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:47 UTC)" (scheduled at 2025-03-19 18:57:42.005646+00:00)
+2025-03-19 18:57:42,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:47 UTC)" executed successfully
+2025-03-19 18:57:43,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:48 UTC)" (scheduled at 2025-03-19 18:57:43.050436+00:00)
+2025-03-19 18:57:43,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:48 UTC)" executed successfully
+2025-03-19 18:57:47,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:52 UTC)" (scheduled at 2025-03-19 18:57:47.005646+00:00)
+2025-03-19 18:57:47,009 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:52 UTC)" executed successfully
+2025-03-19 18:57:48,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:53 UTC)" (scheduled at 2025-03-19 18:57:48.050436+00:00)
+2025-03-19 18:57:48,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:53 UTC)" executed successfully
+2025-03-19 18:57:52,007 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:57 UTC)" (scheduled at 2025-03-19 18:57:52.005646+00:00)
+2025-03-19 18:57:52,009 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:57 UTC)" executed successfully
+2025-03-19 18:57:53,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:58 UTC)" (scheduled at 2025-03-19 18:57:53.050436+00:00)
+2025-03-19 18:57:53,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:57:58 UTC)" executed successfully
+2025-03-19 18:57:57,005 - [Schedules] - INFO - Running job "ServerInstance.calc_dir_size (trigger: interval[0:05:00], next run at: 2025-03-19 19:02:57 UTC)" (scheduled at 2025-03-19 18:57:57.004864+00:00)
+2025-03-19 18:57:57,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:02 UTC)" (scheduled at 2025-03-19 18:57:57.005646+00:00)
+2025-03-19 18:57:57,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:02 UTC)" executed successfully
+2025-03-19 18:57:57,098 - [Schedules] - INFO - Job "ServerInstance.calc_dir_size (trigger: interval[0:05:00], next run at: 2025-03-19 19:02:57 UTC)" executed successfully
+2025-03-19 18:57:58,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:03 UTC)" (scheduled at 2025-03-19 18:57:58.050436+00:00)
+2025-03-19 18:57:58,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:03 UTC)" executed successfully
+2025-03-19 18:57:58,051 - [Schedules] - INFO - Running job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:58:28 UTC)" (scheduled at 2025-03-19 18:57:58.051200+00:00)
+2025-03-19 18:57:58,061 - [Schedules] - INFO - Job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:58:28 UTC)" executed successfully
+2025-03-19 18:57:59,995 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:58:29 UTC)" (scheduled at 2025-03-19 18:57:59.994521+00:00)
+2025-03-19 18:58:00,502 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:58:29 UTC)" executed successfully
+2025-03-19 18:58:00,502 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-03-19 18:58:01,655 - [Schedules] - INFO - Running job "Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2025-03-19 19:03:01 UTC)" (scheduled at 2025-03-19 18:58:01.655110+00:00)
+2025-03-19 18:58:01,656 - [Schedules] - INFO - Job "Controller.write_auth_tracker (trigger: interval[0:05:00], next run at: 2025-03-19 19:03:01 UTC)" executed successfully
+2025-03-19 18:58:01,656 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-03-19 18:58:02,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:07 UTC)" (scheduled at 2025-03-19 18:58:02.005646+00:00)
+2025-03-19 18:58:02,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:07 UTC)" executed successfully
+2025-03-19 18:58:03,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:08 UTC)" (scheduled at 2025-03-19 18:58:03.050436+00:00)
+2025-03-19 18:58:03,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:08 UTC)" executed successfully
+2025-03-19 18:58:07,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:12 UTC)" (scheduled at 2025-03-19 18:58:07.005646+00:00)
+2025-03-19 18:58:07,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:12 UTC)" executed successfully
+2025-03-19 18:58:08,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:13 UTC)" (scheduled at 2025-03-19 18:58:08.050436+00:00)
+2025-03-19 18:58:08,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:13 UTC)" executed successfully
+2025-03-19 18:58:12,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:17 UTC)" (scheduled at 2025-03-19 18:58:12.005646+00:00)
+2025-03-19 18:58:12,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:17 UTC)" executed successfully
+2025-03-19 18:58:13,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:18 UTC)" (scheduled at 2025-03-19 18:58:13.050436+00:00)
+2025-03-19 18:58:13,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:18 UTC)" executed successfully
+2025-03-19 18:58:17,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:22 UTC)" (scheduled at 2025-03-19 18:58:17.005646+00:00)
+2025-03-19 18:58:17,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:22 UTC)" executed successfully
+2025-03-19 18:58:18,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:23 UTC)" (scheduled at 2025-03-19 18:58:18.050436+00:00)
+2025-03-19 18:58:18,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:23 UTC)" executed successfully
+2025-03-19 18:58:22,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:27 UTC)" (scheduled at 2025-03-19 18:58:22.005646+00:00)
+2025-03-19 18:58:22,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:27 UTC)" executed successfully
+2025-03-19 18:58:23,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:28 UTC)" (scheduled at 2025-03-19 18:58:23.050436+00:00)
+2025-03-19 18:58:23,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:28 UTC)" executed successfully
+2025-03-19 18:58:27,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:32 UTC)" (scheduled at 2025-03-19 18:58:27.005646+00:00)
+2025-03-19 18:58:27,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:32 UTC)" executed successfully
+2025-03-19 18:58:28,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:33 UTC)" (scheduled at 2025-03-19 18:58:28.050436+00:00)
+2025-03-19 18:58:28,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:33 UTC)" executed successfully
+2025-03-19 18:58:28,051 - [Schedules] - INFO - Running job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:58:58 UTC)" (scheduled at 2025-03-19 18:58:28.051200+00:00)
+2025-03-19 18:58:28,062 - [Schedules] - INFO - Job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:58:58 UTC)" executed successfully
+2025-03-19 18:58:29,994 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:58:59 UTC)" (scheduled at 2025-03-19 18:58:29.994521+00:00)
+2025-03-19 18:58:30,501 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:58:59 UTC)" executed successfully
+2025-03-19 18:58:30,502 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-03-19 18:58:32,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:37 UTC)" (scheduled at 2025-03-19 18:58:32.005646+00:00)
+2025-03-19 18:58:32,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:37 UTC)" executed successfully
+2025-03-19 18:58:33,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:38 UTC)" (scheduled at 2025-03-19 18:58:33.050436+00:00)
+2025-03-19 18:58:33,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:38 UTC)" executed successfully
+2025-03-19 18:58:37,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:42 UTC)" (scheduled at 2025-03-19 18:58:37.005646+00:00)
+2025-03-19 18:58:37,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:42 UTC)" executed successfully
+2025-03-19 18:58:38,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:43 UTC)" (scheduled at 2025-03-19 18:58:38.050436+00:00)
+2025-03-19 18:58:38,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:43 UTC)" executed successfully
+2025-03-19 18:58:42,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:47 UTC)" (scheduled at 2025-03-19 18:58:42.005646+00:00)
+2025-03-19 18:58:42,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:47 UTC)" executed successfully
+2025-03-19 18:58:43,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:48 UTC)" (scheduled at 2025-03-19 18:58:43.050436+00:00)
+2025-03-19 18:58:43,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:48 UTC)" executed successfully
+2025-03-19 18:58:47,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:52 UTC)" (scheduled at 2025-03-19 18:58:47.005646+00:00)
+2025-03-19 18:58:47,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:52 UTC)" executed successfully
+2025-03-19 18:58:48,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:53 UTC)" (scheduled at 2025-03-19 18:58:48.050436+00:00)
+2025-03-19 18:58:48,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:53 UTC)" executed successfully
+2025-03-19 18:58:52,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:57 UTC)" (scheduled at 2025-03-19 18:58:52.005646+00:00)
+2025-03-19 18:58:52,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:57 UTC)" executed successfully
+2025-03-19 18:58:53,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:58 UTC)" (scheduled at 2025-03-19 18:58:53.050436+00:00)
+2025-03-19 18:58:53,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:58:58 UTC)" executed successfully
+2025-03-19 18:58:57,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:02 UTC)" (scheduled at 2025-03-19 18:58:57.005646+00:00)
+2025-03-19 18:58:57,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:02 UTC)" executed successfully
+2025-03-19 18:58:58,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:03 UTC)" (scheduled at 2025-03-19 18:58:58.050436+00:00)
+2025-03-19 18:58:58,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:03 UTC)" executed successfully
+2025-03-19 18:58:58,051 - [Schedules] - INFO - Running job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:59:28 UTC)" (scheduled at 2025-03-19 18:58:58.051200+00:00)
+2025-03-19 18:58:58,061 - [Schedules] - INFO - Job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:59:28 UTC)" executed successfully
+2025-03-19 18:58:59,995 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:59:29 UTC)" (scheduled at 2025-03-19 18:58:59.994521+00:00)
+2025-03-19 18:59:00,502 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:59:29 UTC)" executed successfully
+2025-03-19 18:59:00,502 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-03-19 18:59:02,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:07 UTC)" (scheduled at 2025-03-19 18:59:02.005646+00:00)
+2025-03-19 18:59:02,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:07 UTC)" executed successfully
+2025-03-19 18:59:03,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:08 UTC)" (scheduled at 2025-03-19 18:59:03.050436+00:00)
+2025-03-19 18:59:03,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:08 UTC)" executed successfully
+2025-03-19 18:59:07,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:12 UTC)" (scheduled at 2025-03-19 18:59:07.005646+00:00)
+2025-03-19 18:59:07,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:12 UTC)" executed successfully
+2025-03-19 18:59:08,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:13 UTC)" (scheduled at 2025-03-19 18:59:08.050436+00:00)
+2025-03-19 18:59:08,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:13 UTC)" executed successfully
+2025-03-19 18:59:12,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:17 UTC)" (scheduled at 2025-03-19 18:59:12.005646+00:00)
+2025-03-19 18:59:12,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:17 UTC)" executed successfully
+2025-03-19 18:59:13,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:18 UTC)" (scheduled at 2025-03-19 18:59:13.050436+00:00)
+2025-03-19 18:59:13,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:18 UTC)" executed successfully
+2025-03-19 18:59:17,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:22 UTC)" (scheduled at 2025-03-19 18:59:17.005646+00:00)
+2025-03-19 18:59:17,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:22 UTC)" executed successfully
+2025-03-19 18:59:18,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:23 UTC)" (scheduled at 2025-03-19 18:59:18.050436+00:00)
+2025-03-19 18:59:18,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:23 UTC)" executed successfully
+2025-03-19 18:59:22,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:27 UTC)" (scheduled at 2025-03-19 18:59:22.005646+00:00)
+2025-03-19 18:59:22,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:27 UTC)" executed successfully
+2025-03-19 18:59:23,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:28 UTC)" (scheduled at 2025-03-19 18:59:23.050436+00:00)
+2025-03-19 18:59:23,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:28 UTC)" executed successfully
+2025-03-19 18:59:27,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:32 UTC)" (scheduled at 2025-03-19 18:59:27.005646+00:00)
+2025-03-19 18:59:27,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:32 UTC)" executed successfully
+2025-03-19 18:59:28,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:33 UTC)" (scheduled at 2025-03-19 18:59:28.050436+00:00)
+2025-03-19 18:59:28,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:33 UTC)" executed successfully
+2025-03-19 18:59:28,051 - [Schedules] - INFO - Running job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:59:58 UTC)" (scheduled at 2025-03-19 18:59:28.051200+00:00)
+2025-03-19 18:59:28,061 - [Schedules] - INFO - Job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:59:58 UTC)" executed successfully
+2025-03-19 18:59:29,994 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:59:59 UTC)" (scheduled at 2025-03-19 18:59:29.994521+00:00)
+2025-03-19 18:59:30,502 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 18:59:59 UTC)" executed successfully
+2025-03-19 18:59:30,502 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-03-19 18:59:32,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:37 UTC)" (scheduled at 2025-03-19 18:59:32.005646+00:00)
+2025-03-19 18:59:32,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:37 UTC)" executed successfully
+2025-03-19 18:59:33,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:38 UTC)" (scheduled at 2025-03-19 18:59:33.050436+00:00)
+2025-03-19 18:59:33,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:38 UTC)" executed successfully
+2025-03-19 18:59:37,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:42 UTC)" (scheduled at 2025-03-19 18:59:37.005646+00:00)
+2025-03-19 18:59:37,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:42 UTC)" executed successfully
+2025-03-19 18:59:38,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:43 UTC)" (scheduled at 2025-03-19 18:59:38.050436+00:00)
+2025-03-19 18:59:38,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:43 UTC)" executed successfully
+2025-03-19 18:59:42,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:47 UTC)" (scheduled at 2025-03-19 18:59:42.005646+00:00)
+2025-03-19 18:59:42,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:47 UTC)" executed successfully
+2025-03-19 18:59:43,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:48 UTC)" (scheduled at 2025-03-19 18:59:43.050436+00:00)
+2025-03-19 18:59:43,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:48 UTC)" executed successfully
+2025-03-19 18:59:47,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:52 UTC)" (scheduled at 2025-03-19 18:59:47.005646+00:00)
+2025-03-19 18:59:47,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:52 UTC)" executed successfully
+2025-03-19 18:59:48,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:53 UTC)" (scheduled at 2025-03-19 18:59:48.050436+00:00)
+2025-03-19 18:59:48,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:53 UTC)" executed successfully
+2025-03-19 18:59:52,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:57 UTC)" (scheduled at 2025-03-19 18:59:52.005646+00:00)
+2025-03-19 18:59:52,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:57 UTC)" executed successfully
+2025-03-19 18:59:53,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:58 UTC)" (scheduled at 2025-03-19 18:59:53.050436+00:00)
+2025-03-19 18:59:53,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 18:59:58 UTC)" executed successfully
+2025-03-19 18:59:57,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:02 UTC)" (scheduled at 2025-03-19 18:59:57.005646+00:00)
+2025-03-19 18:59:57,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:02 UTC)" executed successfully
+2025-03-19 18:59:58,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:03 UTC)" (scheduled at 2025-03-19 18:59:58.050436+00:00)
+2025-03-19 18:59:58,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:03 UTC)" executed successfully
+2025-03-19 18:59:58,051 - [Schedules] - INFO - Running job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:00:28 UTC)" (scheduled at 2025-03-19 18:59:58.051200+00:00)
+2025-03-19 18:59:58,061 - [Schedules] - INFO - Job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:00:28 UTC)" executed successfully
+2025-03-19 18:59:59,994 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:00:29 UTC)" (scheduled at 2025-03-19 18:59:59.994521+00:00)
+2025-03-19 19:00:00,502 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:00:29 UTC)" executed successfully
+2025-03-19 19:00:00,502 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-03-19 19:00:02,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:07 UTC)" (scheduled at 2025-03-19 19:00:02.005646+00:00)
+2025-03-19 19:00:02,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:07 UTC)" executed successfully
+2025-03-19 19:00:03,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:08 UTC)" (scheduled at 2025-03-19 19:00:03.050436+00:00)
+2025-03-19 19:00:03,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:08 UTC)" executed successfully
+2025-03-19 19:00:07,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:12 UTC)" (scheduled at 2025-03-19 19:00:07.005646+00:00)
+2025-03-19 19:00:07,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:12 UTC)" executed successfully
+2025-03-19 19:00:08,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:13 UTC)" (scheduled at 2025-03-19 19:00:08.050436+00:00)
+2025-03-19 19:00:08,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:13 UTC)" executed successfully
+2025-03-19 19:00:12,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:17 UTC)" (scheduled at 2025-03-19 19:00:12.005646+00:00)
+2025-03-19 19:00:12,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:17 UTC)" executed successfully
+2025-03-19 19:00:13,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:18 UTC)" (scheduled at 2025-03-19 19:00:13.050436+00:00)
+2025-03-19 19:00:13,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:18 UTC)" executed successfully
+2025-03-19 19:00:17,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:22 UTC)" (scheduled at 2025-03-19 19:00:17.005646+00:00)
+2025-03-19 19:00:17,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:22 UTC)" executed successfully
+2025-03-19 19:00:18,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:23 UTC)" (scheduled at 2025-03-19 19:00:18.050436+00:00)
+2025-03-19 19:00:18,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:23 UTC)" executed successfully
+2025-03-19 19:00:22,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:27 UTC)" (scheduled at 2025-03-19 19:00:22.005646+00:00)
+2025-03-19 19:00:22,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:27 UTC)" executed successfully
+2025-03-19 19:00:23,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:28 UTC)" (scheduled at 2025-03-19 19:00:23.050436+00:00)
+2025-03-19 19:00:23,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:28 UTC)" executed successfully
+2025-03-19 19:00:27,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:32 UTC)" (scheduled at 2025-03-19 19:00:27.005646+00:00)
+2025-03-19 19:00:27,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:32 UTC)" executed successfully
+2025-03-19 19:00:28,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:33 UTC)" (scheduled at 2025-03-19 19:00:28.050436+00:00)
+2025-03-19 19:00:28,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:33 UTC)" executed successfully
+2025-03-19 19:00:28,051 - [Schedules] - INFO - Running job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:00:58 UTC)" (scheduled at 2025-03-19 19:00:28.051200+00:00)
+2025-03-19 19:00:28,061 - [Schedules] - INFO - Job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:00:58 UTC)" executed successfully
+2025-03-19 19:00:29,994 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:00:59 UTC)" (scheduled at 2025-03-19 19:00:29.994521+00:00)
+2025-03-19 19:00:30,502 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:00:59 UTC)" executed successfully
+2025-03-19 19:00:30,502 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-03-19 19:00:32,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:37 UTC)" (scheduled at 2025-03-19 19:00:32.005646+00:00)
+2025-03-19 19:00:32,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:37 UTC)" executed successfully
+2025-03-19 19:00:33,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:38 UTC)" (scheduled at 2025-03-19 19:00:33.050436+00:00)
+2025-03-19 19:00:33,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:38 UTC)" executed successfully
+2025-03-19 19:00:37,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:42 UTC)" (scheduled at 2025-03-19 19:00:37.005646+00:00)
+2025-03-19 19:00:37,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:42 UTC)" executed successfully
+2025-03-19 19:00:38,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:43 UTC)" (scheduled at 2025-03-19 19:00:38.050436+00:00)
+2025-03-19 19:00:38,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:43 UTC)" executed successfully
+2025-03-19 19:00:42,005 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:47 UTC)" (scheduled at 2025-03-19 19:00:42.005646+00:00)
+2025-03-19 19:00:42,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:47 UTC)" executed successfully
+2025-03-19 19:00:43,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:48 UTC)" (scheduled at 2025-03-19 19:00:43.050436+00:00)
+2025-03-19 19:00:43,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:48 UTC)" executed successfully
+2025-03-19 19:00:47,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:52 UTC)" (scheduled at 2025-03-19 19:00:47.005646+00:00)
+2025-03-19 19:00:47,009 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:52 UTC)" executed successfully
+2025-03-19 19:00:48,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:53 UTC)" (scheduled at 2025-03-19 19:00:48.050436+00:00)
+2025-03-19 19:00:48,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:53 UTC)" executed successfully
+2025-03-19 19:00:52,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:57 UTC)" (scheduled at 2025-03-19 19:00:52.005646+00:00)
+2025-03-19 19:00:52,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:57 UTC)" executed successfully
+2025-03-19 19:00:53,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:58 UTC)" (scheduled at 2025-03-19 19:00:53.050436+00:00)
+2025-03-19 19:00:53,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:00:58 UTC)" executed successfully
+2025-03-19 19:00:57,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:02 UTC)" (scheduled at 2025-03-19 19:00:57.005646+00:00)
+2025-03-19 19:00:57,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:02 UTC)" executed successfully
+2025-03-19 19:00:58,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:03 UTC)" (scheduled at 2025-03-19 19:00:58.050436+00:00)
+2025-03-19 19:00:58,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:03 UTC)" executed successfully
+2025-03-19 19:00:58,051 - [Schedules] - INFO - Running job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:01:28 UTC)" (scheduled at 2025-03-19 19:00:58.051200+00:00)
+2025-03-19 19:00:58,061 - [Schedules] - INFO - Job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:01:28 UTC)" executed successfully
+2025-03-19 19:00:59,994 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:01:29 UTC)" (scheduled at 2025-03-19 19:00:59.994521+00:00)
+2025-03-19 19:01:00,502 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:01:29 UTC)" executed successfully
+2025-03-19 19:01:00,502 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-03-19 19:01:02,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:07 UTC)" (scheduled at 2025-03-19 19:01:02.005646+00:00)
+2025-03-19 19:01:02,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:07 UTC)" executed successfully
+2025-03-19 19:01:03,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:08 UTC)" (scheduled at 2025-03-19 19:01:03.050436+00:00)
+2025-03-19 19:01:03,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:08 UTC)" executed successfully
+2025-03-19 19:01:07,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:12 UTC)" (scheduled at 2025-03-19 19:01:07.005646+00:00)
+2025-03-19 19:01:07,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:12 UTC)" executed successfully
+2025-03-19 19:01:08,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:13 UTC)" (scheduled at 2025-03-19 19:01:08.050436+00:00)
+2025-03-19 19:01:08,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:13 UTC)" executed successfully
+2025-03-19 19:01:12,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:17 UTC)" (scheduled at 2025-03-19 19:01:12.005646+00:00)
+2025-03-19 19:01:12,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:17 UTC)" executed successfully
+2025-03-19 19:01:13,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:18 UTC)" (scheduled at 2025-03-19 19:01:13.050436+00:00)
+2025-03-19 19:01:13,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:18 UTC)" executed successfully
+2025-03-19 19:01:17,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:22 UTC)" (scheduled at 2025-03-19 19:01:17.005646+00:00)
+2025-03-19 19:01:17,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:22 UTC)" executed successfully
+2025-03-19 19:01:18,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:23 UTC)" (scheduled at 2025-03-19 19:01:18.050436+00:00)
+2025-03-19 19:01:18,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:23 UTC)" executed successfully
+2025-03-19 19:01:22,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:27 UTC)" (scheduled at 2025-03-19 19:01:22.005646+00:00)
+2025-03-19 19:01:22,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:27 UTC)" executed successfully
+2025-03-19 19:01:23,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:28 UTC)" (scheduled at 2025-03-19 19:01:23.050436+00:00)
+2025-03-19 19:01:23,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:28 UTC)" executed successfully
+2025-03-19 19:01:27,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:32 UTC)" (scheduled at 2025-03-19 19:01:27.005646+00:00)
+2025-03-19 19:01:27,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:32 UTC)" executed successfully
+2025-03-19 19:01:28,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:33 UTC)" (scheduled at 2025-03-19 19:01:28.050436+00:00)
+2025-03-19 19:01:28,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:33 UTC)" executed successfully
+2025-03-19 19:01:28,051 - [Schedules] - INFO - Running job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:01:58 UTC)" (scheduled at 2025-03-19 19:01:28.051200+00:00)
+2025-03-19 19:01:28,063 - [Schedules] - INFO - Job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:01:58 UTC)" executed successfully
+2025-03-19 19:01:29,994 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:01:59 UTC)" (scheduled at 2025-03-19 19:01:29.994521+00:00)
+2025-03-19 19:01:30,502 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:01:59 UTC)" executed successfully
+2025-03-19 19:01:30,502 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-03-19 19:01:32,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:37 UTC)" (scheduled at 2025-03-19 19:01:32.005646+00:00)
+2025-03-19 19:01:32,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:37 UTC)" executed successfully
+2025-03-19 19:01:33,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:38 UTC)" (scheduled at 2025-03-19 19:01:33.050436+00:00)
+2025-03-19 19:01:33,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:38 UTC)" executed successfully
+2025-03-19 19:01:37,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:42 UTC)" (scheduled at 2025-03-19 19:01:37.005646+00:00)
+2025-03-19 19:01:37,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:42 UTC)" executed successfully
+2025-03-19 19:01:38,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:43 UTC)" (scheduled at 2025-03-19 19:01:38.050436+00:00)
+2025-03-19 19:01:38,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:43 UTC)" executed successfully
+2025-03-19 19:01:42,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:47 UTC)" (scheduled at 2025-03-19 19:01:42.005646+00:00)
+2025-03-19 19:01:42,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:47 UTC)" executed successfully
+2025-03-19 19:01:43,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:48 UTC)" (scheduled at 2025-03-19 19:01:43.050436+00:00)
+2025-03-19 19:01:43,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:48 UTC)" executed successfully
+2025-03-19 19:01:47,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:52 UTC)" (scheduled at 2025-03-19 19:01:47.005646+00:00)
+2025-03-19 19:01:47,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:52 UTC)" executed successfully
+2025-03-19 19:01:48,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:53 UTC)" (scheduled at 2025-03-19 19:01:48.050436+00:00)
+2025-03-19 19:01:48,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:53 UTC)" executed successfully
+2025-03-19 19:01:52,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:57 UTC)" (scheduled at 2025-03-19 19:01:52.005646+00:00)
+2025-03-19 19:01:52,009 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:57 UTC)" executed successfully
+2025-03-19 19:01:53,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:58 UTC)" (scheduled at 2025-03-19 19:01:53.050436+00:00)
+2025-03-19 19:01:53,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:01:58 UTC)" executed successfully
+2025-03-19 19:01:57,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:02 UTC)" (scheduled at 2025-03-19 19:01:57.005646+00:00)
+2025-03-19 19:01:57,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:02 UTC)" executed successfully
+2025-03-19 19:01:58,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:03 UTC)" (scheduled at 2025-03-19 19:01:58.050436+00:00)
+2025-03-19 19:01:58,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:03 UTC)" executed successfully
+2025-03-19 19:01:58,051 - [Schedules] - INFO - Running job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:02:28 UTC)" (scheduled at 2025-03-19 19:01:58.051200+00:00)
+2025-03-19 19:01:58,062 - [Schedules] - INFO - Job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:02:28 UTC)" executed successfully
+2025-03-19 19:01:59,994 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:02:29 UTC)" (scheduled at 2025-03-19 19:01:59.994521+00:00)
+2025-03-19 19:02:00,502 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:02:29 UTC)" executed successfully
+2025-03-19 19:02:00,502 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-03-19 19:02:02,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:07 UTC)" (scheduled at 2025-03-19 19:02:02.005646+00:00)
+2025-03-19 19:02:02,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:07 UTC)" executed successfully
+2025-03-19 19:02:03,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:08 UTC)" (scheduled at 2025-03-19 19:02:03.050436+00:00)
+2025-03-19 19:02:03,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:08 UTC)" executed successfully
+2025-03-19 19:02:07,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:12 UTC)" (scheduled at 2025-03-19 19:02:07.005646+00:00)
+2025-03-19 19:02:07,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:12 UTC)" executed successfully
+2025-03-19 19:02:08,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:13 UTC)" (scheduled at 2025-03-19 19:02:08.050436+00:00)
+2025-03-19 19:02:08,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:13 UTC)" executed successfully
+2025-03-19 19:02:12,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:17 UTC)" (scheduled at 2025-03-19 19:02:12.005646+00:00)
+2025-03-19 19:02:12,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:17 UTC)" executed successfully
+2025-03-19 19:02:13,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:18 UTC)" (scheduled at 2025-03-19 19:02:13.050436+00:00)
+2025-03-19 19:02:13,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:18 UTC)" executed successfully
+2025-03-19 19:02:17,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:22 UTC)" (scheduled at 2025-03-19 19:02:17.005646+00:00)
+2025-03-19 19:02:17,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:22 UTC)" executed successfully
+2025-03-19 19:02:18,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:23 UTC)" (scheduled at 2025-03-19 19:02:18.050436+00:00)
+2025-03-19 19:02:18,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:23 UTC)" executed successfully
+2025-03-19 19:02:22,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:27 UTC)" (scheduled at 2025-03-19 19:02:22.005646+00:00)
+2025-03-19 19:02:22,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:27 UTC)" executed successfully
+2025-03-19 19:02:23,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:28 UTC)" (scheduled at 2025-03-19 19:02:23.050436+00:00)
+2025-03-19 19:02:23,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:28 UTC)" executed successfully
+2025-03-19 19:02:27,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:32 UTC)" (scheduled at 2025-03-19 19:02:27.005646+00:00)
+2025-03-19 19:02:27,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:32 UTC)" executed successfully
+2025-03-19 19:02:28,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:33 UTC)" (scheduled at 2025-03-19 19:02:28.050436+00:00)
+2025-03-19 19:02:28,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:33 UTC)" executed successfully
+2025-03-19 19:02:28,051 - [Schedules] - INFO - Running job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:02:58 UTC)" (scheduled at 2025-03-19 19:02:28.051200+00:00)
+2025-03-19 19:02:28,065 - [Schedules] - INFO - Job "ServerInstance.record_server_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:02:58 UTC)" executed successfully
+2025-03-19 19:02:29,995 - [Schedules] - INFO - Running job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:02:59 UTC)" (scheduled at 2025-03-19 19:02:29.994521+00:00)
+2025-03-19 19:02:30,502 - [Schedules] - INFO - Job "Stats.record_stats (trigger: interval[0:00:30], next run at: 2025-03-19 19:02:59 UTC)" executed successfully
+2025-03-19 19:02:30,502 - [Schedules] - INFO - Event job ID is not numerical. Assuming it's stats - not stored in DB. Moving on.
+2025-03-19 19:02:32,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:37 UTC)" (scheduled at 2025-03-19 19:02:32.005646+00:00)
+2025-03-19 19:02:32,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:37 UTC)" executed successfully
+2025-03-19 19:02:33,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:38 UTC)" (scheduled at 2025-03-19 19:02:33.050436+00:00)
+2025-03-19 19:02:33,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:38 UTC)" executed successfully
+2025-03-19 19:02:37,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:42 UTC)" (scheduled at 2025-03-19 19:02:37.005646+00:00)
+2025-03-19 19:02:37,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:42 UTC)" executed successfully
+2025-03-19 19:02:38,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:43 UTC)" (scheduled at 2025-03-19 19:02:38.050436+00:00)
+2025-03-19 19:02:38,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:43 UTC)" executed successfully
+2025-03-19 19:02:42,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:47 UTC)" (scheduled at 2025-03-19 19:02:42.005646+00:00)
+2025-03-19 19:02:42,008 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:47 UTC)" executed successfully
+2025-03-19 19:02:43,050 - [Schedules] - INFO - Running job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:48 UTC)" (scheduled at 2025-03-19 19:02:43.050436+00:00)
+2025-03-19 19:02:43,051 - [Schedules] - INFO - Job "ServerInstance.realtime_stats (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:48 UTC)" executed successfully
+2025-03-19 19:02:47,006 - [Schedules] - INFO - Running job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:52 UTC)" (scheduled at 2025-03-19 19:02:47.005646+00:00)
+2025-03-19 19:02:47,007 - [Schedules] - INFO - Job "ServerInstance.cache_players (trigger: interval[0:00:05], next run at: 2025-03-19 19:02:52 UTC)" executed successfully
