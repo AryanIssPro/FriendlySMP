@@ -1,9 +1,0 @@
-{
-  "name": "FriendlySMP Server 1",
-  "postCreateCommand": "bash start.sh",
-  "features": {
-      "ghcr.io/devcontainers/features/sshd:1": {
-          "version": "latest"
-      }
-  }
-}
