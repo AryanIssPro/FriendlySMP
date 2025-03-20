@@ -5,22 +5,23 @@ prefix: '&#55ff00&lAxVaults &7» '
 # this setting is not reloadable, you have to restart the server
 # how often should the plugin save vaults from ram to the database?
 # this is in minutes
-auto-save-minutes: 1
+auto-save-minutes: 5
 
 # how many rows should the /axvault selector menu have?
-vault-selector-rows: 6
+vault-selector-rows: 2
 
 # how many rows should the vault icon picker have?
 item-picker-rows: 6
 
 # how many rows should vaults have?
 # you can override this with the axvaults.rows.# permission
-# you should keep this on 6 and only /change it with permissions
+# you should keep this on 6 and only change it with permissions
 vault-storage-rows: 6
 
 database:
   # h2, sqlite, mysql
   # for single server setups we recommend h2
+  type: h2
   type: h2
   
   # you only need to touch these when using mysql/postgresql
@@ -47,7 +48,7 @@ multi-server-support: none
 permission-mode: 0
 
 # should vaults that the player can't access be shown in the selector gui?
-show-locked-vaults: true
+show-locked-vaults: false
 
 # how many items should be shown in the vault selector
 # modes:

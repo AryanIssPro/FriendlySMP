@@ -32114,3 +32114,10 @@
     "Remote_IP": "::1",
     "Elapsed_Time": "0.44ms"
 }
+2025-03-20 14:20:31,161 - [Tornado] - [Access] - INFO - {
+    "Status_Code": 304,
+    "Method": "GET",
+    "URL": "/api/v2/crafty/announcements/",
+    "Remote_IP": "::1",
+    "Elapsed_Time": "987.40ms"
+}
