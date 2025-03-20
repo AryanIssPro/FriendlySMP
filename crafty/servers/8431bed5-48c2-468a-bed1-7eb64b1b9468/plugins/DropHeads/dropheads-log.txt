@@ -7,3 +7,4 @@
 1742379273023,player decapitated,.AryanIssPro,AryanIssPro,§f[Iron Axe]
 1742382419649,player decapitated,AryanIssPro,VaibhavIssPro,§f[Iron Axe]
 1742388483247,player decapitated,AryanIssPro,.AryanIssPro,
+1742449861625,player decapitated,kevin_ke_papa,VaibhavIssPro,§f[Diamond Axe]
