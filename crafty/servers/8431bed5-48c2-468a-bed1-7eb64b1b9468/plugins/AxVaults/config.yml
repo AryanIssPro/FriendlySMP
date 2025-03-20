@@ -22,7 +22,6 @@ database:
   # h2, sqlite, mysql
   # for single server setups we recommend h2
   type: h2
-  type: h2
   
   # you only need to touch these when using mysql/postgresql
   address: 127.0.0.1
