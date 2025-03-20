@@ -6,6 +6,7 @@
 '100_74_178_18':
 - VaibhavIssPro
 '100_115_57_98':
+- AryanIssPro
 - .AryanIssPro
 '127_186_89_186':
 - AryanIssPro

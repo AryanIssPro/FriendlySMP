@@ -1,311 +1,247 @@
-[02:19:27] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[02:19:27] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) for Minecraft 1.21.4
-[02:19:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[02:19:28] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
-[02:19:28] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (13):
+[10:28:24] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[10:28:24] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) for Minecraft 1.21.4
+[10:28:24] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[10:28:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
+[10:28:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (13):
  - AxVaults (2.6.5), DropHeads (3.9.11), Essentials (2.21.0-dev+189-eab2201), Geyser-Spigot (2.6.1-SNAPSHOT), LuckPerms (5.4.156), TAB (5.0.7), ViaBackwards (5.2.1), ViaRewind (4.0.4), ViaVersion (5.2.1), WorldEdit (7.3.10+7004-768a436), dynmap (3.7-SNAPSHOT-968), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), voicechat (2.5.28)
-[02:19:35] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:19:38] [ServerMain/INFO]: Loaded 1370 recipes
-[02:19:38] [ServerMain/INFO]: Loaded 1481 advancements
-[02:19:38] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[02:19:39] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 299.5ms
-[02:19:39] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[02:19:39] [Server thread/INFO]: Loading properties
-[02:19:39] [Server thread/INFO]: This server is running Paper version 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[02:19:39] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[02:19:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:19:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:19:40] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[02:19:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[02:19:41] [Server thread/INFO]: Default game type: SURVIVAL
-[02:19:41] [Server thread/INFO]: Generating keypair
-[02:19:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:19:41] [Server thread/INFO]: Using epoll channel type
-[02:19:41] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[02:19:41] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[02:19:43] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[02:19:43] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[02:19:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[02:19:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[02:19:44] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[02:19:44] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[02:19:45] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[02:19:45] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[02:19:45] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
-[02:19:46] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[02:19:47] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[02:19:47] [Server thread/INFO]: [floodgate] Took 1,014ms to boot Floodgate
-[02:19:47] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
-[02:19:47] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
-[02:19:47] [Server thread/INFO]: [AxVaults] Loading server plugin AxVaults v2.6.5
-[02:19:48] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.1-SNAPSHOT
-[02:19:49] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[02:19:49] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[02:19:49] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[02:19:49] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.28
-[02:19:49] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10+7004-768a436
-[02:19:49] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@cf6c8df]
-[02:19:49] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
-[02:19:49] [Server thread/INFO]: [dynmap] version=1.21.4-212-bb1beda (MC: 1.21.4)
-[02:19:49] [Server thread/INFO]: [dynmap] Mod Support API available
-[02:19:49] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
-[02:19:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:19:49] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[02:19:50] [Server thread/INFO]:         __    
-[02:19:50] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[02:19:50] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[02:19:50] [Server thread/INFO]: 
-[02:19:50] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[02:19:50] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[02:19:51] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[02:19:51] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[02:19:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2096ms)
-[02:19:51] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
-[02:19:51] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
-[02:19:51] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[02:19:52] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[02:19:52] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
-[02:19:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:19:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:19:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:19:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:19:55] [Server thread/INFO]: Preparing level "world"
-[02:19:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:19:57] [Server thread/INFO]: Preparing spawn area: 0%
-[02:19:58] [Server thread/INFO]: Preparing spawn area: 0%
-[02:19:58] [Server thread/INFO]: Preparing spawn area: 0%
-[02:19:58] [Server thread/INFO]: Preparing spawn area: 0%
-[02:19:58] [Server thread/INFO]: Time elapsed: 1729 ms
-[02:19:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:19:59] [Server thread/INFO]: Preparing spawn area: 0%
-[02:19:59] [Server thread/INFO]: Time elapsed: 471 ms
-[02:19:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:19:59] [Server thread/INFO]: Preparing spawn area: 0%
-[02:19:59] [Server thread/INFO]: Time elapsed: 274 ms
-[02:19:59] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[02:19:59] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
-[02:19:59] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[02:19:59] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[02:20:00] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
-[02:20:01] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[02:20:01] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[02:20:01] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[02:20:01] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[02:20:02] [Server thread/INFO]: [Essentials] Using locale en
-[02:20:02] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[02:20:02] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[02:20:02] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[02:20:02] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[02:20:02] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[02:20:02] [Server thread/INFO]: [AxVaults] Enabling AxVaults v2.6.5
-[02:20:04] [Server thread/INFO]: [AxVaults] Loaded plugin!
-[02:20:04] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
-[02:20:05] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[02:20:05] [Server thread/INFO]: [TAB] Loaded NMS hook in 53ms
-[02:20:05] [Server thread/INFO]: [TAB] Enabled in 340ms
-[02:20:05] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.28
-[02:20:05] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.4-R0.1
-[02:20:05] [Server thread/INFO]: [voicechat] Compatibility version 18
-[02:20:05] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[02:20:05] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[02:20:05] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
-[02:20:06] [Server thread/INFO]: [dynmap] Added 21 custom biome mappings
-[02:20:06] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.156 for access control
-[02:20:06] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[02:20:10] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[02:20:10] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[02:20:10] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[02:20:10] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[02:20:11] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[02:20:11] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[02:20:11] [Server thread/INFO]: [dynmap] version 3.7-SNAPSHOT-968 is enabled - core version 3.7-SNAPSHOT-985
-[02:20:11] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[02:20:11] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
-[02:20:11] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[02:20:11] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[02:20:11] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[02:20:11] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[02:20:11] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[02:20:11] [Server thread/INFO]: [dynmap] Enabled
-[02:20:11] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
-[02:20:12] [Server thread/INFO]: [spark] Starting background profiler...
-[02:20:12] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[02:20:12] [Server thread/INFO]: [Geyser-Spigot] 
-[02:20:12] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.1-b786 (git-master-32160c5)
-[02:20:12] [Server thread/INFO]: [Geyser-Spigot] 
-[02:20:12] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[02:20:17] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[02:20:17] [Server thread/INFO]: [Geyser-Spigot] Done (4.922s)! Run /geyser help for help!
-[02:20:17] [Server thread/INFO]: Done preparing level "world" (22.395s)
-[02:20:17] [Server thread/INFO]: Starting GS4 status listener
-[02:20:17] [Server thread/INFO]: Thread Query Listener started
-[02:20:17] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[02:20:17] [Server thread/INFO]: Running delayed init tasks
-[02:20:17] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[02:20:17] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
-[02:20:18] [Server thread/INFO]: Done (51.898s)! For help, type "help"
-[02:20:18] [Server thread/INFO]: [voicechat] Loading plugins
-[02:20:18] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[02:20:18] [Server thread/INFO]: [voicechat] Initializing plugins
-[02:20:18] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[02:20:18] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[02:20:18] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'ideas-impossible.gl.at.ply.gg:1155'
-[02:20:18] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[02:20:18] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
-[02:20:18] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[02:21:14] [User Authenticator #0/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
-[02:21:17] [Server thread/INFO]: AryanIssPro joined the game
-[02:21:17] [Server thread/INFO]: AryanIssPro[/127.186.89.186:47601] logged in with entity id 31 at ([world]90.98095489870417, 69.0, -188.2882718305197)
-[02:21:17] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
-[02:21:17] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
-[02:21:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
-[02:21:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 427bc943-f939-30f1-b40e-c29325272737
-[02:21:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player AryanIssPro (427bc943-f939-30f1-b40e-c29325272737) successfully connected to voice chat
-[02:22:15] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
-[02:24:20] [User Authenticator #1/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
-[02:24:20] [Server thread/INFO]: AryanIssPro lost connection: You logged in from another location
-[02:24:20] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
-[02:24:20] [Server thread/INFO]: AryanIssPro left the game
-[02:24:23] [Server thread/INFO]: AryanIssPro joined the game
-[02:24:23] [Server thread/INFO]: AryanIssPro[/100.64.1.3:20339] logged in with entity id 497 at ([world]93.3566452380541, 69.0, -188.69999998807907)
-[02:24:25] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
-[02:24:25] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
-[02:24:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
-[02:24:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 427bc943-f939-30f1-b40e-c29325272737
-[02:24:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player AryanIssPro (427bc943-f939-30f1-b40e-c29325272737) successfully connected to voice chat
-[02:24:47] [User Authenticator #1/INFO]: UUID of player AryanKaAlt is ba2480b3-bc85-3ac4-b903-a8c9c3dea2e0
-[02:24:50] [Server thread/INFO]: AryanKaAlt joined the game
-[02:24:50] [Server thread/INFO]: AryanKaAlt[/100.64.1.3:20356] logged in with entity id 545 at ([world]8.5, 63.0, -1.5)
-[02:24:50] [Server thread/INFO]: [voicechat] Received secret request of AryanKaAlt (18)
-[02:24:50] [Server thread/INFO]: [voicechat] Sent secret to AryanKaAlt
-[02:24:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ba2480b3-bc85-3ac4-b903-a8c9c3dea2e0
-[02:24:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player ba2480b3-bc85-3ac4-b903-a8c9c3dea2e0
-[02:24:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player AryanKaAlt (ba2480b3-bc85-3ac4-b903-a8c9c3dea2e0) successfully connected to voice chat
-[02:25:03] [Server thread/INFO]: AryanKaAlt issued server command: /voicechat test AryanIssPro
-[02:25:19] [Server thread/INFO]: AryanIssPro issued server command: /voicechat test @a
-[02:25:28] [Server thread/INFO]: AryanIssPro issued server command: /voicechat test AryanKaAlt
-[02:25:28] [Server thread/INFO]: [voicechat] Sent ping 60b4cd3d-ee36-4613-b0ed-e4a20ee89ac1 attempt 1
-[02:25:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Received pong 60b4cd3d-ee36-4613-b0ed-e4a20ee89ac1
-[02:41:09] [Server thread/INFO]: AryanKaAlt was slain by Drowned
-[02:43:41] [Server thread/INFO]: AryanKaAlt was slain by Zombie
-[02:44:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2535ms or 50 ticks behind
-[02:44:41] [Server thread/WARN]: AryanKaAlt moved wrongly!
-[02:45:15] [Server thread/WARN]: AryanKaAlt moved wrongly!
-[02:45:15] [Server thread/WARN]: AryanKaAlt moved wrongly!
-[02:45:15] [Server thread/WARN]: AryanKaAlt moved wrongly!
-[02:45:16] [Server thread/WARN]: AryanKaAlt moved wrongly!
-[02:46:07] [Server thread/INFO]: AryanKaAlt lost connection: Disconnected
-[02:46:07] [Server thread/INFO]: [voicechat] Disconnecting client AryanKaAlt
-[02:46:07] [Server thread/INFO]: AryanKaAlt left the game
-[02:48:13] [Server thread/INFO]: AryanIssPro issued server command: /voicechat test AryanIssPro
-[02:48:13] [Server thread/INFO]: [voicechat] Sent ping 97f79945-40f3-4386-9395-f9d540e2d772 attempt 1
-[02:48:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Received pong 97f79945-40f3-4386-9395-f9d540e2d772
-[02:48:15] [Server thread/INFO]: AryanIssPro issued server command: /voicechat test AryanIssPro
-[02:48:15] [Server thread/INFO]: [voicechat] Sent ping dd658e61-0ff4-4304-a098-f36aff3b4d8c attempt 1
-[02:48:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Received pong dd658e61-0ff4-4304-a098-f36aff3b4d8c
-[02:48:17] [Server thread/INFO]: AryanIssPro issued server command: /voicechat test AryanIssPro
-[02:48:17] [Server thread/INFO]: [voicechat] Sent ping 3f6e58fa-f3e1-40e1-a136-d75262b6ebc7 attempt 1
-[02:48:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Received pong 3f6e58fa-f3e1-40e1-a136-d75262b6ebc7
-[02:48:19] [Server thread/INFO]: AryanIssPro issued server command: /voicechat test AryanIssPro
-[02:48:19] [Server thread/INFO]: [voicechat] Sent ping 7a8771fc-3527-4ce0-bd6e-6a4faf048182 attempt 1
-[02:48:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Received pong 7a8771fc-3527-4ce0-bd6e-6a4faf048182
-[02:48:21] [Server thread/INFO]: AryanIssPro lost connection: Disconnected
-[02:48:21] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
-[02:48:21] [Server thread/INFO]: AryanIssPro left the game
-[02:48:24] [User Authenticator #2/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
-[02:48:26] [Server thread/INFO]: AryanIssPro joined the game
-[02:48:26] [Server thread/INFO]: AryanIssPro[/127.186.89.186:40287] logged in with entity id 6836 at ([world]90.86254088251845, 69.0, -185.753132975996)
-[02:48:26] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
-[02:48:26] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
-[02:48:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
-[02:48:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 427bc943-f939-30f1-b40e-c29325272737
-[02:48:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player AryanIssPro (427bc943-f939-30f1-b40e-c29325272737) successfully connected to voice chat
-[02:49:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 427bc943-f939-30f1-b40e-c29325272737 timed out
-[02:49:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player AryanIssPro
-[02:49:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to AryanIssPro
-[02:49:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
-[02:49:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 427bc943-f939-30f1-b40e-c29325272737
-[02:49:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player AryanIssPro (427bc943-f939-30f1-b40e-c29325272737) successfully connected to voice chat
-[03:14:39] [Server thread/INFO]: AryanIssPro lost connection: Disconnected
-[03:14:39] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
-[03:14:39] [Server thread/INFO]: AryanIssPro left the game
-[03:18:10] [Server thread/INFO]: Stopping the server
-[03:18:10] [Server thread/INFO]: Stopping server
-[03:18:10] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.9.11
-[03:18:10] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-SNAPSHOT-968
-[03:18:11] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[03:18:11] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[03:18:11] [Server thread/INFO]: [dynmap] Saved 456 pending tile renders in world 'world'
-[03:18:11] [Server thread/INFO]: [dynmap] Disabled
-[03:18:11] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10+7004-768a436
-[03:18:11] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[03:18:11] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.28
-[03:18:11] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
-[03:18:11] [Server thread/INFO]: [TAB] Disabled in 1ms
-[03:18:11] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.1-SNAPSHOT
-[03:18:11] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[03:18:11] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[03:18:11] [Server thread/INFO]: [AxVaults] Disabling AxVaults v2.6.5
-[03:18:11] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+189-eab2201
-[03:18:11] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
-[03:18:11] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[03:18:11] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
-[03:18:11] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[03:18:11] [Server thread/INFO]: [LuckPerms] Closing storage...
-[03:18:11] [Server thread/INFO]: [LuckPerms] Goodbye!
-[03:18:11] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
-[03:18:11] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[03:18:11] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[03:18:11] [Server thread/INFO]: Saving players
-[03:18:11] [WebSocketConnectReadThread-135/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[03:18:11] [Server thread/INFO]: Saving worlds
-[03:18:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 210 entity chunks, 0 poi chunks in world 'world' in 0.08s
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[03:18:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[03:18:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[03:18:11] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[03:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:18:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03:18:11] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[03:18:11] [Server thread/INFO]: All I/O tasks to complete
-[03:18:11] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[03:18:11] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[10:28:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:28:36] [ServerMain/INFO]: Loaded 1370 recipes
+[10:28:36] [ServerMain/INFO]: Loaded 1481 advancements
+[10:28:37] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[10:28:37] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 319.2ms
+[10:28:37] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[10:28:37] [Server thread/INFO]: Loading properties
+[10:28:37] [Server thread/INFO]: This server is running Paper version 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[10:28:37] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[10:28:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:28:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:28:39] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[10:28:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[10:28:40] [Server thread/INFO]: Default game type: SURVIVAL
+[10:28:40] [Server thread/INFO]: Generating keypair
+[10:28:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:28:40] [Server thread/INFO]: Using epoll channel type
+[10:28:40] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[10:28:40] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[10:28:42] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[10:28:42] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[10:28:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[10:28:43] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[10:28:43] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[10:28:43] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[10:28:44] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[10:28:45] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[10:28:45] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
+[10:28:45] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[10:28:46] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[10:28:46] [Server thread/INFO]: [floodgate] Took 1,220ms to boot Floodgate
+[10:28:46] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
+[10:28:46] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
+[10:28:46] [Server thread/INFO]: [AxVaults] Loading server plugin AxVaults v2.6.5
+[10:28:47] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.1-SNAPSHOT
+[10:28:48] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[10:28:48] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[10:28:48] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[10:28:48] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.28
+[10:28:48] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10+7004-768a436
+[10:28:49] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5105f8f9]
+[10:28:49] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
+[10:28:49] [Server thread/INFO]: [dynmap] version=1.21.4-212-bb1beda (MC: 1.21.4)
+[10:28:49] [Server thread/INFO]: [dynmap] Mod Support API available
+[10:28:49] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
+[10:28:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:28:49] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[10:28:50] [Server thread/INFO]:         __    
+[10:28:50] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[10:28:50] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[10:28:50] [Server thread/INFO]: 
+[10:28:50] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[10:28:50] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[10:28:51] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[10:28:51] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[10:28:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2117ms)
+[10:28:51] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[10:28:51] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
+[10:28:51] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[10:28:51] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[10:28:52] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
+[10:28:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:28:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:28:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:28:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:28:55] [Server thread/INFO]: Preparing level "world"
+[10:28:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:28:57] [Server thread/INFO]: Preparing spawn area: 0%
+[10:28:58] [Server thread/INFO]: Preparing spawn area: 0%
+[10:28:58] [Server thread/INFO]: Preparing spawn area: 0%
+[10:28:58] [Server thread/INFO]: Preparing spawn area: 0%
+[10:28:58] [Server thread/INFO]: Time elapsed: 1691 ms
+[10:28:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:28:58] [Server thread/INFO]: Preparing spawn area: 0%
+[10:28:59] [Server thread/INFO]: Preparing spawn area: 71%
+[10:28:59] [Server thread/INFO]: Time elapsed: 571 ms
+[10:28:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:28:59] [Server thread/INFO]: Preparing spawn area: 0%
+[10:28:59] [Server thread/INFO]: Time elapsed: 353 ms
+[10:28:59] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[10:28:59] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[10:29:00] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[10:29:00] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[10:29:00] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
+[10:29:01] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[10:29:01] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[10:29:01] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[10:29:01] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[10:29:01] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[10:29:01] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[10:29:01] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[10:29:01] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[10:29:01] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[10:29:01] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[10:29:01] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[10:29:02] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[10:29:02] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[10:29:02] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[10:29:02] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[10:29:02] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[10:29:02] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[10:29:02] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[10:29:02] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[10:29:02] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[10:29:02] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[10:29:02] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[10:29:02] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[10:29:02] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[10:29:02] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[10:29:02] [Server thread/INFO]: [Essentials] Using locale en
+[10:29:02] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[10:29:03] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[10:29:03] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[10:29:03] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[10:29:03] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[10:29:03] [Server thread/INFO]: [AxVaults] Enabling AxVaults v2.6.5
+[10:29:05] [Server thread/INFO]: [AxVaults] Loaded plugin!
+[10:29:05] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
+[10:29:05] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[10:29:05] [Server thread/INFO]: [TAB] Loaded NMS hook in 112ms
+[10:29:06] [Server thread/INFO]: [TAB] Enabled in 285ms
+[10:29:06] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.28
+[10:29:06] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.4-R0.1
+[10:29:06] [Server thread/INFO]: [voicechat] Compatibility version 18
+[10:29:06] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[10:29:06] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[10:29:06] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
+[10:29:06] [Server thread/INFO]: [dynmap] Added 21 custom biome mappings
+[10:29:06] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.156 for access control
+[10:29:07] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[10:29:12] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[10:29:12] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[10:29:12] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[10:29:12] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[10:29:12] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[10:29:13] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[10:29:13] [Server thread/INFO]: [dynmap] version 3.7-SNAPSHOT-968 is enabled - core version 3.7-SNAPSHOT-985
+[10:29:13] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[10:29:13] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[10:29:13] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[10:29:13] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[10:29:13] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[10:29:13] [Server thread/INFO]: [dynmap] Loaded 456 pending tile renders for world 'world'
+[10:29:13] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[10:29:13] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[10:29:13] [Server thread/INFO]: [dynmap] Enabled
+[10:29:13] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
+[10:29:14] [Server thread/INFO]: [spark] Starting background profiler...
+[10:29:14] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:29:14] [Server thread/INFO]: [Geyser-Spigot] 
+[10:29:14] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.1-b786 (git-master-32160c5)
+[10:29:14] [Server thread/INFO]: [Geyser-Spigot] 
+[10:29:14] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:29:19] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[10:29:19] [Server thread/INFO]: [Geyser-Spigot] Done (4.577s)! Run /geyser help for help!
+[10:29:19] [Server thread/INFO]: Done preparing level "world" (24.435s)
+[10:29:19] [Server thread/INFO]: Starting GS4 status listener
+[10:29:19] [Server thread/INFO]: Thread Query Listener started
+[10:29:19] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[10:29:19] [Server thread/INFO]: Running delayed init tasks
+[10:29:19] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[10:29:19] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[10:29:20] [Server thread/INFO]: Done (56.706s)! For help, type "help"
+[10:29:20] [Server thread/INFO]: [voicechat] Loading plugins
+[10:29:20] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[10:29:20] [Server thread/INFO]: [voicechat] Initializing plugins
+[10:29:20] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[10:29:20] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[10:29:20] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'ideas-impossible.gl.at.ply.gg:1155'
+[10:29:20] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[10:29:20] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[10:29:20] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[10:29:20] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[10:31:02] [User Authenticator #0/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+[10:31:09] [Server thread/INFO]: AryanIssPro joined the game
+[10:31:09] [Server thread/INFO]: AryanIssPro[/100.115.57.98:40306] logged in with entity id 27 at ([world]87.1164158636053, 69.0, -183.87330342034252)
+[10:31:12] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
+[10:31:12] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
+[10:31:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
+[10:31:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 427bc943-f939-30f1-b40e-c29325272737
+[10:31:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player AryanIssPro (427bc943-f939-30f1-b40e-c29325272737) successfully connected to voice chat
+[10:31:23] [Server thread/INFO]: AryanIssPro lost connection: Disconnected
+[10:31:23] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
+[10:31:23] [Server thread/INFO]: AryanIssPro left the game
+[10:36:07] [Server thread/INFO]: Stopping server
+[10:36:07] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.9.11
+[10:36:07] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-SNAPSHOT-968
+[10:36:07] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[10:36:07] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[10:36:08] [Server thread/INFO]: [dynmap] Disabled
+[10:36:08] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10+7004-768a436
+[10:36:08] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[10:36:08] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.28
+[10:36:08] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
+[10:36:08] [Server thread/INFO]: [TAB] Disabled in 1ms
+[10:36:08] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.1-SNAPSHOT
+[10:36:08] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[10:36:08] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[10:36:08] [Server thread/INFO]: [AxVaults] Disabling AxVaults v2.6.5
+[10:36:08] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+189-eab2201
+[10:36:08] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
+[10:36:08] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[10:36:08] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
+[10:36:08] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[10:36:08] [Server thread/INFO]: [LuckPerms] Closing storage...
+[10:36:08] [Server thread/INFO]: [LuckPerms] Goodbye!
+[10:36:08] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[10:36:08] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[10:36:08] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[10:36:08] [WebSocketConnectReadThread-137/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[10:36:08] [Server thread/INFO]: Saving players
+[10:36:08] [Server thread/INFO]: Saving worlds
+[10:36:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 126 entity chunks, 0 poi chunks in world 'world' in 0.06s
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[10:36:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[10:36:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[10:36:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[10:36:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:36:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:36:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:36:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:36:08] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[10:36:08] [Server thread/INFO]: All I/O tasks to complete
+[10:36:08] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[10:36:08] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
