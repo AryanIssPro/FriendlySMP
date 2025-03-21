@@ -77,3 +77,29 @@ Traceback (most recent call last):
     server_icon = base64.encodebytes(ping_obj.icon)
                                      ^^^^^^^^^^^^^
 AttributeError: 'bool' object has no attribute 'icon'
+2025-03-21 14:44:30,219 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/workspaces/FriendlySMP/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+                              ^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'players'
+2025-03-21 14:44:30,224 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/workspaces/FriendlySMP/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+                                     ^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'icon'
+2025-03-21 14:44:40,215 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/workspaces/FriendlySMP/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+                              ^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'players'
+2025-03-21 14:44:40,220 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/workspaces/FriendlySMP/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+                                     ^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'icon'
+2025-03-21 14:44:45,434 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-21 14:44:46,058 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 

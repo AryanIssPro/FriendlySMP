@@ -70,3 +70,109 @@
 [14:44:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
 [14:44:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
 [14:44:20] [Server thread/INFO]: Preparing level "world"
+[14:44:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:44:23] [Server thread/INFO]: Preparing spawn area: 0%
+[14:44:23] [Server thread/INFO]: Preparing spawn area: 0%
+[14:44:24] [Server thread/INFO]: Preparing spawn area: 0%
+[14:44:24] [Server thread/INFO]: Preparing spawn area: 0%
+[14:44:24] [Server thread/INFO]: Time elapsed: 1999 ms
+[14:44:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:44:24] [Server thread/INFO]: Preparing spawn area: 0%
+[14:44:25] [Server thread/INFO]: Time elapsed: 352 ms
+[14:44:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:44:25] [Server thread/INFO]: Preparing spawn area: 0%
+[14:44:25] [Server thread/INFO]: Time elapsed: 222 ms
+[14:44:25] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[14:44:25] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[14:44:25] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[14:44:25] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[14:44:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
+[14:44:27] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[14:44:27] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[14:44:28] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[14:44:28] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[14:44:29] [Server thread/INFO]: [Essentials] Using locale en
+[14:44:29] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[14:44:29] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:44:29] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[14:44:29] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[14:44:29] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[14:44:29] [Server thread/INFO]: [AxVaults] Enabling AxVaults v2.6.5
+[14:44:31] [Server thread/INFO]: [AxVaults] Loaded plugin!
+[14:44:31] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
+[14:44:32] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[14:44:32] [Server thread/INFO]: [TAB] Loaded NMS hook in 108ms
+[14:44:32] [Server thread/INFO]: [TAB] Enabled in 339ms
+[14:44:32] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.28
+[14:44:32] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.4-R0.1
+[14:44:32] [Server thread/INFO]: [voicechat] Compatibility version 18
+[14:44:32] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[14:44:32] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[14:44:32] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
+[14:44:33] [Server thread/INFO]: [dynmap] Added 21 custom biome mappings
+[14:44:33] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.156 for access control
+[14:44:33] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[14:44:39] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[14:44:39] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[14:44:39] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[14:44:39] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[14:44:39] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[14:44:39] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[14:44:39] [Server thread/INFO]: [dynmap] version 3.7-SNAPSHOT-968 is enabled - core version 3.7-SNAPSHOT-985
+[14:44:39] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[14:44:39] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[14:44:39] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[14:44:39] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[14:44:39] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[14:44:39] [Server thread/INFO]: [dynmap] Loaded 20927 pending tile renders for world 'world'
+[14:44:39] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[14:44:39] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[14:44:39] [Server thread/INFO]: [dynmap] Enabled
+[14:44:39] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
+[14:44:41] [Server thread/INFO]: [spark] Starting background profiler...
+[14:44:41] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[14:44:41] [Server thread/INFO]: [Geyser-Spigot] 
+[14:44:41] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.1-b786 (git-master-32160c5)
+[14:44:41] [Server thread/INFO]: [Geyser-Spigot] 
+[14:44:41] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[14:44:47] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[14:44:47] [Server thread/INFO]: [Geyser-Spigot] Done (6.235s)! Run /geyser help for help!
+[14:44:48] [Server thread/INFO]: Done preparing level "world" (28.274s)
+[14:44:48] [Server thread/INFO]: Starting GS4 status listener
+[14:44:48] [Server thread/INFO]: Thread Query Listener started
+[14:44:48] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[14:44:48] [Server thread/INFO]: Running delayed init tasks
+[14:44:48] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[14:44:48] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[14:44:48] [Server thread/INFO]: Done (61.460s)! For help, type "help"
+[14:44:49] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[14:44:49] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[14:44:50] [Server thread/INFO]: [voicechat] Loading plugins
+[14:44:50] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[14:44:50] [Server thread/INFO]: [voicechat] Initializing plugins
+[14:44:50] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[14:44:50] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[14:44:50] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'ideas-impossible.gl.at.ply.gg:1155'
+[14:44:50] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[14:44:50] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
