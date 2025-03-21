@@ -18,6 +18,8 @@ git add .
 git commit -a -m "$TIMESTAMP"
 
 # Force push to remote branch
+
+git add .
 git push origin "$BRANCH" --force
 
 # Show status

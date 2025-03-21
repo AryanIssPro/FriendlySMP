@@ -176,3 +176,607 @@
 [14:44:50] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'ideas-impossible.gl.at.ply.gg:1155'
 [14:44:50] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
 [14:44:50] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[14:45:21] [User Authenticator #0/INFO]: UUID of player VaibhavIssPro is 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[14:45:25] [Server thread/INFO]: VaibhavIssPro joined the game
+[14:45:25] [Server thread/INFO]: VaibhavIssPro[/127.240.16.166:32845] logged in with entity id 26 at ([world]103.3766857639812, 72.0, -194.4957186658299)
+[14:45:26] [Server thread/INFO]: [voicechat] Received secret request of VaibhavIssPro (18)
+[14:45:26] [Server thread/INFO]: [voicechat] Sent secret to VaibhavIssPro
+[14:45:27] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: b5d71335-cf81-47ba-8056-b3fcb51041c7, mapped to Bat['Bat'/50, uuid='b5d71335-cf81-47ba-8056-b3fcb51041c7', l='ServerLevel[world]', x=100.39, y=-44.38, z=-303.46, cpos=[6, -19], tl=0, v=true], can't add Bat['Bat'/81, uuid='b5d71335-cf81-47ba-8056-b3fcb51041c7', l='ServerLevel[world]', x=101.96, y=-36.91, z=-304.79, cpos=[6, -20], tl=0, v=false]
+[14:45:27] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: bc1b58f7-6a73-4610-b764-97d0b8e34e08, mapped to Bat['Bat'/82, uuid='bc1b58f7-6a73-4610-b764-97d0b8e34e08', l='ServerLevel[world]', x=143.02, y=-40.49, z=-282.07, cpos=[8, -18], tl=0, v=true], can't add Bat['Bat'/89, uuid='bc1b58f7-6a73-4610-b764-97d0b8e34e08', l='ServerLevel[world]', x=144.43, y=-40.08, z=-280.22, cpos=[9, -18], tl=0, v=false]
+[14:45:27] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: c228f938-f31f-40be-b893-7fee07e05fb8, mapped to Bat['Bat'/70, uuid='c228f938-f31f-40be-b893-7fee07e05fb8', l='ServerLevel[world]', x=114.85, y=-23.83, z=-294.58, cpos=[7, -19], tl=0, v=true], can't add Bat['Bat'/95, uuid='c228f938-f31f-40be-b893-7fee07e05fb8', l='ServerLevel[world]', x=114.13, y=-23.82, z=-307.50, cpos=[7, -20], tl=0, v=false]
+[14:45:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[14:45:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[14:45:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player VaibhavIssPro (67bf2052-10be-35cd-be5d-b2203cbe9e43) successfully connected to voice chat
+[14:47:26] [User Authenticator #1/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+[14:47:27] [Server thread/INFO]: AryanIssPro joined the game
+[14:47:27] [Server thread/INFO]: AryanIssPro[/100.64.1.3:58885] logged in with entity id 491 at ([world]92.19408728350828, -33.0, -370.4557401292982)
+[14:47:27] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
+[14:47:27] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
+[14:47:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
+[14:47:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 427bc943-f939-30f1-b40e-c29325272737
+[14:47:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player AryanIssPro (427bc943-f939-30f1-b40e-c29325272737) successfully connected to voice chat
+[14:47:36] [Async Chat Thread - #0/INFO]: [Not Secure] <AryanIssPro> hii
+[14:47:39] [Async Chat Thread - #1/INFO]: [Not Secure] <AryanIssPro> nalle
+[14:48:03] [Async Chat Thread - #1/INFO]: [Not Secure] <AryanIssPro> helloo
+[14:48:34] [Async Chat Thread - #0/INFO]: [Not Secure] <VaibhavIssPro> mera awaj aa rha hai
+[14:49:16] [Server thread/INFO]: AryanIssPro issued server command: /tpa VaibhavIssPro
+[14:49:22] [Server thread/INFO]: VaibhavIssPro issued server command: /tpaccept
+[14:49:40] [Server thread/INFO]: AryanIssPro issued server command: /voicechat invite VaibhavIssPro
+[14:49:47] [Server thread/INFO]: VaibhavIssPro issued server command: /voicechat join 31ebad62-2ff2-48b9-9491-8dd0323f88e0
+[14:50:05] [Server thread/INFO]: VaibhavIssPro lost connection: Disconnected
+[14:50:05] [Server thread/INFO]: [voicechat] Disconnecting client VaibhavIssPro
+[14:50:06] [Server thread/INFO]: VaibhavIssPro left the game
+[14:55:30] [Server thread/INFO]: AryanIssPro issued server command: /pv 1
+[14:55:40] [Server thread/INFO]: AryanIssPro issued server command: /pv 1
+[14:56:12] [Server thread/INFO]: AryanIssPro issued server command: /pv 1
+[14:57:35] [Server thread/INFO]: AryanIssPro issued server command: /heal
+[14:57:35] [Server thread/INFO]: AryanIssPro issued server command: /heal
+[14:58:36] [Server thread/INFO]: AryanIssPro was slain by Zombie
+[14:58:41] [Server thread/INFO]: AryanIssPro issued server command: /back
+[14:59:36] [Server thread/INFO]: AryanIssPro issued server command: /pv 1
+[14:59:53] [Server thread/INFO]: AryanIssPro issued server command: /pv 1
+[15:00:57] [Server thread/INFO]: AryanIssPro was slain by Zombie
+[15:03:05] [Server thread/INFO]: AryanIssPro issued server command: /back
+[15:05:51] [Server thread/INFO]: AryanIssPro fell from a high place
+[15:06:00] [Server thread/INFO]: AryanIssPro issued server command: /back
+[15:07:24] [Server thread/WARN]: AryanIssPro moved wrongly!
+[15:13:52] [User Authenticator #2/INFO]: UUID of player VaibhavIssPro is 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:13:55] [Server thread/INFO]: VaibhavIssPro joined the game
+[15:13:55] [Server thread/INFO]: VaibhavIssPro[/127.240.16.166:52113] logged in with entity id 5869 at ([world]102.85964532887125, 68.0, -159.60136658796506)
+[15:13:56] [Server thread/INFO]: [voicechat] Received secret request of VaibhavIssPro (18)
+[15:13:56] [Server thread/INFO]: [voicechat] Sent secret to VaibhavIssPro
+[15:13:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:13:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:13:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player VaibhavIssPro (67bf2052-10be-35cd-be5d-b2203cbe9e43) successfully connected to voice chat
+[15:15:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 67bf2052-10be-35cd-be5d-b2203cbe9e43 timed out
+[15:15:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player VaibhavIssPro
+[15:15:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to VaibhavIssPro
+[15:15:58] [Server thread/INFO]: VaibhavIssPro lost connection: Timed out
+[15:15:58] [Server thread/INFO]: [voicechat] Disconnecting client VaibhavIssPro
+[15:15:58] [Server thread/INFO]: VaibhavIssPro left the game
+[15:16:06] [User Authenticator #3/INFO]: UUID of player VaibhavIssPro is 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:16:09] [Server thread/INFO]: VaibhavIssPro joined the game
+[15:16:09] [Server thread/INFO]: VaibhavIssPro[/127.240.16.166:40725] logged in with entity id 6380 at ([world]107.30104037168111, 68.0, -194.92750654404193)
+[15:16:09] [Server thread/INFO]: [voicechat] Received secret request of VaibhavIssPro (18)
+[15:16:09] [Server thread/INFO]: [voicechat] Sent secret to VaibhavIssPro
+[15:16:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:16:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:16:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player VaibhavIssPro (67bf2052-10be-35cd-be5d-b2203cbe9e43) successfully connected to voice chat
+[15:18:54] [Async Chat Thread - #2/INFO]: [Not Secure] <VaibhavIssPro> haan
+[15:19:04] [Server thread/INFO]: AryanIssPro issued server command: /pv 1
+[15:23:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 67bf2052-10be-35cd-be5d-b2203cbe9e43 timed out
+[15:23:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player VaibhavIssPro
+[15:23:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to VaibhavIssPro
+[15:23:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:23:33] [Server thread/INFO]: VaibhavIssPro lost connection: Disconnected
+[15:23:33] [Server thread/INFO]: [voicechat] Disconnecting client VaibhavIssPro
+[15:23:33] [Server thread/INFO]: VaibhavIssPro left the game
+[15:25:08] [User Authenticator #4/INFO]: UUID of player VaibhavIssPro is 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:25:12] [Server thread/INFO]: VaibhavIssPro joined the game
+[15:25:12] [Server thread/INFO]: VaibhavIssPro[/127.240.16.166:54929] logged in with entity id 8698 at ([world]94.42015523642841, 69.0, -192.19017461388768)
+[15:25:13] [Server thread/INFO]: [voicechat] Received secret request of VaibhavIssPro (18)
+[15:25:13] [Server thread/INFO]: [voicechat] Sent secret to VaibhavIssPro
+[15:25:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:25:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:25:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player VaibhavIssPro (67bf2052-10be-35cd-be5d-b2203cbe9e43) successfully connected to voice chat
+[15:27:32] [Server thread/WARN]: VaibhavIssPro was kicked for floating too long!
+[15:27:32] [Server thread/INFO]: VaibhavIssPro lost connection: Flying is not enabled on this server
+[15:27:32] [Server thread/INFO]: [voicechat] Disconnecting client VaibhavIssPro
+[15:27:32] [Server thread/INFO]: VaibhavIssPro left the game
+[15:27:39] [User Authenticator #5/INFO]: UUID of player VaibhavIssPro is 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:27:41] [Server thread/INFO]: VaibhavIssPro joined the game
+[15:27:41] [Server thread/INFO]: VaibhavIssPro[/127.240.16.166:46319] logged in with entity id 9055 at ([world]89.3226601557586, 69.55383808212872, -186.3423463425206)
+[15:27:41] [Server thread/INFO]: [voicechat] Received secret request of VaibhavIssPro (18)
+[15:27:41] [Server thread/INFO]: [voicechat] Sent secret to VaibhavIssPro
+[15:27:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:27:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:27:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player VaibhavIssPro (67bf2052-10be-35cd-be5d-b2203cbe9e43) successfully connected to voice chat
+[15:28:51] [Server thread/INFO]: AryanIssPro was slain by VaibhavIssPro
+[15:29:07] [Server thread/WARN]: AryanIssPro moved wrongly!
+[15:29:12] [Server thread/INFO]: VaibhavIssPro was slain by AryanIssPro
+[15:29:20] [Server thread/INFO]: VaibhavIssPro issued server command: /back
+[15:29:37] [Server thread/INFO]: VaibhavIssPro was slain by AryanIssPro
+[15:29:44] [Server thread/INFO]: VaibhavIssPro issued server command: /back
+[15:31:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 67bf2052-10be-35cd-be5d-b2203cbe9e43 timed out
+[15:31:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player VaibhavIssPro
+[15:31:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to VaibhavIssPro
+[15:31:55] [User Authenticator #6/INFO]: UUID of player VaibhavIssPro is 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:31:56] [Server thread/INFO]: VaibhavIssPro lost connection: You logged in from another location
+[15:31:56] [Server thread/INFO]: [voicechat] Disconnecting client VaibhavIssPro
+[15:31:56] [Server thread/INFO]: VaibhavIssPro left the game
+[15:31:59] [Server thread/INFO]: VaibhavIssPro joined the game
+[15:31:59] [Server thread/INFO]: VaibhavIssPro[/127.76.168.10:57025] logged in with entity id 9614 at ([world]93.08021563898616, 69.0, -178.44806692945065)
+[15:31:59] [Server thread/INFO]: [voicechat] Received secret request of VaibhavIssPro (18)
+[15:31:59] [Server thread/INFO]: [voicechat] Sent secret to VaibhavIssPro
+[15:32:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:32:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:32:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player VaibhavIssPro (67bf2052-10be-35cd-be5d-b2203cbe9e43) successfully connected to voice chat
+[15:32:57] [Server thread/INFO]: AryanIssPro issued server command: /heal
+[15:32:57] [Server thread/INFO]: AryanIssPro issued server command: /heal
+[15:35:00] [Server thread/INFO]: AryanIssPro lost connection: Disconnected
+[15:35:00] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
+[15:35:01] [Server thread/INFO]: AryanIssPro left the game
+[15:35:03] [User Authenticator #7/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+[15:35:05] [Server thread/INFO]: AryanIssPro joined the game
+[15:35:05] [Server thread/INFO]: AryanIssPro[/127.186.89.186:57961] logged in with entity id 9941 at ([world]88.46171799309042, 70.0, -188.51854951707105)
+[15:35:05] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
+[15:35:05] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
+[15:35:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
+[15:35:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 427bc943-f939-30f1-b40e-c29325272737
+[15:35:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player AryanIssPro (427bc943-f939-30f1-b40e-c29325272737) successfully connected to voice chat
+[15:36:15] [Server thread/INFO]: AryanIssPro issued server command: /pv 1
+[15:36:25] [Server thread/INFO]: AryanIssPro issued server command: /pv 1
+[15:36:34] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[15:37:04] [Server thread/INFO]: Villager Villager['Villager'/29, uuid='bc876ac6-8af6-48a7-8d8f-135b00b1f824', l='ServerLevel[world]', x=83.50, y=69.56, z=-183.50, cpos=[5, -12], tl=37398, v=true] died, message: 'Villager was slain by VaibhavIssPro'
+[15:37:14] [Server thread/INFO]: AryanIssPro was slain by VaibhavIssPro
+[15:37:20] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[15:38:38] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username AryanIssPro
+[15:38:38] [localSession-7-2/INFO]: [Geyser-Spigot] AryanIssPro (logged in as: AryanIssPro) has connected to the Java server
+[15:38:39] [Server thread/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro joined (UUID: 00000000-0000-0000-0009-01fbbf97ed72)
+[15:38:40] [Server thread/INFO]: .AryanIssPro joined the game
+[15:38:40] [Server thread/INFO]: .AryanIssPro[/100.115.57.98:0] logged in with entity id 10336 at ([world]65.7, 70.0, -176.697)
+[15:38:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 67bf2052-10be-35cd-be5d-b2203cbe9e43 timed out
+[15:38:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player VaibhavIssPro
+[15:38:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to VaibhavIssPro
+[15:39:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:39:14] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[15:39:30] [Server thread/INFO]: AryanIssPro lost connection: Disconnected
+[15:39:30] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
+[15:39:30] [Server thread/INFO]: AryanIssPro left the game
+[15:39:36] [User Authenticator #8/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+[15:39:37] [Server thread/INFO]: AryanIssPro joined the game
+[15:39:37] [Server thread/INFO]: AryanIssPro[/127.186.89.186:52813] logged in with entity id 10447 at ([world]91.20484684858523, 69.0, -186.63065901000843)
+[15:39:37] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
+[15:39:37] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
+[15:39:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
+[15:39:39] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 427bc943-f939-30f1-b40e-c29325272737
+[15:39:39] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player AryanIssPro (427bc943-f939-30f1-b40e-c29325272737) successfully connected to voice chat
+[15:40:10] [localSession-7-2/INFO]: [Geyser-Spigot] AryanIssPro has disconnected from the Java server because of Bedrock client disconnected
+[15:40:10] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro disconnected
+[15:40:10] [Server thread/INFO]: .AryanIssPro lost connection: Disconnected
+[15:40:10] [Server thread/INFO]: [voicechat] Disconnecting client .AryanIssPro
+[15:40:10] [Server thread/INFO]: .AryanIssPro left the game
+[15:40:35] [Server thread/INFO]: AryanIssPro issued server command: /voicechat test AryanIssPro
+[15:40:39] [Async Chat Thread - #4/INFO]: [Not Secure] <VaibhavIssPro> kyu aawaj nhi aara
+[15:40:44] [Async Chat Thread - #4/INFO]: [Not Secure] <AryanIssPro> pata nahi
+[15:40:49] [Async Chat Thread - #5/INFO]: [Not Secure] <AryanIssPro> wait
+[15:41:06] [Server thread/INFO]: AryanIssPro issued server command: /op AryanIssPro
+[15:41:06] [Server thread/INFO]: [AryanIssPro: Made AryanIssPro a server operator]
+[15:41:14] [Server thread/INFO]: AryanIssPro issued server command: /voicechat test AryanIssPro
+[15:41:14] [Server thread/INFO]: [voicechat] Sent ping 88f11da5-4ef1-4597-830c-aa87b303d29e attempt 1
+[15:41:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Received pong 88f11da5-4ef1-4597-830c-aa87b303d29e
+[15:41:25] [Server thread/INFO]: AryanIssPro issued server command: /voicechat test VaibhavIssPro
+[15:41:34] [Server thread/INFO]: AryanIssPro issued server command: /kick VaibhavIssPro
+[15:41:34] [Server thread/INFO]: VaibhavIssPro lost connection: Kicked from server.
+[15:41:34] [Server thread/INFO]: [voicechat] Disconnecting client VaibhavIssPro
+[15:41:34] [Server thread/INFO]: VaibhavIssPro left the game
+[15:41:34] [Server thread/INFO]: [Essentials] Player AryanIssPro kicked VaibhavIssPro for Kicked from server..
+[15:41:39] [User Authenticator #9/INFO]: UUID of player VaibhavIssPro is 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:41:42] [Server thread/INFO]: VaibhavIssPro joined the game
+[15:41:42] [Server thread/INFO]: VaibhavIssPro[/127.76.168.10:35833] logged in with entity id 10647 at ([world]83.71160275970016, 69.5625, -187.28952081764868)
+[15:41:42] [Server thread/INFO]: [voicechat] Received secret request of VaibhavIssPro (18)
+[15:41:42] [Server thread/INFO]: [voicechat] Sent secret to VaibhavIssPro
+[15:41:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:41:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 67bf2052-10be-35cd-be5d-b2203cbe9e43
+[15:41:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player VaibhavIssPro (67bf2052-10be-35cd-be5d-b2203cbe9e43) successfully connected to voice chat
+[15:43:14] [User Authenticator #10/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+[15:43:15] [Server thread/INFO]: AryanIssPro lost connection: You logged in from another location
+[15:43:15] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
+[15:43:15] [Server thread/INFO]: AryanIssPro left the game
+[15:43:16] [Server thread/INFO]: AryanIssPro joined the game
+[15:43:16] [Server thread/INFO]: AryanIssPro[/100.115.57.98:58124] logged in with entity id 10792 at ([world]85.22868068712887, 69.5625, -188.22947209066228)
+[15:43:17] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
+[15:43:17] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
+[15:43:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
+[15:43:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 427bc943-f939-30f1-b40e-c29325272737
+[15:43:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player AryanIssPro (427bc943-f939-30f1-b40e-c29325272737) successfully connected to voice chat
+[15:43:29] [Server thread/INFO]: AryanIssPro lost connection: Disconnected
+[15:43:29] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
+[15:43:29] [Server thread/INFO]: AryanIssPro left the game
+[15:43:39] [User Authenticator #10/INFO]: UUID of player ShashankIsPro is 360c041a-19c7-3cf6-b210-7a7443864085
+[15:43:41] [Server thread/INFO]: ShashankIsPro joined the game
+[15:43:41] [Server thread/INFO]: ShashankIsPro[/100.115.57.98:58160] logged in with entity id 10827 at ([world]17.5, 64.0, 3.5)
+[15:43:41] [Server thread/INFO]: [voicechat] Received secret request of ShashankIsPro (18)
+[15:43:41] [Server thread/INFO]: [voicechat] Sent secret to ShashankIsPro
+[15:43:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 360c041a-19c7-3cf6-b210-7a7443864085
+[15:43:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 360c041a-19c7-3cf6-b210-7a7443864085
+[15:43:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ShashankIsPro (360c041a-19c7-3cf6-b210-7a7443864085) successfully connected to voice chat
+[15:43:44] [User Authenticator #10/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+[15:43:45] [Server thread/INFO]: AryanIssPro joined the game
+[15:43:45] [Server thread/INFO]: AryanIssPro[/127.186.89.186:50593] logged in with entity id 10948 at ([world]85.67276542582444, 69.0, -188.44744640711664)
+[15:43:45] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
+[15:43:45] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
+[15:43:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
+[15:43:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 427bc943-f939-30f1-b40e-c29325272737
+[15:43:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player AryanIssPro (427bc943-f939-30f1-b40e-c29325272737) successfully connected to voice chat
+[15:44:01] [Server thread/INFO]: AryanIssPro issued server command: /tp ShashankIsPro AryanIssPro
+[15:44:08] [Server thread/INFO]: VaibhavIssPro issued server command: /recipe irkn_leggings
+[15:44:22] [Server thread/INFO]: VaibhavIssPro issued server command: /recipe iton_leggings
+[15:44:58] [Async Chat Thread - #6/INFO]: [Not Secure] <VaibhavIssPro> awaj aara rha hai
+[15:45:04] [Async Chat Thread - #6/INFO]: [Not Secure] <AryanIssPro> yes
+[15:45:29] [Server thread/INFO]: VaibhavIssPro issued server command: /recipe iron_leggings
+[15:45:32] [Server thread/INFO]: AryanIssPro issued server command: /deop AryanIssPro
+[15:45:32] [Server thread/INFO]: [AryanIssPro: Made AryanIssPro no longer a server operator]
+[15:46:17] [Server thread/INFO]: VaibhavIssPro issued server command: /recipe iron_boots
+[15:47:12] [Server thread/WARN]: [DropHeads] Unable to find skin for player: ShashankIsPro
+[15:47:12] [Server thread/WARN]: [DropHeads] num textures: 0
+[15:47:12] [Server thread/WARN]: [DropHeads] Unable to find skin for player: ShashankIsPro
+[15:47:12] [Server thread/WARN]: [DropHeads] num textures: 0
+[15:47:12] [Server thread/INFO]: ShashankIsPro was slain by VaibhavIssPro
+[15:47:29] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[15:47:45] [Server thread/INFO]: VaibhavIssPro issued server command: /recipe stick
+[15:47:56] [Server thread/INFO]: AryanIssPro issued server command: /op AryanIssPro
+[15:47:56] [Server thread/INFO]: [AryanIssPro: Made AryanIssPro a server operator]
+[15:48:00] [Server thread/INFO]: AryanIssPro issued server command: /tp ShashankIsPro AryanIssPro
+[15:48:08] [Server thread/INFO]: VaibhavIssPro issued server command: /recipe iron_sword
+[15:48:52] [Server thread/INFO]: ShashankIsPro was slain by VaibhavIssPro
+[15:48:55] [Server thread/WARN]: VaibhavIssPro moved wrongly!
+[15:49:13] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[15:49:26] [Server thread/INFO]: ShashankIsPro was slain by Zombie
+[15:49:50] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[15:49:56] [Server thread/INFO]: AryanIssPro lost connection: Disconnected
+[15:49:56] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
+[15:49:56] [Server thread/INFO]: AryanIssPro left the game
+[15:49:59] [User Authenticator #11/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+[15:50:00] [Server thread/INFO]: AryanIssPro joined the game
+[15:50:00] [Server thread/INFO]: AryanIssPro[/127.186.89.186:58777] logged in with entity id 12292 at ([world]201.10145641950555, 70.0, -78.68301514029747)
+[15:50:01] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
+[15:50:01] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
+[15:50:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
+[15:50:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 427bc943-f939-30f1-b40e-c29325272737
+[15:50:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player AryanIssPro (427bc943-f939-30f1-b40e-c29325272737) successfully connected to voice chat
+[15:50:06] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 2
+[15:50:13] [Server thread/INFO]: AryanIssPro issued server command: /tp AryanIssPro VaibhavIssPro
+[15:50:23] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 2
+[15:50:24] [Server thread/INFO]: AryanIssPro issued server command: /tp ShashankIsPro AryanIssPro
+[15:50:46] [Server thread/INFO]: ShashankIsPro has made the advancement [Acquire Hardware]
+[15:50:47] [Server thread/INFO]: AryanIssPro issued server command: /pv
+[15:50:49] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 2
+[15:50:52] [Server thread/INFO]: AryanIssPro issued server command: /pv
+[15:50:55] [Server thread/WARN]: VaibhavIssPro moved wrongly!
+[15:51:03] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[15:51:17] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[15:51:21] [Server thread/INFO]: AryanIssPro issued server command: /pv
+[15:51:23] [Server thread/WARN]: VaibhavIssPro moved wrongly!
+[15:52:17] [Server thread/INFO]: ShashankIsPro has made the advancement [Isn't It Iron Pick]
+[15:52:24] [Server thread/INFO]: AryanIssPro issued server command: /voicechat test VaibhavIssPro
+[15:52:24] [Server thread/INFO]: [voicechat] Sent ping 694f9faf-f5f7-4007-a448-c8a079823c59 attempt 1
+[15:52:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Received pong 694f9faf-f5f7-4007-a448-c8a079823c59
+[15:53:10] [Server thread/WARN]: [DropHeads] Unable to find skin for player: ShashankIsPro
+[15:53:10] [Server thread/WARN]: [DropHeads] num textures: 0
+[15:53:10] [Server thread/WARN]: [DropHeads] Unable to find skin for player: ShashankIsPro
+[15:53:10] [Server thread/WARN]: [DropHeads] num textures: 0
+[15:53:10] [Server thread/INFO]: ShashankIsPro was slain by AryanIssPro
+[15:53:29] [Server thread/INFO]: ShashankIsPro lost connection: Disconnected
+[15:53:29] [Server thread/INFO]: [voicechat] Disconnecting client ShashankIsPro
+[15:53:29] [Server thread/INFO]: ShashankIsPro left the game
+[15:54:33] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[15:55:17] [Async Chat Thread - #8/INFO]: [Not Secure] <AryanIssPro> i am saying to leave this place
+[15:55:23] [Async Chat Thread - #9/INFO]: [Not Secure] <VaibhavIssPro> no
+[15:55:25] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username AryanIssPro
+[15:55:25] [localSession-7-3/INFO]: [Geyser-Spigot] AryanIssPro (logged in as: AryanIssPro) has connected to the Java server
+[15:55:26] [Server thread/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro joined (UUID: 00000000-0000-0000-0009-01fbbf97ed72)
+[15:55:26] [Server thread/INFO]: .AryanIssPro joined the game
+[15:55:26] [Server thread/INFO]: .AryanIssPro[/100.115.57.98:0] logged in with entity id 12964 at ([world]98.45471, 69.0, -182.56166)
+[15:55:36] [Async Chat Thread - #8/INFO]: [Not Secure] <AryanIssPro> ok
+[15:55:43] [Async Chat Thread - #9/INFO]: [Not Secure] <VaibhavIssPro> aise jagah dhundo jaha thode villager ho
+[15:55:54] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[15:55:55] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[15:55:55] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 3
+[15:56:04] [Async Chat Thread - #8/INFO]: [Not Secure] <AryanIssPro> jaida dur nahi chala jaiga
+[15:56:15] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 4
+[15:59:42] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 3
+[15:59:51] [Server thread/INFO]: .AryanIssPro was slain by AryanIssPro
+[16:00:29] [Server thread/INFO]: .AryanIssPro issued server command: /back
+[16:00:55] [Server thread/INFO]: VaibhavIssPro issued server command: /recipe torch
+[16:01:10] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro disconnected
+[16:01:10] [localSession-7-3/INFO]: [Geyser-Spigot] AryanIssPro has disconnected from the Java server because of Bedrock client disconnected
+[16:01:10] [Server thread/INFO]: .AryanIssPro lost connection: Disconnected
+[16:01:10] [Server thread/INFO]: [voicechat] Disconnecting client .AryanIssPro
+[16:01:10] [Server thread/INFO]: .AryanIssPro left the game
+[16:01:26] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username AryanIssPro
+[16:01:26] [localSession-7-4/INFO]: [Geyser-Spigot] AryanIssPro (logged in as: AryanIssPro) has connected to the Java server
+[16:01:26] [User Authenticator #12/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+[16:01:26] [Server thread/INFO]: AryanIssPro lost connection: You logged in from another location
+[16:01:26] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
+[16:01:26] [Server thread/INFO]: AryanIssPro left the game
+[16:01:27] [Server thread/INFO]: AryanIssPro joined the game
+[16:01:27] [Server thread/INFO]: AryanIssPro[/100.115.57.98:0] logged in with entity id 13764 at ([world]90.45408278793862, 69.0, -174.7835478377652)
+[16:01:37] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 4
+[16:01:42] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[16:01:59] [localSession-7-4/INFO]: [Geyser-Spigot] AryanIssPro has disconnected from the Java server because of Bedrock client disconnected
+[16:01:59] [Server thread/INFO]: AryanIssPro lost connection: Disconnected
+[16:01:59] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
+[16:01:59] [Server thread/INFO]: AryanIssPro left the game
+[16:02:03] [User Authenticator #12/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+[16:02:04] [Server thread/INFO]: AryanIssPro joined the game
+[16:02:04] [Server thread/INFO]: AryanIssPro[/127.186.89.186:54829] logged in with entity id 13811 at ([world]95.36016, 69.0, -180.27692)
+[16:02:04] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
+[16:02:04] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
+[16:02:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
+[16:02:16] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username AryanIssPro
+[16:02:16] [localSession-7-1/INFO]: [Geyser-Spigot] AryanIssPro (logged in as: AryanIssPro) has connected to the Java server
+[16:02:17] [Server thread/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro joined (UUID: 00000000-0000-0000-0009-01fbbf97ed72)
+[16:02:17] [Server thread/INFO]: .AryanIssPro joined the game
+[16:02:17] [Server thread/INFO]: .AryanIssPro[/100.115.57.98:0] logged in with entity id 13832 at ([world]57.5, 68.0, -146.5)
+[16:02:23] [Server thread/INFO]: AryanIssPro lost connection: Disconnected
+[16:02:23] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
+[16:02:23] [Server thread/INFO]: AryanIssPro left the game
+[16:02:25] [User Authenticator #12/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+[16:02:25] [Server thread/INFO]: com.mojang.authlib.GameProfile@47756f8b[id=427bc943-f939-30f1-b40e-c29325272737,name=AryanIssPro,properties={}] lost connection: Disconnected
+[16:02:27] [User Authenticator #12/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+[16:02:27] [Server thread/INFO]: AryanIssPro joined the game
+[16:02:27] [Server thread/INFO]: AryanIssPro[/100.64.1.3:61699] logged in with entity id 13851 at ([world]94.87736446056289, 70.1875, -180.64224558998225)
+[16:02:27] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
+[16:02:27] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
+[16:02:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
+[16:02:47] [Server thread/INFO]: AryanIssPro issued server command: /voicechat test @a
+[16:02:52] [Server thread/INFO]: AryanIssPro issued server command: /voicechat test AryanIssPro
+[16:02:57] [Server thread/INFO]: AryanIssPro issued server command: /voicechat test VaibhavIssPro
+[16:02:57] [Server thread/INFO]: [voicechat] Sent ping 96cd4f47-72e6-4a24-90f6-50914bd1f6fc attempt 1
+[16:02:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Received pong 96cd4f47-72e6-4a24-90f6-50914bd1f6fc
+[16:03:01] [Server thread/INFO]: AryanIssPro lost connection: Disconnected
+[16:03:01] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
+[16:03:01] [Server thread/INFO]: AryanIssPro left the game
+[16:03:03] [User Authenticator #12/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+[16:03:04] [Server thread/INFO]: AryanIssPro joined the game
+[16:03:04] [Server thread/INFO]: AryanIssPro[/100.64.1.3:61722] logged in with entity id 13927 at ([world]100.36438069655664, 69.0, -181.66210714735428)
+[16:03:04] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
+[16:03:04] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
+[16:03:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
+[16:03:15] [Server thread/INFO]: AryanIssPro lost connection: Disconnected
+[16:03:15] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
+[16:03:15] [Server thread/INFO]: AryanIssPro left the game
+[16:03:16] [User Authenticator #12/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+[16:03:17] [Server thread/INFO]: AryanIssPro joined the game
+[16:03:17] [Server thread/INFO]: AryanIssPro[/100.64.1.3:61732] logged in with entity id 13964 at ([world]96.97005327851214, 68.0, -173.85614067292934)
+[16:03:17] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
+[16:03:17] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
+[16:03:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
+[16:03:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 427bc943-f939-30f1-b40e-c29325272737
+[16:03:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player AryanIssPro (427bc943-f939-30f1-b40e-c29325272737) successfully connected to voice chat
+[16:03:24] [Server thread/INFO]: VaibhavIssPro fell from a high place
+[16:03:31] [Server thread/INFO]: VaibhavIssPro issued server command: /back
+[16:04:09] [Server thread/INFO]: VaibhavIssPro issued server command: /tpa AryanIssPro
+[16:04:21] [Server thread/INFO]: AryanIssPro issued server command: /tpyes
+[16:04:23] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:04:23] [Server thread/INFO]: .AryanIssPro was slain by AryanIssPro
+[16:05:00] [Server thread/INFO]: AryanIssPro issued server command: /tp .AryanIssPro AryanIssPro
+[16:05:19] [Server thread/INFO]: AryanIssPro issued server command: /give .AryanIssPro diamond
+[16:05:28] [Server thread/INFO]: AryanIssPro issued server command: /invsee .AryanIssPro
+[16:06:11] [Server thread/INFO]: .AryanIssPro issued server command: /pv 1
+[16:07:49] [Server thread/INFO]: .AryanIssPro was doomed to fall by VaibhavIssPro
+[16:08:32] [Server thread/INFO]: .AryanIssPro issued server command: /back
+[16:08:35] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:08:40] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:08:41] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:08:41] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:08:41] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:08:42] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:09:10] [Server thread/INFO]: .AryanIssPro issued server command: /tpa AryanIssPro
+[16:09:14] [Server thread/INFO]: AryanIssPro issued server command: /tptes
+[16:09:14] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 2
+[16:09:16] [Server thread/INFO]: AryanIssPro issued server command: /tpyes
+[16:10:15] [Server thread/INFO]: AryanIssPro issued server command: /tpa VaibhavIssPro
+[16:10:20] [Server thread/INFO]: AryanIssPro issued server command: /deop AryanIssPro
+[16:10:20] [Server thread/INFO]: [AryanIssPro: Made AryanIssPro no longer a server operator]
+[16:10:20] [Server thread/INFO]: VaibhavIssPro issued server command: /tpaccept
+[16:10:36] [Server thread/INFO]: AryanIssPro fell from a high place
+[16:10:55] [Server thread/INFO]: AryanIssPro issued server command: /op AryanIssPro
+[16:10:55] [Server thread/INFO]: [AryanIssPro: Made AryanIssPro a server operator]
+[16:11:10] [Server thread/INFO]: AryanIssPro issued server command: /effect give @a minecraft:night_vision infinite 1 true
+[16:11:10] [Server thread/INFO]: [AryanIssPro: Applied effect Night Vision to 3 targets]
+[16:11:22] [Server thread/INFO]: AryanIssPro issued server command: /back
+[16:11:53] [Server thread/INFO]: AryanIssPro issued server command: /tpahere .AryanIssPro
+[16:12:27] [Server thread/INFO]: .AryanIssPro issued server command: /tp yes
+[16:12:27] [Server thread/INFO]: [Essentials] .AryanIssPro was denied access to command.
+[16:12:45] [Server thread/INFO]: .AryanIssPro issued server command: /tpyes
+[16:13:00] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:13:19] [Server thread/INFO]: .AryanIssPro was doomed to fall by Zombie
+[16:13:43] [Server thread/INFO]: .AryanIssPro issued server command: /back
+[16:14:00] [Server thread/INFO]: AryanIssPro issued server command: /heal
+[16:14:00] [Server thread/INFO]: AryanIssPro issued server command: /heal
+[16:14:06] [Server thread/INFO]: .AryanIssPro was shot by Skeleton
+[16:14:41] [Server thread/INFO]: .AryanIssPro issued server command: /back
+[16:14:56] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:14:56] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:14:56] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:14:57] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:14:57] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:15:25] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:15:43] [Server thread/INFO]: AryanIssPro issued server command: /tp .AryanIssPro AryanIssPro
+[16:15:58] [Server thread/INFO]: AryanIssPro issued server command: /effect give .AryanIssPro minecraft:night_vision infinite 1 true
+[16:15:58] [Server thread/INFO]: [AryanIssPro: Applied effect Night Vision to .AryanIssPro]
+[16:16:05] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:16:11] [Server thread/INFO]: AryanIssPro issued server command: /effect give .AryanIssPro minecraft:absorption infinite 5 true
+[16:16:11] [Server thread/INFO]: [AryanIssPro: Applied effect Absorption to .AryanIssPro]
+[16:16:52] [Server thread/INFO]: AryanIssPro issued server command: /pv 1
+[16:17:57] [Server thread/INFO]: AryanIssPro issued server command: /effect give .AryanIssPro minecraft:resistance infinite 5 true
+[16:17:57] [Server thread/INFO]: [AryanIssPro: Applied effect Resistance to .AryanIssPro]
+[16:18:36] [Server thread/INFO]: AryanIssPro issued server command: /effect give .AryanIssPro minecraft:regeneration infinite 5 true
+[16:18:36] [Server thread/INFO]: [AryanIssPro: Applied effect Regeneration to .AryanIssPro]
+[16:18:41] [Server thread/INFO]: AryanIssPro issued server command: /heal
+[16:18:41] [Server thread/INFO]: AryanIssPro issued server command: /heal
+[16:18:45] [Server thread/INFO]: AryanIssPro issued server command: /feed
+[16:18:51] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:18:51] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:19:23] [Server thread/INFO]: AryanIssPro issued server command: /tpa VaibhavIssPro
+[16:19:28] [Server thread/INFO]: VaibhavIssPro issued server command: /tpaccept
+[16:19:56] [Server thread/INFO]: AryanIssPro issued server command: /home bed
+[16:20:11] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:21:16] [Server thread/INFO]: AryanIssPro issued server command: /tpa VaibhavIssPro
+[16:21:21] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:21:22] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:21:24] [Server thread/INFO]: VaibhavIssPro issued server command: /tpaccept
+[16:22:20] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:22:44] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:22:46] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:23:14] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:23:14] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:23:14] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:23:14] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:23:14] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:23:14] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:23:53] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:23:53] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:23:53] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:23:54] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:23:55] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:23:55] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:23:55] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:23:55] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:24:10] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:24:21] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:24:21] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:24:21] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:24:21] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:24:23] [Server thread/INFO]: AryanIssPro issued server command: /home bed
+[16:24:26] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:24:27] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:24:27] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:24:27] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:24:27] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:24:27] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:24:29] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:24:29] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:24:29] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:24:30] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:24] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:25] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:25] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:25] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:28] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:28] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:28] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:28] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:28] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:28] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:31] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:31] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:31] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:31] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:31] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:32] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:33] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:33] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:33] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:33] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:34] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:35] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:37] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:37] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:38] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:38] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:38] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:38] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:39] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:39] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:39] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:39] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:39] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:39] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:25:40] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:26:01] [Server thread/INFO]: AryanIssPro issued server command: /pv 1
+[16:26:01] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:26:03] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:27:04] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:29:28] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:29:41] [localSession-7-1/INFO]: [Geyser-Spigot] AryanIssPro has disconnected from the Java server because of Bedrock client disconnected
+[16:29:41] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro disconnected
+[16:29:41] [Server thread/INFO]: .AryanIssPro lost connection: Disconnected
+[16:29:41] [Server thread/INFO]: [voicechat] Disconnecting client .AryanIssPro
+[16:29:41] [Server thread/INFO]: .AryanIssPro left the game
+[16:30:51] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username AryanIssPro
+[16:30:51] [localSession-7-2/INFO]: [Geyser-Spigot] AryanIssPro (logged in as: AryanIssPro) has connected to the Java server
+[16:30:52] [Server thread/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro joined (UUID: 00000000-0000-0000-0009-01fbbf97ed72)
+[16:30:52] [Server thread/INFO]: .AryanIssPro joined the game
+[16:30:52] [Server thread/INFO]: .AryanIssPro[/100.115.57.98:0] logged in with entity id 19713 at ([world]-45.69999, 28.0, -30.30001)
+[16:31:06] [Server thread/INFO]: AryanIssPro issued server command: /pv 1
+[16:31:25] [Server thread/INFO]: AryanIssPro issued server command: /tpa VaibhavIssPro
+[16:31:36] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:31:36] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:31:37] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:31:37] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:31:37] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:31:38] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:31:38] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:31:38] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:31:38] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:31:53] [Server thread/INFO]: VaibhavIssPro issued server command: /tpaccept
+[16:32:00] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:32:00] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:32:00] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:32:01] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:32:01] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:32:01] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:32:37] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:32:37] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:32:38] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:32:38] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:32:38] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:32:39] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:32:39] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:32:39] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:32:39] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:32:39] [Server thread/WARN]: .AryanIssPro moved wrongly!
+[16:33:03] [Server thread/INFO]: AryanIssPro issued server command: /home bed
+[16:33:07] [Server thread/INFO]: AryanIssPro issued server command: /tp .AryanIssPro AryanIssPro
+[16:34:35] [Server thread/INFO]: .AryanIssPro issued server command: /back
+[16:35:12] [localSession-7-2/INFO]: [Geyser-Spigot] AryanIssPro has disconnected from the Java server because of Bedrock client disconnected
+[16:35:12] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro disconnected
+[16:35:12] [Server thread/INFO]: .AryanIssPro lost connection: Disconnected
+[16:35:12] [Server thread/INFO]: [voicechat] Disconnecting client .AryanIssPro
+[16:35:12] [Server thread/INFO]: .AryanIssPro left the game
+[16:35:34] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[16:36:18] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username AryanIssPro
+[16:36:18] [localSession-7-3/INFO]: [Geyser-Spigot] AryanIssPro (logged in as: AryanIssPro) has connected to the Java server
+[16:36:19] [Server thread/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro joined (UUID: 00000000-0000-0000-0009-01fbbf97ed72)
+[16:36:19] [Server thread/INFO]: .AryanIssPro joined the game
+[16:36:19] [Server thread/INFO]: .AryanIssPro[/100.115.57.98:0] logged in with entity id 20826 at ([world]-0.57232267, 39.0, -40.61649)
+[16:36:49] [Server thread/INFO]: .AryanIssPro issued server command: /pv 1
+[16:36:51] [Server thread/INFO]: AryanIssPro issued server command: /save-all flush
+[16:36:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:36:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:36:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:36:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:36:52] [Server thread/INFO]: [AryanIssPro: Saved the game]
+[16:37:05] [Server thread/INFO]: AryanIssPro issued server command: /save-all
+[16:37:05] [Server thread/INFO]: [AryanIssPro: Saved the game]
+[16:37:15] [Server thread/INFO]: AryanIssPro issued server command: /save-all
+[16:37:15] [Server thread/INFO]: [AryanIssPro: Saved the game]
+[16:37:46] [Server thread/INFO]: AryanIssPro issued server command: /pv1
+[16:37:48] [Server thread/INFO]: AryanIssPro issued server command: /pv 1
+[16:37:55] [Server thread/INFO]: .AryanIssPro issued server command: /pv I1
+[16:38:02] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .AryanIssPro disconnected
+[16:38:02] [localSession-7-3/INFO]: [Geyser-Spigot] AryanIssPro has disconnected from the Java server because of Bedrock client disconnected
+[16:38:02] [Server thread/INFO]: .AryanIssPro lost connection: Disconnected
+[16:38:02] [Server thread/INFO]: [voicechat] Disconnecting client .AryanIssPro
+[16:38:02] [Server thread/INFO]: .AryanIssPro left the game
+[16:38:55] [Server thread/INFO]: AryanIssPro issued server command: /tpa VaibhavIssPro
+[16:39:39] [Server thread/INFO]: AryanIssPro lost connection: Disconnected
+[16:39:39] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
+[16:39:39] [Server thread/INFO]: AryanIssPro left the game
+[16:39:41] [User Authenticator #13/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+[16:39:42] [Server thread/INFO]: AryanIssPro joined the game
+[16:39:42] [Server thread/INFO]: AryanIssPro[/127.186.89.186:58447] logged in with entity id 21546 at ([world]94.69999998807907, 69.0, -182.66947991509335)
+[16:39:42] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
+[16:39:42] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
+[16:39:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
+[16:39:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 427bc943-f939-30f1-b40e-c29325272737
+[16:39:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player AryanIssPro (427bc943-f939-30f1-b40e-c29325272737) successfully connected to voice chat
+[16:39:51] [Server thread/INFO]: AryanIssPro lost connection: Disconnected
+[16:39:51] [Server thread/INFO]: [voicechat] Disconnecting client AryanIssPro
+[16:39:51] [Server thread/INFO]: AryanIssPro left the game
+[16:39:53] [User Authenticator #13/INFO]: UUID of player AryanIssPro is 427bc943-f939-30f1-b40e-c29325272737
+[16:39:54] [Server thread/INFO]: AryanIssPro joined the game
+[16:39:54] [Server thread/INFO]: AryanIssPro[/100.64.1.3:63028] logged in with entity id 21651 at ([world]94.69999998807907, 69.0, -182.66947991509335)
+[16:39:54] [Server thread/INFO]: [voicechat] Received secret request of AryanIssPro (18)
+[16:39:54] [Server thread/INFO]: [voicechat] Sent secret to AryanIssPro
+[16:39:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 427bc943-f939-30f1-b40e-c29325272737
+[16:39:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 427bc943-f939-30f1-b40e-c29325272737
+[16:39:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player AryanIssPro (427bc943-f939-30f1-b40e-c29325272737) successfully connected to voice chat
+[16:44:13] [Async Chat Thread - #10/INFO]: [Not Secure] <AryanIssPro> yeahhh
+[16:44:16] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[16:44:41] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 4
+[16:44:47] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 3
+[16:44:57] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 4
