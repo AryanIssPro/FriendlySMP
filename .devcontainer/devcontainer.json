@@ -1,0 +1,5 @@
+{
+    "name": "My Dev Container",
+    "postCreateCommand": "bash setup.sh",
+    "postStartCommand": "./start.sh"
+  }
