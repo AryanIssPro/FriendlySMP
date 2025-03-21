@@ -780,3 +780,112 @@
 [16:44:41] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 4
 [16:44:47] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 3
 [16:44:57] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 4
+[16:45:11] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 2
+[16:45:32] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 3
+[16:45:54] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[16:46:49] [Server thread/WARN]: VaibhavIssPro moved wrongly!
+[16:47:12] [Server thread/WARN]: VaibhavIssPro moved wrongly!
+[16:47:36] [Server thread/WARN]: VaibhavIssPro moved wrongly!
+[16:47:57] [Server thread/INFO]: Villager Villager['Leatherworker'/31, uuid='432b4b39-e706-4858-b4d1-1d07b24e3a62', l='ServerLevel[world]', x=91.84, y=70.00, z=-188.40, cpos=[5, -12], tl=122452, v=true] died, message: 'Leatherworker was slain by AryanIssPro'
+[16:47:57] [Server thread/INFO]: Villager Villager['Leatherworker'/27, uuid='bbd4bf13-00eb-43e9-b92d-1b88d63bb3ff', l='ServerLevel[world]', x=90.81, y=70.00, z=-188.42, cpos=[5, -12], tl=122452, v=true] died, message: 'Leatherworker was slain by AryanIssPro'
+[16:50:50] [Server thread/INFO]: AryanIssPro issued server command: /save-all
+[16:50:51] [Server thread/INFO]: [AryanIssPro: Saved the game]
+[16:51:51] [Server thread/INFO]: VaibhavIssPro issued server command: /tpa AryanIssPro
+[16:51:55] [Server thread/INFO]: AryanIssPro issued server command: /tpyes
+[16:52:10] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[16:52:32] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 3
+[16:53:09] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 4
+[16:53:29] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 2
+[16:53:39] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 2
+[16:53:51] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 5
+[16:54:02] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 4
+[16:54:14] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[16:54:18] [Server thread/WARN]: AryanIssPro moved wrongly!
+[16:54:56] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 2
+[16:55:14] [Server thread/INFO]: AryanIssPro issued server command: /save-all flush
+[16:55:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:55:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:55:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:55:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:55:14] [Server thread/INFO]: [AryanIssPro: Saved the game]
+[16:55:15] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[16:55:18] [Server thread/INFO]: AryanIssPro issued server command: /save-all
+[16:55:18] [Server thread/INFO]: [AryanIssPro: Saved the game]
+[16:55:24] [Server thread/INFO]: VaibhavIssPro issued server command: /v 4
+[16:55:24] [Server thread/INFO]: [Essentials] VaibhavIssPro was denied access to command.
+[16:55:28] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 5
+[16:55:31] [Server thread/INFO]: AryanIssPro issued server command: /heal
+[16:55:32] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[16:55:32] [Server thread/INFO]: AryanIssPro issued server command: /heal
+[16:55:36] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 4
+[16:55:54] [Server thread/INFO]: AryanIssPro issued server command: /home bed
+[16:56:22] [Server thread/INFO]: VaibhavIssPro issued server command: /∆pv 1
+[16:56:26] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 1
+[16:56:33] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 2
+[16:56:45] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 4
+[16:56:52] [Server thread/INFO]: VaibhavIssPro issued server command: /pv 2
+[16:57:20] [Server thread/INFO]: VaibhavIssPro lost connection: Disconnected
+[16:57:20] [Server thread/INFO]: [voicechat] Disconnecting client VaibhavIssPro
+[16:57:20] [Server thread/INFO]: VaibhavIssPro left the game
+[17:02:26] [Server thread/INFO]: AryanIssPro issued server command: /stop
+[17:02:26] [Server thread/INFO]: [AryanIssPro: Stopping the server]
+[17:02:26] [Server thread/INFO]: Stopping server
+[17:02:26] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.9.11
+[17:02:26] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-SNAPSHOT-968
+[17:02:26] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[17:02:26] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[17:02:27] [Server thread/INFO]: [dynmap] Saved 1123 pending tile renders in world 'world'
+[17:02:32] [Server thread/INFO]: [dynmap] Disabled
+[17:02:32] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10+7004-768a436
+[17:02:32] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:02:32] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.28
+[17:02:32] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
+[17:02:32] [Server thread/INFO]: [TAB] Disabled in 3ms
+[17:02:32] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.1-SNAPSHOT
+[17:02:32] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[17:02:32] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[17:02:32] [Server thread/INFO]: [AxVaults] Disabling AxVaults v2.6.5
+[17:02:32] [WebSocketConnectReadThread-861/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[17:02:32] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+189-eab2201
+[17:02:32] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
+[17:02:32] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[17:02:32] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
+[17:02:32] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[17:02:32] [Server thread/INFO]: [LuckPerms] Closing storage...
+[17:02:33] [Server thread/INFO]: [LuckPerms] Goodbye!
+[17:02:33] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[17:02:33] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[17:02:33] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[17:02:33] [Server thread/INFO]: Saving players
+[17:02:33] [Server thread/INFO]: AryanIssPro lost connection: Server closed
+[17:02:33] [Server thread/INFO]: AryanIssPro left the game
+[17:02:33] [Server thread/INFO]: Saving worlds
+[17:02:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:02:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:02:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:02:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:02:33] [Server thread/INFO]: [ChunkHolderManager] Saved 11 block chunks, 349 entity chunks, 0 poi chunks in world 'world' in 0.22s
+[17:02:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[17:02:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[17:02:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:02:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:02:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:02:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:02:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[17:02:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[17:02:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[17:02:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:02:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:02:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:02:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:02:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[17:02:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[17:02:34] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[17:02:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:02:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:02:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:02:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:02:34] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[17:02:34] [Server thread/INFO]: All I/O tasks to complete
+[17:02:34] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[17:02:34] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
