@@ -11,3 +11,4 @@
 1742552232728,player decapitated,ShashankIsPro,VaibhavIssPro,§f[Stone Sword]
 1742552590678,player decapitated,ShashankIsPro,AryanIssPro,§f[Iron Sword]
 1742553263277,player decapitated,.AryanIssPro,AryanIssPro,§f[Iron Sword]
+1742578245827,mob decapitated,Farmer,AryanIssPro,
