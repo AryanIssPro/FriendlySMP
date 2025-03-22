@@ -48,3 +48,4 @@
 2025-03-22 01:29:47,905 - [AUTH] - INFO - Current queued commands: [{'server_id': '8431bed5-48c2-468a-bed1-7eb64b1b9468', 'user_id': 1, 'command': 'stop_server', 'action_id': None}]
 2025-03-22 01:30:52,973 - [AUTH] - INFO - Current queued commands: [{'server_id': '8431bed5-48c2-468a-bed1-7eb64b1b9468', 'user_id': 1, 'command': 'kill_server', 'action_id': None}]
 2025-03-22 01:31:31,979 - [AUTH] - INFO - Current queued commands: [{'server_id': '8431bed5-48c2-468a-bed1-7eb64b1b9468', 'user_id': 1, 'command': 'start_server', 'action_id': None}]
+2025-03-22 17:48:41,030 - [AUTH] - INFO - Current queued commands: [{'server_id': '8431bed5-48c2-468a-bed1-7eb64b1b9468', 'user_id': 1, 'command': 'restart_server', 'action_id': None}]

@@ -1,235 +1,265 @@
-[17:04:22] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[17:04:22] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) for Minecraft 1.21.4
-[17:04:22] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:04:24] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
-[17:04:24] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (13):
- - AxVaults (2.6.5), DropHeads (3.9.11), Essentials (2.21.0-dev+189-eab2201), Geyser-Spigot (2.6.1-SNAPSHOT), LuckPerms (5.4.156), TAB (5.0.7), ViaBackwards (5.2.1), ViaRewind (4.0.4), ViaVersion (5.2.1), WorldEdit (7.3.10+7004-768a436), dynmap (3.7-SNAPSHOT-968), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), voicechat (2.5.28)
-[17:04:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:04:35] [ServerMain/INFO]: Loaded 1370 recipes
-[17:04:35] [ServerMain/INFO]: Loaded 1481 advancements
-[17:04:35] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[17:04:35] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 310.6ms
-[17:04:35] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[17:04:35] [Server thread/INFO]: Loading properties
-[17:04:35] [Server thread/INFO]: This server is running Paper version 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[17:04:35] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:04:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:04:35] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:04:37] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[17:04:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[17:04:38] [Server thread/INFO]: Default game type: SURVIVAL
-[17:04:38] [Server thread/INFO]: Generating keypair
-[17:04:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:04:39] [Server thread/INFO]: Using epoll channel type
-[17:04:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:04:39] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[17:04:41] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[17:04:41] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[17:04:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[17:04:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[17:04:42] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[17:04:42] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[17:04:43] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[17:04:43] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
-[17:04:43] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
-[17:04:44] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[17:04:45] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[17:04:45] [Server thread/INFO]: [floodgate] Took 1,470ms to boot Floodgate
-[17:04:45] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
-[17:04:45] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
-[17:04:45] [Server thread/INFO]: [AxVaults] Loading server plugin AxVaults v2.6.5
-[17:04:46] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.1-SNAPSHOT
-[17:04:47] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[17:04:47] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[17:04:47] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
-[17:04:47] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.28
-[17:04:47] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10+7004-768a436
-[17:04:49] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5907bd57]
-[17:04:49] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
-[17:04:49] [Server thread/INFO]: [dynmap] version=1.21.4-212-bb1beda (MC: 1.21.4)
-[17:04:49] [Server thread/INFO]: [dynmap] Mod Support API available
-[17:04:49] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
-[17:04:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:04:49] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
-[17:04:49] [Server thread/INFO]:         __    
-[17:04:49] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
-[17:04:49] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[17:04:49] [Server thread/INFO]: 
-[17:04:49] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[17:04:50] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[17:04:50] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[17:04:51] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[17:04:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2166ms)
-[17:04:51] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
-[17:04:51] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
-[17:04:51] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:04:51] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[17:04:52] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
-[17:04:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:04:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:04:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:04:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:04:54] [Server thread/INFO]: Preparing level "world"
-[17:04:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:04:57] [Server thread/INFO]: Preparing spawn area: 0%
-[17:04:58] [Server thread/INFO]: Preparing spawn area: 0%
-[17:04:58] [Server thread/INFO]: Preparing spawn area: 0%
-[17:04:58] [Server thread/INFO]: Time elapsed: 1499 ms
-[17:04:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:04:58] [Server thread/INFO]: Preparing spawn area: 0%
-[17:04:59] [Server thread/INFO]: Time elapsed: 438 ms
-[17:04:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:04:59] [Server thread/INFO]: Preparing spawn area: 0%
-[17:04:59] [Server thread/INFO]: Preparing spawn area: 48%
-[17:04:59] [Server thread/INFO]: Time elapsed: 606 ms
-[17:04:59] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[17:04:59] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
-[17:04:59] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
-[17:04:59] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[17:05:00] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
-[17:05:01] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[17:05:01] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[17:05:02] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[17:05:02] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[17:05:02] [Server thread/INFO]: [Essentials] Using locale en
-[17:05:03] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[17:05:03] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[17:05:03] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[17:05:03] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[17:05:03] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[17:05:03] [Server thread/INFO]: [AxVaults] Enabling AxVaults v2.6.5
-[17:05:05] [Server thread/INFO]: [AxVaults] Loaded plugin!
-[17:05:05] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
-[17:05:05] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
-[17:05:06] [Server thread/INFO]: [TAB] Loaded NMS hook in 288ms
-[17:05:06] [Server thread/INFO]: [TAB] Enabled in 462ms
-[17:05:06] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.28
-[17:05:07] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.4-R0.1
-[17:05:07] [Server thread/INFO]: [voicechat] Compatibility version 18
-[17:05:07] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[17:05:07] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[17:05:07] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
-[17:05:07] [Server thread/INFO]: [dynmap] Added 21 custom biome mappings
-[17:05:07] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.156 for access control
-[17:05:08] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[17:05:13] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
-[17:05:13] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
-[17:05:13] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[17:05:13] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[17:05:13] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[17:05:14] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[17:05:14] [Server thread/INFO]: [dynmap] version 3.7-SNAPSHOT-968 is enabled - core version 3.7-SNAPSHOT-985
-[17:05:14] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[17:05:14] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
-[17:05:14] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[17:05:14] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[17:05:14] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[17:05:14] [Server thread/INFO]: [dynmap] Loaded 20734 pending tile renders for world 'world'
-[17:05:14] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[17:05:14] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[17:05:14] [Server thread/INFO]: [dynmap] Enabled
-[17:05:14] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
-[17:05:15] [Server thread/INFO]: [spark] Starting background profiler...
-[17:05:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:05:16] [Server thread/INFO]: [Geyser-Spigot] 
-[17:05:16] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.1-b786 (git-master-32160c5)
-[17:05:16] [Server thread/INFO]: [Geyser-Spigot] 
-[17:05:16] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:05:21] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[17:05:21] [Server thread/INFO]: [Geyser-Spigot] Done (5.337s)! Run /geyser help for help!
-[17:05:21] [Server thread/INFO]: Done preparing level "world" (26.685s)
-[17:05:21] [Server thread/INFO]: Starting GS4 status listener
-[17:05:21] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
-[17:05:21] [Server thread/INFO]: Thread Query Listener started
-[17:05:21] [Server thread/INFO]: Running delayed init tasks
-[17:05:21] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[17:05:21] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
-[17:05:21] [Server thread/INFO]: Done (61.309s)! For help, type "help"
-[17:05:21] [Server thread/INFO]: [voicechat] Loading plugins
-[17:05:21] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[17:05:21] [Server thread/INFO]: [voicechat] Initializing plugins
-[17:05:21] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[17:05:21] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[17:05:22] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'ideas-impossible.gl.at.ply.gg:1155'
-[17:05:22] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[17:05:22] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
-[17:05:22] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[17:05:23] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
-[17:10:12] [Server thread/INFO]: Stopping server
-[17:10:12] [Server thread/INFO]: [DropHeads] Disabling DropHeads v3.9.11
-[17:10:12] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-SNAPSHOT-968
-[17:10:12] [Server thread/INFO]: [dynmap] Unloaded 11 components.
-[17:10:12] [Server thread/INFO]: [dynmap] Stopping map renderer...
-[17:10:12] [Server thread/INFO]: [dynmap] Saved 19537 pending tile renders in world 'world'
-[17:10:13] [Server thread/INFO]: [dynmap] Disabled
-[17:10:13] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10+7004-768a436
-[17:10:13] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[17:10:13] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.28
-[17:10:13] [Server thread/INFO]: [TAB] Disabling TAB v5.0.7
-[17:10:13] [Server thread/INFO]: [TAB] Disabled in 1ms
-[17:10:13] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.1-SNAPSHOT
-[17:10:13] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[17:10:13] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[17:10:13] [Server thread/INFO]: [AxVaults] Disabling AxVaults v2.6.5
-[17:10:13] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+189-eab2201
-[17:10:13] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
-[17:10:13] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[17:10:13] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
-[17:10:13] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[17:10:13] [Server thread/INFO]: [LuckPerms] Closing storage...
-[17:10:13] [Server thread/INFO]: [LuckPerms] Goodbye!
-[17:10:13] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
-[17:10:13] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
-[17:10:13] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[17:10:13] [Server thread/INFO]: Saving players
-[17:10:13] [Server thread/INFO]: Saving worlds
-[17:10:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[17:10:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[17:10:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[17:10:13] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[17:10:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:10:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:10:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:10:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:10:13] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[17:10:13] [Server thread/INFO]: All I/O tasks to complete
-[17:10:13] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[17:10:13] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[18:14:19] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[18:14:19] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) for Minecraft 1.21.4
+[18:14:19] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:14:21] [ServerMain/INFO]: [PluginInitializerManager] Initialized 14 plugins
+[18:14:21] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (14):
+ - AxVaults (2.6.5), DropHeads (3.9.11), Essentials (2.21.0-dev+189-eab2201), FastChunkPregenerator (2.0.9-SNAPSHOT), Geyser-Spigot (2.6.1-SNAPSHOT), LuckPerms (5.4.156), TAB (5.0.7), ViaBackwards (5.2.1), ViaRewind (4.0.4), ViaVersion (5.2.1), WorldEdit (7.3.10+7004-768a436), dynmap (3.7-SNAPSHOT-968), floodgate (2.2.4-SNAPSHOT (b116-0e3163c)), voicechat (2.5.28)
+[18:14:27] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:14:32] [ServerMain/INFO]: Loaded 1370 recipes
+[18:14:32] [ServerMain/INFO]: Loaded 1481 advancements
+[18:14:32] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[18:14:32] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 376.7ms
+[18:14:32] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[18:14:32] [Server thread/INFO]: Loading properties
+[18:14:32] [Server thread/INFO]: This server is running Paper version 1.21.4-212-main@bb1beda (2025-03-17T10:10:58Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[18:14:32] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:14:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:14:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:14:34] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[18:14:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[18:14:34] [Server thread/INFO]: Default game type: SURVIVAL
+[18:14:34] [Server thread/INFO]: Generating keypair
+[18:14:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:14:34] [Server thread/INFO]: Using epoll channel type
+[18:14:34] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:14:34] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:14:36] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[18:14:36] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[18:14:37] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:14:37] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[18:14:38] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:14:38] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[18:14:38] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[18:14:39] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[18:14:39] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
+[18:14:39] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[18:14:40] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[18:14:40] [Server thread/INFO]: [floodgate] Took 1,042ms to boot Floodgate
+[18:14:40] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
+[18:14:40] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+189-eab2201
+[18:14:40] [Server thread/INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
+[18:14:40] [Server thread/INFO]: [AxVaults] Loading server plugin AxVaults v2.6.5
+[18:14:41] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.1-SNAPSHOT
+[18:14:43] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[18:14:43] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[18:14:43] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.7
+[18:14:43] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.28
+[18:14:43] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10+7004-768a436
+[18:14:45] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@29f5f6bb]
+[18:14:45] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
+[18:14:45] [Server thread/INFO]: [dynmap] version=1.21.4-212-bb1beda (MC: 1.21.4)
+[18:14:45] [Server thread/INFO]: [dynmap] Mod Support API available
+[18:14:45] [Server thread/INFO]: [DropHeads] Loading server plugin DropHeads v3.9.11
+[18:14:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:14:45] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[18:14:46] [Server thread/INFO]:         __    
+[18:14:46] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[18:14:46] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:14:46] [Server thread/INFO]: 
+[18:14:46] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:14:47] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:14:48] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:14:48] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:14:48] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3230ms)
+[18:14:48] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[18:14:48] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
+[18:14:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:14:48] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:14:49] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
+[18:14:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:14:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:14:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:14:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:14:53] [Server thread/INFO]: Preparing level "world"
+[18:14:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:14:57] [Server thread/INFO]: Preparing spawn area: 0%
+[18:14:57] [Server thread/INFO]: Preparing spawn area: 0%
+[18:14:57] [Server thread/INFO]: Preparing spawn area: 0%
+[18:14:57] [Server thread/INFO]: Preparing spawn area: 0%
+[18:14:59] [Server thread/INFO]: Preparing spawn area: 0%
+[18:14:59] [Server thread/INFO]: Preparing spawn area: 0%
+[18:14:59] [Server thread/INFO]: Preparing spawn area: 0%
+[18:14:59] [Server thread/INFO]: Time elapsed: 3076 ms
+[18:14:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:15:00] [Server thread/INFO]: Preparing spawn area: 0%
+[18:15:00] [Server thread/INFO]: Preparing spawn area: 0%
+[18:15:00] [Server thread/INFO]: Time elapsed: 875 ms
+[18:15:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:15:00] [Server thread/INFO]: Preparing spawn area: 0%
+[18:15:00] [Server thread/INFO]: Time elapsed: 498 ms
+[18:15:00] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[18:15:01] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[18:15:01] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[18:15:01] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[18:15:01] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+189-eab2201
+[18:15:02] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:15:02] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:15:02] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[18:15:02] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[18:15:03] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[18:15:03] [Server thread/INFO]: [Essentials] Using locale en
+[18:15:03] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:15:04] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:15:04] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[18:15:04] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[18:15:04] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[18:15:04] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
+[18:15:04] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[18:15:04] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[18:15:06] [Server thread/INFO]: [AxVaults] Enabling AxVaults v2.6.5
+[18:15:08] [Server thread/INFO]: [AxVaults] Loaded plugin!
+[18:15:08] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.1-SNAPSHOT
+[18:15:09] [Server thread/INFO]: [TAB] Enabling TAB v5.0.7
+[18:15:09] [Server thread/INFO]: [TAB] Loaded NMS hook in 100ms
+[18:15:09] [Server thread/INFO]: [TAB] Enabled in 393ms
+[18:15:09] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.28
+[18:15:10] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.4-R0.1
+[18:15:10] [Server thread/INFO]: [voicechat] Compatibility version 18
+[18:15:10] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[18:15:10] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[18:15:10] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
+[18:15:10] [Server thread/INFO]: [dynmap] Added 21 custom biome mappings
+[18:15:10] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.156 for access control
+[18:15:11] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[18:15:17] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[18:15:17] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[18:15:17] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[18:15:17] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[18:15:17] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[18:15:18] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[18:15:18] [Server thread/INFO]: [dynmap] version 3.7-SNAPSHOT-968 is enabled - core version 3.7-SNAPSHOT-985
+[18:15:18] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[18:15:18] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[18:15:18] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[18:15:18] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[18:15:18] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[18:15:18] [Server thread/INFO]: [dynmap] Loaded 46086 pending tile renders for world 'world'
+[18:15:18] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[18:15:18] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[18:15:18] [Server thread/INFO]: [dynmap] Enabled
+[18:15:18] [Server thread/INFO]: [DropHeads] Enabling DropHeads v3.9.11
+[18:15:20] [Server thread/INFO]: [spark] Starting background profiler...
+[18:15:20] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:15:20] [Server thread/INFO]: [Geyser-Spigot] 
+[18:15:20] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.1-b786 (git-master-32160c5)
+[18:15:20] [Server thread/INFO]: [Geyser-Spigot] 
+[18:15:20] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:15:27] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[18:15:27] [Server thread/INFO]: [Geyser-Spigot] Done (6.296s)! Run /geyser help for help!
+[18:15:27] [Server thread/INFO]: Done preparing level "world" (34.349s)
+[18:15:27] [Server thread/INFO]: Starting GS4 status listener
+[18:15:27] [Server thread/INFO]: Thread Query Listener started
+[18:15:27] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[18:15:27] [Server thread/INFO]: Running delayed init tasks
+[18:15:27] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[18:15:27] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[18:15:27] [Server thread/INFO]: [world] Generating Chunks: 3472 of 1549925 [0.22%] with [0.04 Chunks/s]
+[18:15:29] [Server thread/INFO]: Done (71.821s)! For help, type "help"
+[18:15:29] [Server thread/INFO]: [voicechat] Loading plugins
+[18:15:29] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[18:15:29] [Server thread/INFO]: [voicechat] Initializing plugins
+[18:15:29] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[18:15:29] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[18:15:29] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'link-idle.gl.at.ply.gg:1399'
+[18:15:29] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[18:15:29] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[18:15:29] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[18:15:29] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[18:15:32] [Server thread/INFO]: [world] Generating Chunks: 3605 of 1549925 [0.23%] with [26.46 Chunks/s]
+[18:15:37] [Server thread/INFO]: [world] Generating Chunks: 4048 of 1549925 [0.26%] with [88.29 Chunks/s]
+[18:15:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2554ms or 51 ticks behind
+[18:15:42] [Server thread/INFO]: [world] Generating Chunks: 4466 of 1549925 [0.28%] with [82.83 Chunks/s]
+[18:15:47] [Server thread/INFO]: [world] Generating Chunks: 4614 of 1549925 [0.29%] with [29.31 Chunks/s]
+[18:15:52] [Server thread/INFO]: [world] Generating Chunks: 4624 of 1549925 [0.29%] with [1.95 Chunks/s]
+[18:16:00] [Server thread/INFO]: [world] Generating Chunks: 4695 of 1549925 [0.3%] with [9.42 Chunks/s]
+[18:16:05] [Server thread/INFO]: [world] Generating Chunks: 4707 of 1549925 [0.3%] with [2.31 Chunks/s]
+[18:16:10] [Server thread/INFO]: [world] Generating Chunks: 4724 of 1549925 [0.3%] with [3.38 Chunks/s]
+[18:16:15] [Server thread/INFO]: [world] Generating Chunks: 4752 of 1549925 [0.3%] with [5.51 Chunks/s]
+[18:16:21] [Server thread/INFO]: [world] Generating Chunks: 4773 of 1549925 [0.3%] with [3.73 Chunks/s]
+[18:16:26] [Server thread/INFO]: [world] Generating Chunks: 4806 of 1549925 [0.31%] with [6.38 Chunks/s]
+[18:16:31] [Server thread/INFO]: [world] Generating Chunks: 4825 of 1549925 [0.31%] with [3.43 Chunks/s]
+[18:16:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 41206ms or 824 ticks behind
+[18:16:37] [Server thread/INFO]: [world] Generating Chunks: 4865 of 1549925 [0.31%] with [7.86 Chunks/s]
+[18:16:42] [Server thread/INFO]: [world] Generating Chunks: 4897 of 1549925 [0.31%] with [6.09 Chunks/s]
+[18:16:47] [Server thread/INFO]: [world] Generating Chunks: 4929 of 1549925 [0.31%] with [6.39 Chunks/s]
+[18:16:52] [Server thread/INFO]: [world] Generating Chunks: 4964 of 1549925 [0.32%] with [6.84 Chunks/s]
+[18:16:57] [Server thread/INFO]: [world] Generating Chunks: 4987 of 1549925 [0.32%] with [4.46 Chunks/s]
+[18:17:02] [Server thread/INFO]: [world] Generating Chunks: 5029 of 1549925 [0.32%] with [8.12 Chunks/s]
+[18:17:08] [Server thread/INFO]: [world] Generating Chunks: 5037 of 1549925 [0.32%] with [1.44 Chunks/s]
+[18:17:13] [Server thread/INFO]: [world] Generating Chunks: 5073 of 1549925 [0.32%] with [7.08 Chunks/s]
+[18:17:18] [Server thread/INFO]: [world] Generating Chunks: 5093 of 1549925 [0.32%] with [3.99 Chunks/s]
+[18:17:23] [Server thread/INFO]: [world] Generating Chunks: 5113 of 1549925 [0.32%] with [3.89 Chunks/s]
+[18:17:30] [Server thread/INFO]: [world] Generating Chunks: 5130 of 1549925 [0.33%] with [2.59 Chunks/s]
+[18:17:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 45137ms or 902 ticks behind
+[18:17:35] [Server thread/INFO]: [world] Generating Chunks: 5152 of 1549925 [0.33%] with [4.35 Chunks/s]
+[18:17:40] [Server thread/INFO]: [world] Generating Chunks: 5188 of 1549925 [0.33%] with [7.14 Chunks/s]
+[18:17:45] [Server thread/INFO]: [world] Generating Chunks: 5228 of 1549925 [0.33%] with [7.91 Chunks/s]
+[18:17:50] [Server thread/INFO]: [world] Generating Chunks: 5247 of 1549925 [0.33%] with [3.77 Chunks/s]
+[18:17:55] [Server thread/INFO]: [world] Generating Chunks: 5287 of 1549925 [0.34%] with [7.93 Chunks/s]
+[18:18:01] [Server thread/INFO]: [world] Generating Chunks: 5310 of 1549925 [0.34%] with [3.67 Chunks/s]
+[18:18:06] [Server thread/INFO]: [world] Generating Chunks: 5347 of 1549925 [0.34%] with [7.1 Chunks/s]
+[18:18:11] [Server thread/INFO]: [world] Generating Chunks: 5371 of 1549925 [0.34%] with [4.68 Chunks/s]
+[18:18:18] [Server thread/INFO]: [world] Generating Chunks: 5398 of 1549925 [0.34%] with [4.37 Chunks/s]
+[18:18:23] [Server thread/INFO]: [world] Generating Chunks: 5443 of 1549925 [0.35%] with [8.56 Chunks/s]
+[18:18:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 35060ms or 701 ticks behind
+[18:18:28] [Server thread/INFO]: [world] Generating Chunks: 5462 of 1549925 [0.35%] with [3.4 Chunks/s]
+[18:18:33] [Server thread/INFO]: [world] Generating Chunks: 5492 of 1549925 [0.35%] with [5.94 Chunks/s]
+[18:18:39] [Server thread/INFO]: [world] Generating Chunks: 5508 of 1549925 [0.35%] with [2.99 Chunks/s]
+[18:18:44] [Server thread/INFO]: [world] Generating Chunks: 5551 of 1549925 [0.35%] with [8.36 Chunks/s]
+[18:18:49] [Server thread/INFO]: [world] Generating Chunks: 5590 of 1549925 [0.36%] with [7.5 Chunks/s]
+[18:18:54] [Server thread/INFO]: [world] Generating Chunks: 5627 of 1549925 [0.36%] with [7.38 Chunks/s]
+[18:18:59] [Server thread/INFO]: [world] Generating Chunks: 5670 of 1549925 [0.36%] with [8.52 Chunks/s]
+[18:19:04] [Server thread/INFO]: [world] Generating Chunks: 5692 of 1549925 [0.36%] with [4.19 Chunks/s]
+[18:19:09] [Server thread/INFO]: [world] Generating Chunks: 5733 of 1549925 [0.36%] with [8.19 Chunks/s]
+[18:19:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 32343ms or 646 ticks behind
+[18:19:15] [Server thread/INFO]: [world] Generating Chunks: 5769 of 1549925 [0.37%] with [7.04 Chunks/s]
+[18:19:21] [Server thread/INFO]: [world] Generating Chunks: 5804 of 1549925 [0.37%] with [5.62 Chunks/s]
+[18:19:26] [Server thread/INFO]: [world] Generating Chunks: 5848 of 1549925 [0.37%] with [8.65 Chunks/s]
+[18:19:33] [Server thread/INFO]: [world] Generating Chunks: 5871 of 1549925 [0.37%] with [3.15 Chunks/s]
+[18:19:38] [Server thread/INFO]: [world] Generating Chunks: 5918 of 1549925 [0.38%] with [9.26 Chunks/s]
+[18:19:43] [Server thread/INFO]: [world] Generating Chunks: 5956 of 1549925 [0.38%] with [7.56 Chunks/s]
+[18:19:48] [Server thread/INFO]: [world] Generating Chunks: 5994 of 1549925 [0.38%] with [7.59 Chunks/s]
+[18:19:53] [Server thread/INFO]: [world] Generating Chunks: 6024 of 1549925 [0.38%] with [5.93 Chunks/s]
+[18:19:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30416ms or 608 ticks behind
+[18:19:58] [Server thread/INFO]: [world] Generating Chunks: 6064 of 1549925 [0.39%] with [7.84 Chunks/s]
+[18:20:03] [Server thread/INFO]: [world] Generating Chunks: 6108 of 1549925 [0.39%] with [8.7 Chunks/s]
+[18:20:09] [Server thread/INFO]: [world] Generating Chunks: 6124 of 1549925 [0.39%] with [3.12 Chunks/s]
+[18:20:14] [Server thread/INFO]: [world] Generating Chunks: 6170 of 1549925 [0.39%] with [9.04 Chunks/s]
+[18:20:19] [Server thread/INFO]: [world] Generating Chunks: 6205 of 1549925 [0.4%] with [6.76 Chunks/s]
+[18:20:25] [Server thread/INFO]: [world] Generating Chunks: 6226 of 1549925 [0.4%] with [3.45 Chunks/s]
+[18:20:30] [Server thread/INFO]: [world] Generating Chunks: 6272 of 1549925 [0.4%] with [9.09 Chunks/s]
+[18:20:37] [Server thread/INFO]: [world] Generating Chunks: 6297 of 1549925 [0.4%] with [3.8 Chunks/s]
+[18:20:42] [Server thread/INFO]: [world] Generating Chunks: 6344 of 1549925 [0.4%] with [9.25 Chunks/s]
+[18:20:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31622ms or 632 ticks behind
+[18:20:47] [Server thread/INFO]: [world] Generating Chunks: 6380 of 1549925 [0.41%] with [7.14 Chunks/s]
+[18:20:52] [Server thread/INFO]: [world] Generating Chunks: 6410 of 1549925 [0.41%] with [5.95 Chunks/s]
+[18:20:57] [Server thread/INFO]: [world] Generating Chunks: 6449 of 1549925 [0.41%] with [7.63 Chunks/s]
+[18:21:02] [Server thread/INFO]: [world] Generating Chunks: 6488 of 1549925 [0.41%] with [7.51 Chunks/s]
+[18:21:07] [Server thread/INFO]: [world] Generating Chunks: 6529 of 1549925 [0.42%] with [8.18 Chunks/s]
+[18:21:12] [Server thread/INFO]: [world] Generating Chunks: 6553 of 1549925 [0.42%] with [4.75 Chunks/s]
+[18:21:17] [Server thread/INFO]: [world] Generating Chunks: 6603 of 1549925 [0.42%] with [9.81 Chunks/s]
+[18:21:23] [Server thread/INFO]: [world] Generating Chunks: 6646 of 1549925 [0.42%] with [8.0 Chunks/s]
+[18:21:28] [Server thread/INFO]: [world] Generating Chunks: 6659 of 1549925 [0.42%] with [2.28 Chunks/s]
+[18:21:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29631ms or 592 ticks behind
+[18:21:33] [Server thread/INFO]: [world] Generating Chunks: 6704 of 1549925 [0.43%] with [8.84 Chunks/s]
+[18:21:39] [Server thread/INFO]: [world] Generating Chunks: 6733 of 1549925 [0.43%] with [4.78 Chunks/s]

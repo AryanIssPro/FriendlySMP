@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 100.64.1.3
+ip-address: 127.186.89.186
 afk: false
 socialspy: false
 npc: false
@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1742644711750
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742640216781
-  login: 1742639771042
+  logout: 1742645856152
+  login: 1742645294097
 money: '0'
 last-account-name: AryanKaAlt
 lastlocation:
   world: f40796f5-8651-47b6-ae21-bbf1ca44ff73
   world-name: world
-  x: 4.2047895601755725
-  y: 70.0
-  z: 1307.262817226759
-  yaw: -147.75003051757812
-  pitch: 50.69999313354492
+  x: 21.69999998807907
+  y: 61.0
+  z: 154.53837903819442
+  yaw: -4.650001525878906
+  pitch: 21.599998474121094
 logoutlocation:
   world: f40796f5-8651-47b6-ae21-bbf1ca44ff73
   world-name: world
-  x: 13.5
-  y: 63.0
-  z: 8.5
+  x: 17.5
+  y: 65.0
+  z: -4.5
   yaw: 0.0
   pitch: 0.0
