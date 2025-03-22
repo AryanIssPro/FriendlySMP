@@ -1,5 +1,5 @@
 # Maximize the time the generation thread spends per tick (close to 35 if async)
-MaxMillisPerTick: 34.999
+MaxMillisPerTick: 100.0
 
 # No waiting between generations to keep it continuous
 WaitTicksBetween: 0
@@ -14,7 +14,7 @@ HighAsyncPriority: true
 UnsafeAsyncCalls: true
 
 # Allow as many parallel async calls as the machine can handle
-MaxParallelAsyncCalls: 128  # Adjust based on CPU (start at 4x core count, increase if stable)
+MaxParallelAsyncCalls: 256  # Adjust based on CPU (start at 4x core count, increase if stable)
 
 # Reduce notification delay for real-time progress updates
 SecondsPerNotification: 1
