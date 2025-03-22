@@ -123,3 +123,4 @@
 {"level": "INFO", "time": "2025-03-22 01:30:05,526", "log_msg": "issued command kill_server for server Friendly SMP with ID: 8431bed5-48c2-468a-bed1-7eb64b1b9468", "user_name": "admin", "user_id": 1, "server_id": "8431bed5-48c2-468a-bed1-7eb64b1b9468", "source_ip": "10.240.0.199"}
 {"level": "INFO", "time": "2025-03-22 01:31:27,919", "log_msg": "modified the server with ID 8431bed5-48c2-468a-bed1-7eb64b1b9468", "user_name": "admin", "user_id": 1, "server_id": "8431bed5-48c2-468a-bed1-7eb64b1b9468", "source_ip": "10.240.0.199"}
 {"level": "INFO", "time": "2025-03-22 01:31:31,940", "log_msg": "issued command start_server for server Friendly SMP with ID: 8431bed5-48c2-468a-bed1-7eb64b1b9468", "user_name": "admin", "user_id": 1, "server_id": "8431bed5-48c2-468a-bed1-7eb64b1b9468", "source_ip": "10.240.0.199"}
+{"level": "INFO", "time": "2025-03-22 17:04:27,953", "log_msg": "Logged in", "user_name": "admin", "user_id": 1, "server_id": null, "source_ip": "10.240.1.34"}
