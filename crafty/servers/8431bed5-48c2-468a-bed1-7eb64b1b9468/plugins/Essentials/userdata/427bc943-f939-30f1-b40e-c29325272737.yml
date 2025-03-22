@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1742560562695
+  lastteleport: 1742655392349
   lastheal: 1742551377691
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742645928874
-  login: 1742645876782
+  logout: 1742656290570
+  login: 1742655343522
 money: '0'
 last-account-name: AryanIssPro
 logoutlocation:
   world: f40796f5-8651-47b6-ae21-bbf1ca44ff73
   world-name: world
-  x: 318.69999998807907
-  y: 67.5625
-  z: -5.925000011920929
-  yaw: -61.022796630859375
-  pitch: 14.700042724609375
+  x: 84.53509355429908
+  y: 69.125
+  z: -188.57499998807907
+  yaw: -174.89990234375
+  pitch: 90.0
 homes:
   home:
     world: f40796f5-8651-47b6-ae21-bbf1ca44ff73
@@ -37,11 +37,19 @@ homes:
     z: 36.69999998807907
     yaw: 131.39981079101562
     pitch: 80.24999237060547
+  village:
+    world: f40796f5-8651-47b6-ae21-bbf1ca44ff73
+    world-name: world
+    x: 85.49093106955443
+    y: 69.0
+    z: -186.78837010260008
+    yaw: -29.250091552734375
+    pitch: 10.499987602233887
 lastlocation:
   world: f40796f5-8651-47b6-ae21-bbf1ca44ff73
   world-name: world
-  x: -87.51165742057998
-  y: 64.0
-  z: 191.31329429712923
-  yaw: 27.953521728515625
-  pitch: 5.790138244628906
+  x: -1358.6060795326694
+  y: 79.98594256869951
+  z: -436.3130494537703
+  yaw: -56.10047912597656
+  pitch: 15.149969100952148

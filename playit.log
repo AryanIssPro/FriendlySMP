@@ -1,4 +1,4 @@
-8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 4 tunnels[2J8[0mstarting up tunnel connection[2J8[0mtunnel running[2J8[0mplayit (v0.15.26): 1742651871093 tunnel running, 4 tunnels registered
+8[0mno command provided, doing auto run[2J8[0mchecking if secret key is valid[2J8[0msecret key valid, agent has 4 tunnels[2J8[0mstarting up tunnel connection[2J8[0mtunnel running[2J8[0mplayit (v0.15.26): 1742656885604 tunnel running, 4 tunnels registered
 
 
 TUNNELS
@@ -6,7 +6,7 @@ transportation-carb.gl.at.ply.gg:1398 => 127.0.0.1:19132 (minecraft-bedrock)
 buying-hz.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 link-idle.gl.at.ply.gg:1399 => 127.0.0.1:24454 (proto: Udp, port count: 1)
 blog-http.gl.at.ply.gg:10013 => 127.0.0.1:8123 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.15.26): 1742651874575 tunnel running, 4 tunnels registered
+[2J8[0mplayit (v0.15.26): 1742656889137 tunnel running, 4 tunnels registered
 
 
 TUNNELS
@@ -14,7 +14,7 @@ transportation-carb.gl.at.ply.gg:1398 => 127.0.0.1:19132 (minecraft-bedrock)
 buying-hz.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 link-idle.gl.at.ply.gg:1399 => 127.0.0.1:24454 (proto: Udp, port count: 1)
 blog-http.gl.at.ply.gg:10013 => 127.0.0.1:8123 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.15.26): 1742651878253 tunnel running, 4 tunnels registered
+[2J8[0mplayit (v0.15.26): 1742656893228 tunnel running, 4 tunnels registered
 
 
 TUNNELS
@@ -22,7 +22,7 @@ transportation-carb.gl.at.ply.gg:1398 => 127.0.0.1:19132 (minecraft-bedrock)
 buying-hz.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 link-idle.gl.at.ply.gg:1399 => 127.0.0.1:24454 (proto: Udp, port count: 1)
 blog-http.gl.at.ply.gg:10013 => 127.0.0.1:8123 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.15.26): 1742651881696 tunnel running, 4 tunnels registered
+[2J8[0mplayit (v0.15.26): 1742656896995 tunnel running, 4 tunnels registered
 
 
 TUNNELS
@@ -30,7 +30,7 @@ transportation-carb.gl.at.ply.gg:1398 => 127.0.0.1:19132 (minecraft-bedrock)
 buying-hz.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 link-idle.gl.at.ply.gg:1399 => 127.0.0.1:24454 (proto: Udp, port count: 1)
 blog-http.gl.at.ply.gg:10013 => 127.0.0.1:8123 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.15.26): 1742651885118 tunnel running, 4 tunnels registered
+[2J8[0mplayit (v0.15.26): 1742656900725 tunnel running, 4 tunnels registered
 
 
 TUNNELS
@@ -38,39 +38,7 @@ transportation-carb.gl.at.ply.gg:1398 => 127.0.0.1:19132 (minecraft-bedrock)
 buying-hz.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 link-idle.gl.at.ply.gg:1399 => 127.0.0.1:24454 (proto: Udp, port count: 1)
 blog-http.gl.at.ply.gg:10013 => 127.0.0.1:8123 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.15.26): 1742651888653 tunnel running, 4 tunnels registered
-
-
-TUNNELS
-transportation-carb.gl.at.ply.gg:1398 => 127.0.0.1:19132 (minecraft-bedrock)
-buying-hz.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
-link-idle.gl.at.ply.gg:1399 => 127.0.0.1:24454 (proto: Udp, port count: 1)
-blog-http.gl.at.ply.gg:10013 => 127.0.0.1:8123 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.15.26): 1742651892123 tunnel running, 4 tunnels registered
-
-
-TUNNELS
-transportation-carb.gl.at.ply.gg:1398 => 127.0.0.1:19132 (minecraft-bedrock)
-buying-hz.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
-link-idle.gl.at.ply.gg:1399 => 127.0.0.1:24454 (proto: Udp, port count: 1)
-blog-http.gl.at.ply.gg:10013 => 127.0.0.1:8123 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.15.26): 1742651895796 tunnel running, 4 tunnels registered
-
-
-TUNNELS
-transportation-carb.gl.at.ply.gg:1398 => 127.0.0.1:19132 (minecraft-bedrock)
-buying-hz.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
-link-idle.gl.at.ply.gg:1399 => 127.0.0.1:24454 (proto: Udp, port count: 1)
-blog-http.gl.at.ply.gg:10013 => 127.0.0.1:8123 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.15.26): 1742651899339 tunnel running, 4 tunnels registered
-
-
-TUNNELS
-transportation-carb.gl.at.ply.gg:1398 => 127.0.0.1:19132 (minecraft-bedrock)
-buying-hz.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
-link-idle.gl.at.ply.gg:1399 => 127.0.0.1:24454 (proto: Udp, port count: 1)
-blog-http.gl.at.ply.gg:10013 => 127.0.0.1:8123 (proto: Tcp, port count: 1)
-[2J8[0mplayit (v0.15.26): 1742651902849 tunnel running, 4 tunnels registered
+[2J8[0mplayit (v0.15.26): 1742656904235 tunnel running, 4 tunnels registered
 
 
 TUNNELS
