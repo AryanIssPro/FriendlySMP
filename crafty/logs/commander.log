@@ -17634,3 +17634,149 @@ AttributeError: 'bool' object has no attribute 'icon'
 2025-03-22 10:09:37,265 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Stopping All Servers
 2025-03-22 10:09:37,265 - [Crafty] - INFO     - app.classes.controllers.servers_controller - All Servers Stopped
 2025-03-22 10:09:37,266 - [Crafty] - INFO     - app.classes.shared.command - Stopping all server daemons / threads
+2025-03-22 15:45:27,765 - [Crafty] - INFO     - __main__ - ***** Crafty Controller Started *****
+2025-03-22 15:45:27,766 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2025-03-22 15:45:27,772 - [Crafty] - INFO     - app.classes.shared.migration - There is nothing to migrate
+2025-03-22 15:45:27,797 - [Crafty] - INFO     - __main__ - Initializing all servers defined
+2025-03-22 15:45:27,797 - [Crafty] - INFO     - app.classes.shared.helpers - SSL Cert File is set to: /workspaces/FriendlySMP/crafty/app/config/web/certs/commander.cert.pem
+2025-03-22 15:45:27,798 - [Crafty] - INFO     - app.classes.shared.helpers - SSL Key File is set to: /workspaces/FriendlySMP/crafty/app/config/web/certs/commander.key.pem
+2025-03-22 15:45:27,798 - [Crafty] - INFO     - app.classes.shared.helpers - Cert and Key files already exists, not creating them.
+2025-03-22 15:45:27,798 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Checking to see if we already registered 8431bed5-48c2-468a-bed1-7eb64b1b9468
+2025-03-22 15:45:27,800 - [Crafty] - INFO     - app.classes.web.tornado_handler - Starting Web Server on ports https:8443
+2025-03-22 15:45:27,806 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2025-03-22 15:45:27,808 - [Crafty] - INFO     - app.classes.web.tornado_handler - https://10.0.2.18:8443 is up and ready for connections.
+2025-03-22 15:45:27,809 - [Crafty] - INFO     - app.classes.shared.migration - There is nothing to migrate
+2025-03-22 15:45:28,104 - [Crafty] - INFO     - app.classes.shared.server - Creating Server object: 8431bed5-48c2-468a-bed1-7eb64b1b9468 | Server Name: Friendly SMP | Auto Start: True
+2025-03-22 15:45:28,104 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:45:28,121 - [Crafty] - INFO     - app.classes.shared.server - Scheduling server Friendly SMP to start in 10 seconds
+2025-03-22 15:45:30,944 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Checking Big Bucket status
+2025-03-22 15:45:31,552 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Big bucket is alive and responding as expected
+2025-03-22 15:45:31,552 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Cache file is not old enough to require automatic refresh.
+2025-03-22 15:45:32,430 - [Crafty] - INFO     - __main__ - Checking Internet. This may take a minute.
+2025-03-22 15:45:34,431 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Manual bucket cache refresh initiated.
+2025-03-22 15:45:34,431 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Checking Big Bucket status
+2025-03-22 15:45:34,433 - [Crafty] - INFO     - __main__ - Execution Mode: Non-interactive (e.g. 'python main.py')
+2025-03-22 15:45:34,433 - [Crafty] - INFO     - __main__ - Application path: '/workspaces/FriendlySMP/crafty'
+2025-03-22 15:45:36,447 - [Crafty] - ERROR    - app.classes.minecraft.bigbucket - Unable to connect to big bucket due to error: HTTPSConnectionPool(host='jars.arcadiatech.org', port=443): Read timed out. (read timeout=2)
+2025-03-22 15:45:36,448 - [Crafty] - ERROR    - app.classes.minecraft.bigbucket - big bucket API is not available.
+2025-03-22 15:45:36,448 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Manual refresh completed.
+2025-03-22 15:45:37,463 - [Crafty] - ERROR    - app.classes.shared.helpers - Unable to check for new crafty version! 
+HTTPSConnectionPool(host='gitlab.com', port=443): Read timed out. (read timeout=1)
+2025-03-22 15:45:37,464 - [Crafty] - INFO     - __main__ - Removing old temp dirs
+2025-03-22 15:45:38,122 - [Crafty] - INFO     - app.classes.shared.server - Starting server ID: 8431bed5-48c2-468a-bed1-7eb64b1b9468 - Friendly SMP
+2025-03-22 15:45:38,405 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics Friendly SMP every 5 seconds
+2025-03-22 15:45:38,406 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics Friendly SMP every 30 seconds
+2025-03-22 15:45:38,407 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server Friendly SMP
+2025-03-22 15:45:38,408 - [Crafty] - INFO     - app.classes.shared.helpers - /workspaces/FriendlySMP/crafty/servers/8431bed5-48c2-468a-bed1-7eb64b1b9468/tempfile.txt is writable
+2025-03-22 15:45:38,431 - [Crafty] - INFO     - app.classes.shared.server - Launching Server Friendly SMP with command ['/usr/lib/jvm/java-21-openjdk-amd64/bin/java', '-Xms4G', '-Xmx8G', '-jar', 'paper.jar', 'nogui']
+2025-03-22 15:45:38,431 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2025-03-22 15:45:38,432 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /workspaces/FriendlySMP/crafty/servers/8431bed5-48c2-468a-bed1-7eb64b1b9468 with command: ['/usr/lib/jvm/java-21-openjdk-amd64/bin/java', '-Xms4G', '-Xmx8G', '-jar', 'paper.jar', 'nogui']
+2025-03-22 15:45:38,458 - [Crafty] - INFO     - app.classes.shared.server - Server Friendly SMP running with PID 16291
+2025-03-22 15:45:38,485 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:45:39,039 - [Crafty] - INFO     - app.classes.shared.server - Server Friendly SMP has crash detection enabled - starting watcher task
+2025-03-22 15:46:03,076 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/workspaces/FriendlySMP/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+                              ^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'players'
+2025-03-22 15:46:03,086 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/workspaces/FriendlySMP/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+                                     ^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'icon'
+2025-03-22 15:46:08,407 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:46:09,043 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:46:13,078 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/workspaces/FriendlySMP/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+                              ^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'players'
+2025-03-22 15:46:13,083 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/workspaces/FriendlySMP/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+                                     ^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'icon'
+2025-03-22 15:46:13,932 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/workspaces/FriendlySMP/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+                              ^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'players'
+2025-03-22 15:46:13,936 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/workspaces/FriendlySMP/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+                                     ^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'icon'
+2025-03-22 15:46:23,085 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/workspaces/FriendlySMP/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+                              ^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'players'
+2025-03-22 15:46:23,096 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/workspaces/FriendlySMP/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+                                     ^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'icon'
+2025-03-22 15:46:33,082 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read json from ping_obj due to the following error:
+Traceback (most recent call last):
+  File "/workspaces/FriendlySMP/crafty/app/classes/minecraft/stats.py", line 251, in parse_server_ping
+    online_stats = json.loads(ping_obj.players)
+                              ^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'players'
+2025-03-22 15:46:33,087 - [Crafty] - INFO     - app.classes.minecraft.stats - Unable to read the server icon due to the following error:
+Traceback (most recent call last):
+  File "/workspaces/FriendlySMP/crafty/app/classes/minecraft/stats.py", line 260, in parse_server_ping
+    server_icon = base64.encodebytes(ping_obj.icon)
+                                     ^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'icon'
+2025-03-22 15:46:38,408 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:46:39,045 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:47:08,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:47:09,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:47:38,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:47:39,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:48:08,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:48:09,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:48:38,408 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:48:39,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:49:08,407 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:49:09,043 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:49:38,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:49:39,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:50:08,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:50:09,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:50:38,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:50:39,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:51:08,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:51:09,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:51:38,407 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:51:39,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:52:08,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:52:09,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:52:38,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:52:39,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:53:08,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:53:09,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:53:38,408 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:53:39,041 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:54:08,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:54:09,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:54:38,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:54:39,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:55:08,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:55:09,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:55:38,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:55:39,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:56:08,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:56:09,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:56:38,406 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:56:39,041 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 15:57:08,407 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 15:57:09,040 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
