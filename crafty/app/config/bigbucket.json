@@ -1,5 +1,5 @@
 {
-    "last_refreshed": "03/21/2025, 21:20:25",
+    "last_refreshed": "03/22/2025, 16:38:52",
     "categories": {
         "mc_java_servers": {
             "enabled": true,
@@ -303,7 +303,7 @@
                             "url": [
                                 "https://jars.arcadiatech.org/paper/1.21.4/paper.jar"
                             ],
-                            "sha256": "8795be2df8280dd50ff15c233d8ed5ac882baee30b07dcfaf52354289229ee79"
+                            "sha256": "ab030d68900f3b8ff07a84783d28f5b3d8a6c7a24beef0fcb770011ddf045a40"
                         },
                         "1.21.3": {
                             "url": [
@@ -1253,7 +1253,7 @@
                             "url": [
                                 "https://jars.arcadiatech.org/velocity/3.4.0-SNAPSHOT/velocity.jar"
                             ],
-                            "sha256": "94b7a0d66b05a4adb4c430cdb092402016811bdf2080a181dfa5b41204866583"
+                            "sha256": "8c883512901b50441f8d540fd9164247b64579dbedcceb96f5d8fd0360769c9b"
                         },
                         "3.3.0-SNAPSHOT": {
                             "url": [
