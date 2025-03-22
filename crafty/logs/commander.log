@@ -17591,3 +17591,46 @@ AttributeError: 'bool' object has no attribute 'icon'
 2025-03-22 01:58:03,093 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
 2025-03-22 01:58:31,984 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
 2025-03-22 01:58:33,093 - [Crafty] - INFO     - app.classes.shared.server - Detecting possible crash for server: Friendly SMP 
+2025-03-22 10:09:24,258 - [Crafty] - INFO     - __main__ - ***** Crafty Controller Started *****
+2025-03-22 10:09:24,258 - [Crafty] - INFO     - app.classes.shared.helpers - No process found for pid. Assuming crafty crashed. Deleting stale session.lock
+2025-03-22 10:09:24,258 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2025-03-22 10:09:24,270 - [Crafty] - INFO     - app.classes.shared.migration - There is nothing to migrate
+2025-03-22 10:09:24,304 - [Crafty] - INFO     - app.classes.shared.helpers - SSL Cert File is set to: /workspaces/FriendlySMP/crafty/app/config/web/certs/commander.cert.pem
+2025-03-22 10:09:24,304 - [Crafty] - INFO     - app.classes.shared.helpers - SSL Key File is set to: /workspaces/FriendlySMP/crafty/app/config/web/certs/commander.key.pem
+2025-03-22 10:09:24,304 - [Crafty] - INFO     - __main__ - Initializing all servers defined
+2025-03-22 10:09:24,304 - [Crafty] - INFO     - app.classes.shared.helpers - Cert and Key files already exists, not creating them.
+2025-03-22 10:09:24,306 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Checking to see if we already registered 8431bed5-48c2-468a-bed1-7eb64b1b9468
+2025-03-22 10:09:24,308 - [Crafty] - INFO     - app.classes.web.tornado_handler - Starting Web Server on ports https:8443
+2025-03-22 10:09:24,314 - [Crafty] - INFO     - app.classes.shared.migration - Starting migrations
+2025-03-22 10:09:24,316 - [Crafty] - INFO     - app.classes.shared.migration - There is nothing to migrate
+2025-03-22 10:09:24,324 - [Crafty] - INFO     - app.classes.web.tornado_handler - https://10.0.2.18:8443 is up and ready for connections.
+2025-03-22 10:09:24,586 - [Crafty] - INFO     - app.classes.shared.server - Creating Server object: 8431bed5-48c2-468a-bed1-7eb64b1b9468 | Server Name: Friendly SMP | Auto Start: True
+2025-03-22 10:09:24,586 - [Crafty] - INFO     - app.classes.shared.server - Getting Stats for Server Friendly SMP ...
+2025-03-22 10:09:24,635 - [Crafty] - INFO     - app.classes.shared.server - Scheduling server Friendly SMP to start in 10 seconds
+2025-03-22 10:09:27,464 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Checking Big Bucket status
+2025-03-22 10:09:28,945 - [Crafty] - INFO     - __main__ - Checking Internet. This may take a minute.
+2025-03-22 10:09:29,544 - [Crafty] - ERROR    - app.classes.minecraft.bigbucket - Unable to connect to big bucket due to error: HTTPSConnectionPool(host='jars.arcadiatech.org', port=443): Read timed out. (read timeout=2)
+2025-03-22 10:09:29,545 - [Crafty] - ERROR    - app.classes.minecraft.bigbucket - big bucket API is not available.
+2025-03-22 10:09:30,946 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Manual bucket cache refresh initiated.
+2025-03-22 10:09:30,946 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Checking Big Bucket status
+2025-03-22 10:09:30,948 - [Crafty] - INFO     - __main__ - Execution Mode: Non-interactive (e.g. 'python main.py')
+2025-03-22 10:09:30,948 - [Crafty] - INFO     - __main__ - Application path: '/workspaces/FriendlySMP/crafty'
+2025-03-22 10:09:32,963 - [Crafty] - ERROR    - app.classes.minecraft.bigbucket - Unable to connect to big bucket due to error: HTTPSConnectionPool(host='jars.arcadiatech.org', port=443): Read timed out. (read timeout=2)
+2025-03-22 10:09:32,963 - [Crafty] - ERROR    - app.classes.minecraft.bigbucket - big bucket API is not available.
+2025-03-22 10:09:32,963 - [Crafty] - INFO     - app.classes.minecraft.bigbucket - Manual refresh completed.
+2025-03-22 10:09:34,202 - [Crafty] - INFO     - __main__ - Removing old temp dirs
+2025-03-22 10:09:34,636 - [Crafty] - INFO     - app.classes.shared.server - Starting server ID: 8431bed5-48c2-468a-bed1-7eb64b1b9468 - Friendly SMP
+2025-03-22 10:09:34,908 - [Crafty] - INFO     - app.classes.shared.server - Polling server statistics Friendly SMP every 5 seconds
+2025-03-22 10:09:34,909 - [Crafty] - INFO     - app.classes.shared.server - Saving server statistics Friendly SMP every 30 seconds
+2025-03-22 10:09:34,911 - [Crafty] - INFO     - app.classes.shared.server - Start command detected. Reloading settings from DB for server Friendly SMP
+2025-03-22 10:09:34,911 - [Crafty] - INFO     - app.classes.shared.helpers - /workspaces/FriendlySMP/crafty/servers/8431bed5-48c2-468a-bed1-7eb64b1b9468/tempfile.txt is writable
+2025-03-22 10:09:34,934 - [Crafty] - INFO     - app.classes.shared.server - Launching Server Friendly SMP with command ['/usr/lib/jvm/java-21-openjdk-amd64/bin/java', '-Xms4G', '-Xmx8G', '-jar', 'paper.jar', 'nogui']
+2025-03-22 10:09:34,935 - [Crafty] - INFO     - app.classes.shared.server - Unix Detected
+2025-03-22 10:09:34,935 - [Crafty] - INFO     - app.classes.shared.server - Starting server in /workspaces/FriendlySMP/crafty/servers/8431bed5-48c2-468a-bed1-7eb64b1b9468 with command: ['/usr/lib/jvm/java-21-openjdk-amd64/bin/java', '-Xms4G', '-Xmx8G', '-jar', 'paper.jar', 'nogui']
+2025-03-22 10:09:34,943 - [Crafty] - ERROR    - app.classes.shared.helpers - Java Detect Error: Command '['/usr/bin/update-alternatives', '--list', 'java']' returned non-zero exit status 2.
+2025-03-22 10:09:34,944 - [Crafty] - ERROR    - app.classes.shared.server - Server Friendly SMP failed to start with error code: [Errno 2] No such file or directory: '/usr/lib/jvm/java-21-openjdk-amd64/bin/java'
+2025-03-22 10:09:37,264 - [Crafty] - INFO     - __main__ - Recieved signal SIGINT [2], stopping Crafty...
+2025-03-22 10:09:37,265 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Found 0 running server(s)
+2025-03-22 10:09:37,265 - [Crafty] - INFO     - app.classes.controllers.servers_controller - Stopping All Servers
+2025-03-22 10:09:37,265 - [Crafty] - INFO     - app.classes.controllers.servers_controller - All Servers Stopped
+2025-03-22 10:09:37,266 - [Crafty] - INFO     - app.classes.shared.command - Stopping all server daemons / threads
